@@ -8,21 +8,11 @@
 
 from psychopy_util import *
 from config import *
+import random
 
 
-def show_one_trial(images):
-    # show instruction
-    presenter.show_instructions(INSTR_TRIAL)
-    # choose images randomly
-    random_img_index_1 = random.randrange(len(images))
-    random_img_index_2 = 1 - random_img_index_1  # this is the image that was not chosen in the above line
-    # set image positions
-    images[random_img_index_1].pos = presenter.LEFT_CENTRAL_POS
-    images[random_img_index_2].pos = presenter.RIGHT_CENTRAL_POS
-    # show images and get user response
-    response = presenter.select_from_stimuli((images[random_img_index_1], images[random_img_index_2]),
-                                             (random_img_index_1, random_img_index_2), RESPONSE_KEYS)
-    return response
+def show_one_trial():
+    pass
 
 
 def validation(items):
@@ -42,34 +32,20 @@ def validation(items):
 
 if __name__ == '__main__':
     # subject ID dialog
-    sinfo = {'ID': '', 'Gender': ['Female', 'Male'], 'Age': '', 'Mode': ['Test', 'Exp']}
+    sinfo = {'ID': '', 'Mode': ['Test', 'Exp']}
     show_form_dialog(sinfo, validation, order=['ID', 'Gender', 'Age', 'Mode'])
     sid = int(sinfo['ID'])
 
-    # creater logging file
-    infoLogger = logging.getLogger()
-    if not os.path.isdir(LOG_FOLDER):
-        os.mkdir(LOG_FOLDER)
-    logging.basicConfig(filename=LOG_FOLDER + str(sid) + '.log', level=logging.INFO,
-                        format='%(asctime)s %(levelname)8s %(message)s')
-    # create data file
-    dataLogger = DataHandler(DATA_FOLDER, str(sid) + '.txt')
-    # save info from the dialog box
-    dataLogger.write_data({
-        k: str(sinfo[k]) for k in sinfo.keys()
-    })
+    # create logging file
+    infoLogger = DataLogger(LOG_FOLDER, str(sid) + '.log', 'info_logger', logging_info=True)
     # create window
-    presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'))
-    # load images
-    images = presenter.load_all_images(IMG_FOLDER, '.png', img_prefix='img')
-    random.shuffle(images)
+    presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger')
 
     # show instructions
     presenter.show_instructions(INSTR_BEGIN)
     # show trials
     for t in range(NUM_TRIALS):
-        data = show_one_trial(images)
-        dataLogger.write_data({'trial_index': t, 'response': data})
+        show_one_trial()
     # end of experiment
     presenter.show_instructions(INSTR_END)
-    infoLogger.info('End of experiment')
+    infoLogger.logger.info('End of experiment')
