@@ -1,7 +1,7 @@
 #
 # Utilities for PsychoPy experiments
 # Author: Meng Du
-# July 2017
+# August 2017
 #
 
 import os
@@ -79,9 +79,22 @@ class Presenter:
         # Selection
         self.SELECTED_STIM_OPACITY_CHANGE = 0.5
 
+    def pixel2norm(self, length):
+        """
+        Convert a length in pixels to two lengths in Psychopy normalised units on x and y axis respectively
+        :param length: an integer or float length in pixels
+        :return: a tuple of two float lengths
+        """
+        # calculate 4 image positions so that the distances from them to the screen center are the same
+        x0, y0 = self.window.size
+        x = float(length) / x0
+        y = float(length) / y0
+        return x, y
+
     def load_all_images(self, img_path, img_extension, img_prefix=None):
         """
         Read all image files in img_path that end with img_extension, and create corresponding ImageStim.
+
         :param img_path: a string path which should end with '/'
         :param img_extension: a string of image file extension
         :param img_prefix: a string prefix of file names. If specified, files without this prefix wouldn't be loaded
@@ -97,8 +110,9 @@ class Presenter:
 
     def draw_stimuli_for_duration(self, stimuli, duration, wait_trigger=False):
         """
-        Display the given stimuli for a given duration. If serial was specified at initialization, the stimuli will be
-        displayed until a trigger is received
+        Display the given stimuli for a given duration. If wait_trigger is True, the stimuli will be displayed until
+        a trigger is received
+
         :param stimuli: either a psychopy.visual stimulus or a list of them to draw
         :param duration: a float time duration in seconds, or if waiting for a scanner trigger, an integer number of
                          triggers to wait for
@@ -155,7 +169,8 @@ class Presenter:
                           next_page_text='Press space to continue', next_page_pos=(0.0, -0.8), duration=None,
                           wait_trigger=False):
         """
-        Show a list of instructions strings
+        Show an instruction string, or a list of instructions strings with one on each page
+
         :param instructions: an instruction string, or a list containing instruction strings
         :param position: a tuple (x, y) position for the instruction text
         :param other_stim: a list of other psychopy.visual stimuli to be displayed on each page of instructions
@@ -180,14 +195,15 @@ class Presenter:
                                            max_wait=duration, wait_trigger=wait_trigger)
         self.logger.info('End of instructions')
 
-    def show_fixation(self, duration, pos=(0, 0), wait_trigger=False):
+    def show_two_fixations(self, duration, color, pos=(0, 0), wait_trigger=False):
         """
         Show a '+' for a specified duration
         :param duration: a time duration in seconds
         """
-        plus_sign = visual.TextStim(self.window, text='+')
+        plus_signs = [visual.TextStim(self.window, text='+'),
+                      visual.TextStim(self.window, text='+', pos=pos, color=color)]
         self.logger.info('Showing fixation')
-        self.draw_stimuli_for_duration(plus_sign, duration, wait_trigger)
+        self.draw_stimuli_for_duration(plus_signs, duration, wait_trigger)
         self.logger.info('End of fixation')
 
     def show_blank_screen(self, duration, wait_trigger=False):
@@ -204,6 +220,7 @@ class Presenter:
                      response_keys=None, wait_trigger=False):
         """
         Show a Likert scale of the given range of numbers and wait for a response
+
         :param instruction: a string instruction to be displayed
         :param num_options: an integer number of options, should be greater than 1 and less than 11
         :param option_texts: a list of strings to be displayed as the options. If not specified, the default texts are
@@ -264,33 +281,44 @@ class Presenter:
         self.logger.info('End of Likert scale')
         return response
 
-    def select_from_stimuli(self, stimuli, values, response_keys, max_wait=float('inf'), post_selection_time=1,
+    def select_from_stimuli(self, stimuli, response_keys, max_wait=float('inf'), post_selection_time=1,
                             highlight=None, no_response_stim=None, no_resp_feedback_time=1, resp_wait_trigger=False,
                             post_select_wait_trigger=False, feedback_wait_trigger=False):
         """
         Draw stimuli on one screen and wait for a selection (key response). The selected stimulus can be optionally
-        highlighted (here the selected stimulus is assumed to be the element in the stimuli list which has the same
-        index as the pressed key in the response_keys list).
-        The value associated with the pressed response key will be returned. values and response_keys must have the same
-        length.
+        highlighted.
+
+        The response_keys can be a dictionary with string response keys (e.g. 'f', 'j') as dictionary keys. The index
+        of stimuli options associated with each response key should be specified as the dictionary values,
+            e.g. {'f': 1, 'j': 2} means to press 'f' to select the second stimulus in the stimuli list, and press 'j'
+            to select the third stimulus in the stimuli list
+        Alternatively, response_keys could also be a list of string response keys, and the associated stimuli indexes
+        will be assumed to be a sequence starting from zero, i.e. response_keys=['f', 'j'] is same as
+        response_keys={'f': 0, 'j': 1}
+
+        The stimulus index associated with the pressed response key will be returned.
+
         :param stimuli: a list of psychopy.visual stimulus to be displayed
-        :param values: a list of objects associated with the response keys. When a key is pressed to select a stimulus,
-                       the value object with the same index of the key will be returned
-        :param response_keys: a list of string response keys corresponding to the list of stimuli
+        :param response_keys: a dictionary where keys are strings of response keys, and values are the corresponding
+                              indexes of stimuli (in the stimuli list) that can be selected by the response key.
+                              If passing a list or tuple of response keys, then the indexes are assumed to start from 0.
         :param max_wait: a numeric value indicating the maximum number of seconds to wait for keys.
-                         By default it waits forever
+                         By default it waits forever.
         :param post_selection_time: the duration (in seconds) to display the selected stimulus with a highlight (or
-                                    reduced opacity if highlight is None). If this time is greater than 0, 
+                                    reduced opacity if highlight is None).
         :param highlight: a psychopy.visual stimuli to be displayed at same position as the selected stimulus during
                           both post_selection_time and feedback_time. If None, the selected stimulus will be shown with
                           reduced opacity
-        :param no_response_stim: a psychopy.visual stimulus to be displayed when participants respond too slow
+        :param no_response_stim: a psychopy.visual stimulus to be displayed when participants respond too slow (i.e. no
+                                 no response received with in max_wait seconds, if max_wait is an integer)
         :param no_resp_feedback_time: time (in seconds) to display feedback in case no response received
-        :return: a dictionary containing trial and response information.
+        :return: a dictionary containing the selected stimulus index and reaction time.
         """
+        if type(response_keys) is not dict:
+            response_keys = {key: i for i, key in enumerate(response_keys)}
         # display stimuli and get response
         self.logger.info('Showing options')
-        response = self.draw_stimuli_for_response(stimuli, response_keys, max_wait, resp_wait_trigger)
+        response = self.draw_stimuli_for_response(stimuli, response_keys.keys(), max_wait, resp_wait_trigger)
         self.logger.info('End of options')
         if response is None or len(response) == 0:  # response too slow
             if no_response_stim is None:
@@ -303,10 +331,10 @@ class Presenter:
         else:
             key_pressed = response[0]
             rt = response[1]
-            selection = values[response_keys.index(key_pressed)]
+            selection = response_keys[key_pressed]
 
             # post selection screen
-            selected_stim = stimuli[response_keys.index(key_pressed)]
+            selected_stim = stimuli[selection]
             self.logger.info('Showing highlighted selection')
             if highlight is None:
                 selected_stim.opacity -= self.SELECTED_STIM_OPACITY_CHANGE
@@ -318,7 +346,7 @@ class Presenter:
                 self.draw_stimuli_for_duration(stimuli, post_selection_time, post_select_wait_trigger)
             self.logger.info('End of highlighted selection')
 
-            return {'response': selection, 'rt': rt}
+            return {'selection': selection, 'rt': rt}
 
 
 class DataLogger:
