@@ -5,13 +5,12 @@ NUM_TRIALS_PER_BLOCK = 14
 SERIAL_PORT = 'I don\' know'
 BAUD_RATE = 'I don\' know'
 # Paths
-DATA_FOLDER = 'data/'
 LOG_FOLDER = 'log/'
-# TImes
+# Times
 FIXATION_TIMES = [0.8, 1.0, 1.2]
 # Positions
-DISTANCE = 600
-DISTANCE_MAX_JITTER = 50
+DISTANCE = 600  # TODO?
+DISTANCE_MAX_JITTER = 50  # TODO?
 # Colors
 RED = '#ff0000'
 GREEN = '#08db08'

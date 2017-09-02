@@ -85,7 +85,6 @@ class Presenter:
         :param length: an integer or float length in pixels
         :return: a tuple of two float lengths
         """
-        # calculate 4 image positions so that the distances from them to the screen center are the same
         x0, y0 = self.window.size
         x = float(length) / x0
         y = float(length) / y0
@@ -194,6 +193,16 @@ class Presenter:
             self.draw_stimuli_for_response([instr_stim, next_page_stim] + list(other_stim), [key_to_continue],
                                            max_wait=duration, wait_trigger=wait_trigger)
         self.logger.info('End of instructions')
+
+    def show_fixation(self, duration, pos=(0, 0), wait_trigger=False):
+        """
+        Show a '+' for a specified duration
+        :param duration: a time duration in seconds
+        """
+        plus_sign = visual.TextStim(self.window, text='+', pos=pos, height=0.2)
+        self.logger.info('Showing fixation at ' + str(pos))
+        self.draw_stimuli_for_duration(plus_sign, duration, wait_trigger)
+        self.logger.info('End of fixations')
 
     def show_two_fixations(self, duration, color, pos=(0, 0), wait_trigger=False):
         """

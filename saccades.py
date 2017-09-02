@@ -7,12 +7,46 @@
 #
 
 from psychopy_util import *
-from config import *
+from saccades_config import *
 import random
 
+"""
+Assumptions:
+- Horizontal/Vertical jitters are randomly picked from a range
+- The second part of ITI (a "+" at the center) is considered as the beginning of the next trial
+  - Participants don't know when the iti begins?
+- Waiting for a trigger only at the end of ITI
+"""
 
-def show_one_trial(color, duration, pos):
-    presenter.show_two_fixations(duration=duration, color=color, pos=pos)
+
+def random_position(direction, step_num):
+    if direction == 'u':
+        return (0 + random.uniform(-small_jitters[0], small_jitters[0]),
+                step_num * step_distances[1] + random.uniform(-large_jitters[1], large_jitters[1]))
+    if direction == 'd':
+        return (0 + random.uniform(-small_jitters[0], small_jitters[0]),
+                -step_num * step_distances[1] + random.uniform(-large_jitters[1], large_jitters[1]))
+    if direction == 'r':
+        return (step_num * step_distances[0] + random.uniform(-large_jitters[0], large_jitters[0]),
+                0 + random.uniform(-small_jitters[1], small_jitters[1]))
+    if direction == 'l':
+        return (-step_num * step_distances[0] + random.uniform(-large_jitters[0], large_jitters[0]),
+                0 + random.uniform(-small_jitters[1], small_jitters[1]))
+
+
+def show_one_trial(step_time, iti, direction):
+    # center fixation
+    presenter.show_fixation(duration=step_time)
+    # saccades
+    pos = 0
+    for step in range(1, NUM_STEPS_PER_TRIAL + 1):
+        pos = random_position(direction, step)
+        presenter.show_fixation(duration=step_time, pos=pos)
+    # ITI part 1
+    half_iti = float(iti)/2
+    presenter.show_fixation(duration=half_iti, pos=pos)
+    # ITI part 2
+    presenter.show_fixation(duration=half_iti)  #, wait_trigger=True) todo
 
 
 def validation(items):
@@ -25,37 +59,10 @@ def validation(items):
 
 
 def randomization():
-    times, positions = [], []
-    distances = presenter.pixel2norm(DISTANCE)
-    dist_jitters = presenter.pixel2norm(DISTANCE_MAX_JITTER)
-    for _ in range(NUM_BLOCKS):
-        # times
-        tmp_num = (NUM_TRIALS_PER_BLOCK - NUM_TRIALS_PER_BLOCK / 3) / 2
-        block_times = [FIXATION_TIMES[1] for _ in range(NUM_TRIALS_PER_BLOCK / 3)] + \
-                      [FIXATION_TIMES[0] for _ in range(tmp_num)] + \
-                      [FIXATION_TIMES[2] for _ in range(tmp_num)]
-        assert(len(block_times) == NUM_TRIALS_PER_BLOCK)
-        random.shuffle(block_times)
-        times.append(block_times)
-        # positions
-        block_pos = [(0 + random.uniform(-dist_jitters[0], dist_jitters[0]),
-                      distances[1] + random.uniform(-dist_jitters[1], dist_jitters[1]))
-                     for _ in range(NUM_TRIALS_PER_BLOCK / 4)] + \
-                    [(0 + random.uniform(-dist_jitters[0], dist_jitters[0]),
-                      -distances[1] + random.uniform(-dist_jitters[1], dist_jitters[1]))
-                     for _ in range(NUM_TRIALS_PER_BLOCK / 4)] + \
-                    [(distances[0] + random.uniform(-dist_jitters[0], dist_jitters[0]),
-                      0 + random.uniform(-dist_jitters[1], dist_jitters[1]))
-                     for _ in range(NUM_TRIALS_PER_BLOCK / 4)] + \
-                    [(-distances[0] + random.uniform(-dist_jitters[0], dist_jitters[0]),
-                      0 + random.uniform(-dist_jitters[1], dist_jitters[1]))
-                     for _ in range(NUM_TRIALS_PER_BLOCK / 4)]
-        assert(len(block_pos) == NUM_TRIALS_PER_BLOCK - 2)
-        random.shuffle(block_pos)
-        block_pos.insert(0, (0, 0))
-        block_pos.append((0, 0))
-        positions.append(block_pos)
-    return times, positions
+    directions = ['u' for _ in range(NUM_TRIALS_PER_RUN)] + ['d' for _ in range(NUM_TRIALS_PER_RUN)] + \
+                 ['r' for _ in range(NUM_TRIALS_PER_RUN)] + ['l' for _ in range(NUM_TRIALS_PER_RUN)]
+    random.shuffle(directions)
+    return directions
 
 
 if __name__ == '__main__':
@@ -65,24 +72,25 @@ if __name__ == '__main__':
     sid = int(sinfo['ID'])
 
     # create log file
-    infoLogger = DataLogger(LOG_FOLDER, str(sid) + '.log', 'info_logger', logging_info=True)
+    infoLogger = DataLogger(LOG_FOLDER, str(sid) + '_saccades.log', 'info_logger', logging_info=True)
     # create window
-    serial = SerialUtil(SERIAL_PORT, BAUD_RATE)
-    presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger', serial=serial)
+    # serial = SerialUtil(SERIAL_PORT, BAUD_RATE)
+    presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger') #, serial=serial) todo
+    # lengths in normalized units
+    step_distances = presenter.pixel2norm(STEP_DISTANCE)
+    small_jitters = presenter.pixel2norm(SMALL_JITTER_MAX)
+    large_jitters = presenter.pixel2norm(LARGE_JITTER_MAX)
 
     # show instructions
     presenter.show_instructions(INSTR_BEGIN)
-    # get trial sequences
-    time_seq, pos_seq = randomization()
+    # get trial sequences TODO
     # show trials
-    for b in range(NUM_BLOCKS):
-        presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)  # TODO time between blocks?
-        infoLogger.logger.info('Block ' + str(b) + ' fixations')
-        for t in range(NUM_TRIALS_PER_BLOCK):
-            show_one_trial(color=RED, duration=time_seq[b][t], pos=pos_seq[b][t])
-        infoLogger.logger.info('Block ' + str(b) + ' saccades')
-        for t in range(NUM_TRIALS_PER_BLOCK):
-            show_one_trial(color=GREEN, duration=time_seq[b][t], pos=pos_seq[b][t])
+    for r in range(NUM_RUNS):
+        dir_seq = randomization()
+        presenter.show_instructions('', next_page_text=None, duration=1) #, wait_trigger=True)  # TODO time between runs?
+        infoLogger.logger.info('Run ' + str(r))
+        for t in range(NUM_TRIALS_PER_RUN):
+            show_one_trial(step_time=random.choice(STEP_TIMES), iti=random.choice(ITIS), direction=dir_seq[t])  # TODO not random?
     # end of experiment
     presenter.show_instructions(INSTR_END)
     infoLogger.logger.info('End of experiment')

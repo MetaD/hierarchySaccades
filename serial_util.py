@@ -16,17 +16,6 @@ class SerialUtil:
     def __init__(self, port='virtual', baudrate=9600, timeout=None, logger=None, trigger_interval=2,
                  trigger='5', responses=('1', '2', '3', '4'), read_size=1):
         # TODO virtual port doesn't work
-        """
-        If using a virtual port, serial_util.close_virtual_port() needs to be called once finished.
-        :param port: 
-        :param baudrate: 
-        :param timeout: 
-        :param logger: 
-        :param trigger_interval: 
-        :param trigger: 
-        :param responses: 
-        :param read_size: 
-        """
         self.logger = logging.getLogger(logger)
         self.trigger = trigger
         self.responses = responses
