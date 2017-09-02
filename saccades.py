@@ -38,28 +38,37 @@ def randomization():
         random.shuffle(block_times)
         times.append(block_times)
         # positions
-        block_pos = [(0 + random.randint(-dist_jitters[0], dist_jitters[0]),
-                      distances[1] + random.randint(-dist_jitters[1], dist_jitters[1]))
-                     for _ in range(NUM_TRIALS_PER_BLOCK / 2)] + \
-                    [(distances[0] + random.randint(-dist_jitters[0], dist_jitters[0]),
-                      0 + random.randint(-dist_jitters[1], dist_jitters[1]))
-                     for _ in range(NUM_TRIALS_PER_BLOCK / 2)]
-        assert(len(block_pos) == NUM_TRIALS_PER_BLOCK)
+        block_pos = [(0 + random.uniform(-dist_jitters[0], dist_jitters[0]),
+                      distances[1] + random.uniform(-dist_jitters[1], dist_jitters[1]))
+                     for _ in range(NUM_TRIALS_PER_BLOCK / 4)] + \
+                    [(0 + random.uniform(-dist_jitters[0], dist_jitters[0]),
+                      -distances[1] + random.uniform(-dist_jitters[1], dist_jitters[1]))
+                     for _ in range(NUM_TRIALS_PER_BLOCK / 4)] + \
+                    [(distances[0] + random.uniform(-dist_jitters[0], dist_jitters[0]),
+                      0 + random.uniform(-dist_jitters[1], dist_jitters[1]))
+                     for _ in range(NUM_TRIALS_PER_BLOCK / 4)] + \
+                    [(-distances[0] + random.uniform(-dist_jitters[0], dist_jitters[0]),
+                      0 + random.uniform(-dist_jitters[1], dist_jitters[1]))
+                     for _ in range(NUM_TRIALS_PER_BLOCK / 4)]
+        assert(len(block_pos) == NUM_TRIALS_PER_BLOCK - 2)
         random.shuffle(block_pos)
+        block_pos.insert(0, (0, 0))
+        block_pos.append((0, 0))
         positions.append(block_pos)
     return times, positions
 
 
 if __name__ == '__main__':
     # subject ID dialog
-    sinfo = {'ID': '', 'Mode': ['Test', 'Exp']}
+    sinfo = {'ID': '', 'Mode': ['Exp', 'Test']}
     show_form_dialog(sinfo, validation, order=['ID', 'Mode'])
     sid = int(sinfo['ID'])
 
     # create log file
     infoLogger = DataLogger(LOG_FOLDER, str(sid) + '.log', 'info_logger', logging_info=True)
     # create window
-    presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger')
+    serial = SerialUtil(SERIAL_PORT, BAUD_RATE)
+    presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger', serial=serial)
 
     # show instructions
     presenter.show_instructions(INSTR_BEGIN)
@@ -67,9 +76,11 @@ if __name__ == '__main__':
     time_seq, pos_seq = randomization()
     # show trials
     for b in range(NUM_BLOCKS):
-        infoLogger.logger.info('Block ' + str(b))
+        presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)  # TODO time between blocks?
+        infoLogger.logger.info('Block ' + str(b) + ' fixations')
         for t in range(NUM_TRIALS_PER_BLOCK):
             show_one_trial(color=RED, duration=time_seq[b][t], pos=pos_seq[b][t])
+        infoLogger.logger.info('Block ' + str(b) + ' saccades')
         for t in range(NUM_TRIALS_PER_BLOCK):
             show_one_trial(color=GREEN, duration=time_seq[b][t], pos=pos_seq[b][t])
     # end of experiment

@@ -201,10 +201,10 @@ class Presenter:
         :param duration: a time duration in seconds
         """
         plus_signs = [visual.TextStim(self.window, text='+'),
-                      visual.TextStim(self.window, text='+', pos=pos, color=color)]
-        self.logger.info('Showing fixation')
+                      visual.TextStim(self.window, text='+', pos=pos, color=color, height=0.2)]
+        self.logger.info('Showing fixation at ' + str(pos))
         self.draw_stimuli_for_duration(plus_signs, duration, wait_trigger)
-        self.logger.info('End of fixation')
+        self.logger.info('End of fixations')
 
     def show_blank_screen(self, duration, wait_trigger=False):
         """
