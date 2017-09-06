@@ -67,11 +67,10 @@ if __name__ == '__main__':
     # create log file
     infoLogger = DataLogger(LOG_FOLDER, str(sid) + '_localizer.log', 'info_logger', logging_info=True)
     # create window
-    serial = SerialUtil(SERIAL_PORT, BAUD_RATE)
+    serial = SerialUtil(SERIAL_PORT, BAUD_RATE, logger='info_logger')
     presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger', serial=serial)
 
     # show instructions
-    presenter.show_instructions(INSTR_BEGIN)
     # get trial sequences
     time_seq, pos_seq = randomization()
     # show trials
@@ -80,9 +79,9 @@ if __name__ == '__main__':
         infoLogger.logger.info('Block ' + str(b) + ' fixations')
         for t in range(NUM_TRIALS_PER_BLOCK):
             show_one_trial(color=RED, duration=time_seq[b][t], pos=pos_seq[b][t])
+        presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)  # TODO time between blocks?
         infoLogger.logger.info('Block ' + str(b) + ' saccades')
         for t in range(NUM_TRIALS_PER_BLOCK):
             show_one_trial(color=GREEN, duration=time_seq[b][t], pos=pos_seq[b][t])
     # end of experiment
-    presenter.show_instructions(INSTR_END)
     infoLogger.logger.info('End of experiment')

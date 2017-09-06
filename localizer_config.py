@@ -2,8 +2,8 @@
 NUM_BLOCKS = 2  #10
 NUM_TRIALS_PER_BLOCK = 14
 # MRI stuff
-SERIAL_PORT = 'I don\' know'
-BAUD_RATE = 'I don\' know'
+SERIAL_PORT = '/dev/tty.UC-232AC'
+BAUD_RATE = 19200  # TODO
 # Paths
 LOG_FOLDER = 'log/'
 # Times
@@ -15,5 +15,4 @@ DISTANCE_MAX_JITTER = 50  # TODO?
 RED = '#ff0000'
 GREEN = '#08db08'
 # Instructions
-INSTR_BEGIN = 'You\'ll see a lot of +++'
-INSTR_END = 'End of +++'
+# TODO ?

@@ -13,8 +13,8 @@ import random
 """
 Assumptions:
 - Horizontal/Vertical jitters are randomly picked from a range
-- The second part of ITI (a "+" at the center) is considered as the beginning of the next trial
-  - Participants don't know when the iti begins?
+- The second part of ITI (a "+" at the center) is also considered the beginning of the next trial
+    - So participants don't actually know when the iti begins?
 - Waiting for a trigger only at the end of ITI
 """
 
@@ -35,6 +35,7 @@ def random_position(direction, step_num):
 
 
 def show_one_trial(step_time, iti, direction):
+    infoLogger.logger.info('Starting saccade')
     # center fixation
     presenter.show_fixation(duration=step_time)
     # saccades
@@ -43,10 +44,12 @@ def show_one_trial(step_time, iti, direction):
         pos = random_position(direction, step)
         presenter.show_fixation(duration=step_time, pos=pos)
     # ITI part 1
+    infoLogger.logger.info('End of saccade, starting ITI')
     half_iti = float(iti)/2
     presenter.show_fixation(duration=half_iti, pos=pos)
     # ITI part 2
-    presenter.show_fixation(duration=half_iti)  #, wait_trigger=True) todo
+    presenter.show_fixation(duration=int(half_iti), wait_trigger=True) # todo
+    infoLogger.logger.info('End of ITI')
 
 
 def validation(items):
@@ -74,23 +77,20 @@ if __name__ == '__main__':
     # create log file
     infoLogger = DataLogger(LOG_FOLDER, str(sid) + '_saccades.log', 'info_logger', logging_info=True)
     # create window
-    # serial = SerialUtil(SERIAL_PORT, BAUD_RATE)
-    presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger') #, serial=serial) todo
+    serial = SerialUtil(SERIAL_PORT, BAUD_RATE, logger='info_logger')
+    presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger', serial=serial) # todo
     # lengths in normalized units
     step_distances = presenter.pixel2norm(STEP_DISTANCE)
     small_jitters = presenter.pixel2norm(SMALL_JITTER_MAX)
     large_jitters = presenter.pixel2norm(LARGE_JITTER_MAX)
 
-    # show instructions
-    presenter.show_instructions(INSTR_BEGIN)
     # get trial sequences TODO
     # show trials
     for r in range(NUM_RUNS):
         dir_seq = randomization()
-        presenter.show_instructions('', next_page_text=None, duration=1) #, wait_trigger=True)  # TODO time between runs?
+        presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)  # TODO time between runs?
         infoLogger.logger.info('Run ' + str(r))
         for t in range(NUM_TRIALS_PER_RUN):
             show_one_trial(step_time=random.choice(STEP_TIMES), iti=random.choice(ITIS), direction=dir_seq[t])  # TODO not random?
     # end of experiment
-    presenter.show_instructions(INSTR_END)
     infoLogger.logger.info('End of experiment')
