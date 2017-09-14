@@ -10,14 +10,6 @@ from psychopy_util import *
 from saccades_config import *
 import random
 
-"""
-Assumptions:
-- Horizontal/Vertical jitters are randomly picked from a range
-- The second part of ITI (a "+" at the center) is also considered the beginning of the next trial
-    - So participants don't actually know when the iti begins?
-- Waiting for a trigger only at the end of ITI
-"""
-
 
 def random_position(direction, step_num):
     if direction == 'u':
@@ -36,8 +28,6 @@ def random_position(direction, step_num):
 
 def show_one_trial(step_time, iti, direction):
     infoLogger.logger.info('Starting saccade')
-    # center fixation
-    presenter.show_fixation(duration=step_time)
     # saccades
     pos = 0
     for step in range(1, NUM_STEPS_PER_TRIAL + 1):
@@ -45,10 +35,9 @@ def show_one_trial(step_time, iti, direction):
         presenter.show_fixation(duration=step_time, pos=pos)
     # ITI part 1
     infoLogger.logger.info('End of saccade, starting ITI')
-    half_iti = float(iti)/2
-    presenter.show_fixation(duration=half_iti, pos=pos)
+    presenter.show_fixation(duration=3, pos=pos, wait_trigger=True) # TODO
     # ITI part 2
-    presenter.show_fixation(duration=int(half_iti), wait_trigger=True) # todo
+    presenter.show_fixation(duration=iti - 3, wait_trigger=True) # todo
     infoLogger.logger.info('End of ITI')
 
 
@@ -90,6 +79,8 @@ if __name__ == '__main__':
         dir_seq = randomization()
         presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)  # TODO time between runs?
         infoLogger.logger.info('Run ' + str(r))
+        # center fixation
+        presenter.show_fixation(duration=step_time)
         for t in range(NUM_TRIALS_PER_RUN):
             show_one_trial(step_time=random.choice(STEP_TIMES), iti=random.choice(ITIS), direction=dir_seq[t])  # TODO not random?
     # end of experiment
