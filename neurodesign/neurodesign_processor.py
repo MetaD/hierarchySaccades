@@ -1,7 +1,7 @@
 import operator
 import random
 
-DIR = 'design_0/'
+DIR = 'design_2/'
 NUM_STIMULI = 4
 STIMULUS_DURATION = 3.0
 

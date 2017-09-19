@@ -1,0 +1,20 @@
+$ 1d_tool.py -cormat_cutoff 0.1 -show_cormat_warnings -infile X.xmat.1D
+
+Warnings regarding Correlation Matrix: X.xmat.1D
+
+  severity   correlation   cosine  regressor pair
+  --------   -----------   ------  ----------------------------------------
+  medium:       0.234       0.217  ( 1 vs.  7)  Run#1Pol#1  vs.  stim3#0
+  medium:       0.223       0.206  ( 2 vs.  6)  Run#1Pol#2  vs.  stim2#0
+  medium:      -0.210      -0.193  ( 2 vs.  5)  Run#1Pol#2  vs.  stim1#0
+  medium:      -0.179       0.000  ( 5 vs.  6)     stim1#0  vs.  stim2#0
+  medium:      -0.178       0.001  ( 4 vs.  5)     stim0#0  vs.  stim1#0
+  medium:      -0.178       0.001  ( 4 vs.  6)     stim0#0  vs.  stim2#0
+  medium:      -0.169       0.000  ( 4 vs.  7)     stim0#0  vs.  stim3#0
+  medium:      -0.168       0.001  ( 5 vs.  7)     stim1#0  vs.  stim3#0
+  medium:      -0.168       0.001  ( 6 vs.  7)     stim2#0  vs.  stim3#0
+  medium:      -0.165      -0.152  ( 1 vs.  4)  Run#1Pol#1  vs.  stim0#0
+  medium:      -0.147      -0.135  ( 1 vs.  6)  Run#1Pol#1  vs.  stim2#0
+  medium:      -0.133      -0.123  ( 2 vs.  4)  Run#1Pol#2  vs.  stim0#0
+  medium:       0.105       0.097  ( 1 vs.  5)  Run#1Pol#1  vs.  stim1#0
+  medium:       0.103       0.096  ( 2 vs.  7)  Run#1Pol#2  vs.  stim3#0
