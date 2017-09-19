@@ -35,9 +35,9 @@ def show_one_trial(step_time, iti, direction):
         presenter.show_fixation(duration=step_time, pos=pos)
     # ITI part 1
     infoLogger.logger.info('End of saccade, starting ITI')
-    presenter.show_fixation(duration=3, pos=pos, wait_trigger=True) # TODO
+    presenter.show_fixation(duration=3, pos=pos, wait_trigger=True)
     # ITI part 2
-    presenter.show_fixation(duration=iti - 3, wait_trigger=True) # todo
+    presenter.show_fixation(duration=iti - 3, wait_trigger=True)
     infoLogger.logger.info('End of ITI')
 
 
@@ -74,6 +74,7 @@ if __name__ == '__main__':
     large_jitters = presenter.pixel2norm(LARGE_JITTER_MAX)
 
     # get trial sequences TODO
+
     # show trials
     for r in range(NUM_RUNS):
         dir_seq = randomization()
