@@ -200,7 +200,7 @@ class Presenter:
         :param duration: a time duration in seconds
         """
         plus_sign = visual.TextStim(self.window, text='+', pos=pos, height=0.2)
-        self.logger.info('Showing fixation at ' + str(pos))
+        self.logger.info('Showing fixation at ' + str(pos) + ' for ' + str(duration) + ' second')
         self.draw_stimuli_for_duration(plus_sign, duration, wait_trigger)
         self.logger.info('End of fixations')
 

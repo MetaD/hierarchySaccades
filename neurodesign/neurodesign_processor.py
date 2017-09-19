@@ -1,5 +1,6 @@
 import operator
 import random
+import pickle
 
 DIR = 'design_2/'
 NUM_STIMULI = 4
@@ -41,6 +42,7 @@ def check_iti(onsets, itis):
 
 stim_order, all_onsets = get_order([design[k[:-4]] for k in file_names[:-1]])
 check_iti(all_onsets, design['ITIs'])
+design['ITIs'].append(0.0)
 
 ### random baseline ###
 # stim_order = [0 for _ in range(10)] + [1 for _ in range(10)] + [2 for _ in range(10)] + [3 for _ in range(10)]
@@ -51,19 +53,40 @@ check_iti(all_onsets, design['ITIs'])
 #     outfile.write('\n'.join([str(iti) for iti in design['ITIs']]))
 ### random baseline ###
 
-rand_stim_durations = [float(random.randint(2, 4)) for _ in range(len(stim_order))]
-real_stim_onsets = [[] for _ in range(NUM_STIMULI)]
-time = 0.0
-for i in range(len(stim_order)):
-    real_stim_onsets[stim_order[i]].append(str(time))
-    try:
-        time += rand_stim_durations[i] + float(design['ITIs'][i + 1])
-    except IndexError:
-        pass
+# rand_stim_durations = [float(random.randint(2, 4)) for _ in range(len(stim_order))]
+# real_stim_onsets = [[] for _ in range(NUM_STIMULI)]
+# time = 0.0
+# for i in range(len(stim_order)):
+#     real_stim_onsets[stim_order[i]].append(str(time))
+#     time += rand_stim_durations[i] + float(design['ITIs'][i + 1])
+#
+# # txt for AFNI
+# for i in range(NUM_STIMULI):
+#     with open(DIR + 'real_stimulus_{}.txt'.format(i), 'w') as outfile:
+#         outfile.write('\n'.join(real_stim_onsets[i]))
+#
+# with open(DIR + 'real_stim_durations.txt', 'w') as outfile:
+#     outfile.write('\n'.join([str(t) for t in rand_stim_durations]))
 
-for i in range(NUM_STIMULI):
-    with open(DIR + 'real_stimulus_{}.txt'.format(i), 'w') as outfile:
-        outfile.write('\n'.join(real_stim_onsets[i]))
+#######################
 
-with open(DIR + 'real_stim_durations.txt', 'w') as outfile:
-    outfile.write('\n'.join([str(t) for t in rand_stim_durations]))
+with open(DIR + 'real_stim_durations.txt', 'r') as infile:
+    rand_stim_durations = infile.read().split('\n')
+step_times = [float(stim_time) / 4 for stim_time in rand_stim_durations]
+
+# pickle for experiment
+trials = [{'stim': stim_order[i],
+           'step_time': step_times[i],
+           'iti': design['ITIs'][i + 1]}
+          for i in range(len(stim_order))]
+
+with open('saccades_design2.pkl', 'w') as outfile:
+    pickle.dump(trials, outfile)
+
+# with open('saccades_design1.pkl', 'r') as outfile:
+#     d1 = pickle.load(outfile)
+# with open('saccades_design2.pkl', 'r') as outfile:
+#     d2 = pickle.load(outfile)
+# with open('saccades_design.pkl', 'w') as outfile:
+#     pickle.dump(d1, outfile)
+#     pickle.dump(d2, outfile)
