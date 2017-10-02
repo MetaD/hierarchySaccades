@@ -166,6 +166,7 @@ class Presenter:
             response = event.waitKeys(maxWait=max_wait, keyList=response_keys, timeStamped=core.Clock())
             if response is None:  # timed out without a response
                 return None
+            self.logger.info('Received response ' + str(response))
             return response[0]
 
     def show_instructions(self, instructions, position=(0, 0), other_stim=(), key_to_continue='space',
