@@ -2,8 +2,7 @@
 NUM_BLOCKS = 2  #10
 NUM_TRIALS_PER_BLOCK = 14
 # MRI stuff
-SERIAL_PORT = '/dev/tty.UC-232AC'
-BAUD_RATE = 19200  # TODO
+TRIGGER = '5'
 # Paths
 LOG_FOLDER = 'log/'
 # Times

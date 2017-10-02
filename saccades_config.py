@@ -3,8 +3,7 @@ NUM_RUNS = 2
 NUM_TRIALS_PER_RUN = 4  # 40 TODO???
 NUM_STEPS_PER_TRIAL = 4
 # MRI stuff
-SERIAL_PORT = '/dev/tty.UC-232AC'
-BAUD_RATE = 19200  # TODO
+TRIGGER = '5'
 # Paths
 LOG_FOLDER = 'log/'
 # Times

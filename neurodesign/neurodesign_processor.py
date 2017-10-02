@@ -77,7 +77,7 @@ step_times = [float(stim_time) / 4 for stim_time in rand_stim_durations]
 # pickle for experiment
 trials = [{'stim': stim_order[i],
            'step_time': step_times[i],
-           'iti': design['ITIs'][i + 1]}
+           'iti': int(design['ITIs'][i + 1])}
           for i in range(len(stim_order))]
 
 with open('saccades_design2.pkl', 'w') as outfile:

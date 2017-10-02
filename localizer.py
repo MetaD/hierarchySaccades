@@ -67,8 +67,7 @@ if __name__ == '__main__':
     # create log file
     infoLogger = DataLogger(LOG_FOLDER, str(sid) + '_localizer.log', 'info_logger', logging_info=True)
     # create window
-    serial = SerialUtil(SERIAL_PORT, BAUD_RATE, logger='info_logger')
-    presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger', serial=serial)
+    presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger', trigger=TRIGGER)
 
     # show instructions
     # get trial sequences
