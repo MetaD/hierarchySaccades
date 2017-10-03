@@ -1,11 +1,5 @@
 #!/usr/bin/env python
 
-#
-# A skeleton file for PsychoPy experiments
-# Author: Meng Du
-# August 2017
-#
-
 from psychopy_util import *
 from saccades_config import *
 import random
@@ -60,15 +54,14 @@ if __name__ == '__main__':
     # create log file
     infoLogger = DataLogger(LOG_FOLDER, str(sid) + '_saccades.log', 'info_logger', logging_info=True)
     # create window
-    serial = SerialUtil(SERIAL_PORT, BAUD_RATE, logger='info_logger')
-    presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger', serial=serial) # todo
+    presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger', trigger=TRIGGER)
     # lengths in normalized units
     step_distances = presenter.pixel2norm(STEP_DISTANCE)
     small_jitters = presenter.pixel2norm(SMALL_JITTER_MAX)
     large_jitters = presenter.pixel2norm(LARGE_JITTER_MAX)
 
-    # get trial sequences TODO
-    with open('saccades_designs.pkl', 'r') as infile:
+    # get trial sequences
+    with open('saccades_design.pkl', 'r') as infile:
         run_seqs = [pickle.load(infile), pickle.load(infile)]
         random.shuffle(run_seqs)
     assert(len(run_seqs) == NUM_RUNS)
