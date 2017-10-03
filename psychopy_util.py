@@ -8,10 +8,6 @@ import os
 import json
 import logging
 from psychopy import gui, visual, core, event, info
-try:
-    from serial_util import *
-except ImportError:
-    pass
 
 
 def show_form_dialog(items, validation_func=None, reset_after_error=True, title='', order=(), tip=None, logger=None):
@@ -190,7 +186,7 @@ class Presenter:
             instr_stim = visual.TextStim(self.window, text=instr, pos=position, wrapWidth=1.5)
             log_text = 'Instruction: ' + instr[:30].replace('\n', ' ')
             self.logger.info(log_text + '...' if len(instr) >= 30 else log_text)
-            self.draw_stimuli_for_response([instr_stim, next_page_stim] + list(other_stim), [key_to_continue],
+            self.draw_stimuli_for_response(list(other_stim) + [instr_stim, next_page_stim], [key_to_continue],
                                            max_wait=duration, wait_trigger=wait_trigger)
         self.logger.info('End of instructions')
 

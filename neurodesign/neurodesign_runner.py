@@ -7,7 +7,6 @@ EXP = geneticalgorithm.experiment(
     rho = 0.3,
     n_stimuli = 4,
     n_trials = 40,
-    duration = 400.0,
     resolution = 1.0,
     stim_duration = 3.0,
     t_pre = 0.0,
