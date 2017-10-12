@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+#
+# 1 TR + 1 second + 394 seconds/run1 + 0.75 second + 381 seconds/run2
+#
+
 from psychopy_util import *
 from saccades_config import *
 import random
@@ -68,8 +72,8 @@ if __name__ == '__main__':
     # show trials
     for r in range(NUM_RUNS):
         seq = run_seqs[r]
-        presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)  # TODO time between runs?
         infoLogger.logger.info('Run ' + str(r))
+        presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)  # TODO time between runs?
         # center fixation
         presenter.show_fixation(duration=seq[0]['step_time'])
         for t in range(NUM_TRIALS_PER_RUN):

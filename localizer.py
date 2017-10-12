@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 
 #
-# A skeleton file for PsychoPy experiments
-# Author: Meng Du
-# August 2017
+# 14 seconds/block_type * 2 types * 10 blocks + 20 between-block triggers = 300 seconds
 #
 
 from psychopy_util import *

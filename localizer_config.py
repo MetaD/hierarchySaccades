@@ -1,5 +1,5 @@
 # Numbers
-NUM_BLOCKS = 2  #10
+NUM_BLOCKS = 10
 NUM_TRIALS_PER_BLOCK = 14
 # MRI stuff
 TRIGGER = '5'
