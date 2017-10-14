@@ -67,16 +67,17 @@ if __name__ == '__main__':
     # create window
     presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger', trigger=TRIGGER)
 
-    # show instructions
     # get trial sequences
     time_seq, pos_seq = randomization()
+    # show instructions
+    presenter.show_instructions(INSTR, next_page_text=START_INSTR)
     # show trials
     for b in range(NUM_BLOCKS):
-        presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)  # TODO time between blocks?
+        presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)
         infoLogger.logger.info('Block ' + str(b) + ' fixations')
         for t in range(NUM_TRIALS_PER_BLOCK):
             show_one_trial(color=RED, duration=time_seq[b][t], pos=pos_seq[b][t])
-        presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)  # TODO time between blocks?
+        presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)
         infoLogger.logger.info('Block ' + str(b) + ' saccades')
         for t in range(NUM_TRIALS_PER_BLOCK):
             show_one_trial(color=GREEN, duration=time_seq[b][t], pos=pos_seq[b][t])

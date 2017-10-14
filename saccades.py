@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 
-#
-# 1 TR + 1 second + 394 seconds/run1 + 0.75 second + 381 seconds/run2
-#
+# when sid % 2 == 1:
+# 1 TR + (1 second + 394 seconds/run1) + (0.75 second + 381 seconds/run2)
+# or when sid % 2 == 0:
+# 1 TR + (0.75 second + 381 seconds/run2) + (1 second + 394 seconds/run1)
+
 
 from psychopy_util import *
 from saccades_config import *
@@ -67,13 +69,15 @@ if __name__ == '__main__':
     # get trial sequences
     with open('saccades_design.pkl', 'r') as infile:
         run_seqs = [pickle.load(infile), pickle.load(infile)]
-        random.shuffle(run_seqs)
+        if sid % 2 == 0:  # reorder
+            run_seqs = [run_seqs[1], run_seqs[0]]
     assert(len(run_seqs) == NUM_RUNS)
     # show trials
     for r in range(NUM_RUNS):
         seq = run_seqs[r]
-        infoLogger.logger.info('Run ' + str(r))
-        presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)  # TODO time between runs?
+        infoLogger.logger.info('Run #' + str(r))
+        presenter.show_instructions(INSTR.format(r + 1), next_page_text=NEXT_RUN_INSTR)  # press space here to continue
+        presenter.show_instructions(INSTR.format(r + 1), next_page_text=None, duration=1, wait_trigger=True)
         # center fixation
         presenter.show_fixation(duration=seq[0]['step_time'])
         for t in range(NUM_TRIALS_PER_RUN):

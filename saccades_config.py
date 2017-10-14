@@ -14,5 +14,6 @@ ITI_PART1 = 3
 STEP_DISTANCE = 150  # TODO ?
 LARGE_JITTER_MAX = 80  # TODO
 SMALL_JITTER_MAX = 40  # TODO
-# Instructions
-# TODO ?
+# Instructions TODO
+INSTR = 'Run #{} of ' + str(NUM_RUNS) + ' is starting soon.'
+NEXT_RUN_INSTR = 'Waiting for the experimenter...'

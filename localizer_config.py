@@ -13,5 +13,6 @@ DISTANCE_MAX_JITTER = 50  # TODO?
 # Colors
 RED = '#ff0000'
 GREEN = '#08db08'
-# Instructions
-# TODO ?
+# Instructions TODO
+INSTR = 'Temp'
+START_INSTR = 'Waiting for the experimenter...'
