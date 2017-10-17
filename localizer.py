@@ -26,6 +26,7 @@ def randomization():
     times, positions = [], []
     distances = presenter.pixel2norm(DISTANCE)
     dist_jitters = presenter.pixel2norm(DISTANCE_MAX_JITTER)
+    print distances
     for _ in range(NUM_BLOCKS):
         # times
         tmp_num = (NUM_TRIALS_PER_BLOCK - NUM_TRIALS_PER_BLOCK / 3) / 2

@@ -11,9 +11,9 @@ STEP_TIMES = [0.5, 0.75, 1]
 ITIS = [6, 7, 8]
 ITI_PART1 = 3
 # Distances (in pixel)
-STEP_DISTANCE = 150  # TODO ?
-LARGE_JITTER_MAX = 80  # TODO
-SMALL_JITTER_MAX = 40  # TODO
+STEP_DISTANCE = 74
+LARGE_JITTER_MAX = 25
+SMALL_JITTER_MAX = 15
 # Instructions TODO
 INSTR = 'Run #{} of ' + str(NUM_RUNS) + ' is starting soon.'
 NEXT_RUN_INSTR = 'Waiting for the experimenter...'

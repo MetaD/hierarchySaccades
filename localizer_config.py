@@ -8,8 +8,8 @@ LOG_FOLDER = 'log/'
 # Times
 FIXATION_TIMES = [0.8, 1.0, 1.2]
 # Positions
-DISTANCE = 600  # TODO?
-DISTANCE_MAX_JITTER = 50  # TODO?
+DISTANCE = 296
+DISTANCE_MAX_JITTER = 25
 # Colors
 RED = '#ff0000'
 GREEN = '#08db08'

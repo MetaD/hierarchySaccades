@@ -80,8 +80,8 @@ class Presenter:
         :return: a tuple of two float lengths
         """
         x0, y0 = self.window.size
-        x = float(length) / x0
-        y = float(length) / y0
+        x = 2.0 * length / x0
+        y = 2.0 * length / y0
         return x, y
 
     def load_all_images(self, img_path, img_extension, img_prefix=None):
@@ -205,7 +205,7 @@ class Presenter:
         :param duration: a time duration in seconds
         :param pos: a position tuple for the fixation
         """
-        plus_sign = visual.TextStim(self.window, text='+', pos=pos, height=0.2)
+        plus_sign = visual.TextStim(self.window, text='+', pos=pos)
         self.logger.info('Showing fixation at ' + str(pos) + ' for ' + str(duration) + ' second(s)')
         self.draw_stimuli_for_duration(plus_sign, duration, wait_trigger)
         self.logger.info('End of fixations')
@@ -215,8 +215,8 @@ class Presenter:
         Show a '+' for a specified duration
         :param duration: a time duration in seconds
         """
-        plus_signs = [visual.TextStim(self.window, text='+'),
-                      visual.TextStim(self.window, text='+', pos=pos, color=color, height=0.2)]
+        plus_signs = [visual.TextStim(self.window, text='+', pos=pos, height=0.12),
+                      visual.TextStim(self.window, text='+', color=color, height=0.08)]
         self.logger.info('Showing fixation at ' + str(pos))
         self.draw_stimuli_for_duration(plus_signs, duration, wait_trigger)
         self.logger.info('End of fixations')
