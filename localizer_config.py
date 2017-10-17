@@ -13,6 +13,7 @@ DISTANCE_MAX_JITTER = 25
 # Colors
 RED = '#ff0000'
 GREEN = '#08db08'
-# Instructions TODO
-INSTR = 'Temp'
+# Instructions
+INSTR = 'When you see a RED cross, please fixate at the center.\n\n' \
+        'When you see a GREEN cross, please follow the white cross with your eye as it moves around the screen.'
 START_INSTR = 'Waiting for the experimenter...'

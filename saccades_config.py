@@ -14,6 +14,7 @@ ITI_PART1 = 3
 STEP_DISTANCE = 74
 LARGE_JITTER_MAX = 25
 SMALL_JITTER_MAX = 15
-# Instructions TODO
-INSTR = 'Run #{} of ' + str(NUM_RUNS) + ' is starting soon.'
+# Instructions
+INSTR = 'Run #{} of ' + str(NUM_RUNS) + ' is starting soon.\n\n' \
+        'Please follow the white cross with your eyes as it moves around the screen.'
 NEXT_RUN_INSTR = 'Waiting for the experimenter...'
