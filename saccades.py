@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
 # when sid % 2 == 1:
-# 1 TR + (1 second + 394 seconds/run1) + (0.75 second + 381 seconds/run2)
+# (4 TRs + 397 seconds/run1) + (4 TRs + 384 seconds/run2)
+#
 # or when sid % 2 == 0:
-# 1 TR + (0.75 second + 381 seconds/run2) + (1 second + 394 seconds/run1)
+# (4 TRs + 384 seconds/run2) + (4 TRs + 397 seconds/run1)
 
 
 from psychopy_util import *
@@ -27,16 +28,15 @@ def random_position(direction, step_num):
                 0 + random.uniform(-small_jitters[1], small_jitters[1]))
 
 
-def show_one_trial(step_time, iti, direction):
+def show_one_trial(step_time, iti, direction, positions):
     infoLogger.logger.info('Starting saccade, direction ' + str(direction))
     # saccades
     pos = 0
-    for step in range(1, NUM_STEPS_PER_TRIAL + 1):
-        pos = random_position(direction, step)
-        presenter.show_fixation(duration=step_time, pos=pos)
+    for step in range(NUM_STEPS_PER_TRIAL):
+        presenter.show_fixation(duration=step_time, pos=positions[step])
     # ITI part 1
     infoLogger.logger.info('End of saccade, starting a ' + str(iti) + '-second ITI')
-    presenter.show_fixation(duration=ITI_PART1, pos=pos, wait_trigger=True)
+    presenter.show_fixation(duration=ITI_PART1, pos=positions[-1], wait_trigger=True)
     # ITI part 2
     presenter.show_fixation(duration=iti - ITI_PART1, wait_trigger=True)
     infoLogger.logger.info('End of ITI')
@@ -72,6 +72,13 @@ if __name__ == '__main__':
         if sid % 2 == 0:  # reorder
             run_seqs = [run_seqs[1], run_seqs[0]]
     assert(len(run_seqs) == NUM_RUNS)
+    # add random positions to trial sequences
+    for seq in run_seqs:
+        for trial in seq:
+            trial['pos'] = []
+            for step in range(1, NUM_STEPS_PER_TRIAL + 1):
+                trial['pos'].append(random_position(direction=trial['stim'], step_num=step))
+
     # show trials
     for r in range(NUM_RUNS):
         seq = run_seqs[r]
@@ -79,8 +86,9 @@ if __name__ == '__main__':
         presenter.show_instructions(INSTR.format(r + 1), next_page_text=NEXT_RUN_INSTR)  # press space here to continue
         presenter.show_instructions(INSTR.format(r + 1), next_page_text=None, duration=1, wait_trigger=True)
         # center fixation
-        presenter.show_fixation(duration=seq[0]['step_time'])
+        presenter.show_fixation(duration=INITIAL_STEP_TRIGGERS, wait_trigger=True)
         for t in range(NUM_TRIALS_PER_RUN):
-            show_one_trial(step_time=seq[t]['step_time'], iti=seq[t]['iti'], direction=seq[t]['stim'])
+            show_one_trial(step_time=seq[t]['step_time'], iti=seq[t]['iti'],
+                           direction=seq[t]['stim'], positions=seq[t]['pos'])
     # end of experiment
     infoLogger.logger.info('End of experiment')

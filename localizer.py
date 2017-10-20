@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
-#
 # 14 seconds/block_type * 2 types * 10 blocks + 20 between-block triggers = 300 seconds
-#
 
 from psychopy_util import *
 from localizer_config import *
@@ -26,7 +24,6 @@ def randomization():
     times, positions = [], []
     distances = presenter.pixel2norm(DISTANCE)
     dist_jitters = presenter.pixel2norm(DISTANCE_MAX_JITTER)
-    print distances
     for _ in range(NUM_BLOCKS):
         # times
         tmp_num = (NUM_TRIALS_PER_BLOCK - NUM_TRIALS_PER_BLOCK / 3) / 2
