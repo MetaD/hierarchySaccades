@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 
-# when sid % 2 == 1:
-# (4 TRs + 397 seconds/run1) + (4 TRs + 384 seconds/run2)
-#
-# or when sid % 2 == 0:
-# (4 TRs + 384 seconds/run2) + (4 TRs + 397 seconds/run1)
-
+# (4 TRs + 397 seconds/run1 + 8 TRs) + (4 TRs + 384 seconds/run2 + 8 TRs)
 
 from psychopy_util import *
 from saccades_config import *
@@ -31,7 +26,6 @@ def random_position(direction, step_num):
 def show_one_trial(step_time, iti, direction, positions):
     infoLogger.logger.info('Starting saccade, direction ' + str(direction))
     # saccades
-    pos = 0
     for step in range(NUM_STEPS_PER_TRIAL):
         presenter.show_fixation(duration=step_time, pos=positions[step])
     # ITI part 1
@@ -69,8 +63,8 @@ if __name__ == '__main__':
     # get trial sequences
     with open('saccades_design.pkl', 'r') as infile:
         run_seqs = [pickle.load(infile), pickle.load(infile)]
-        if sid % 2 == 0:  # reorder
-            run_seqs = [run_seqs[1], run_seqs[0]]
+    run_seqs[0][-1]['iti'] = ITI_PART1 + AFTER_RUN_TRIGGERS
+    run_seqs[1][-1]['iti'] = ITI_PART1 + AFTER_RUN_TRIGGERS
     assert(len(run_seqs) == NUM_RUNS)
     # add random positions to trial sequences
     for seq in run_seqs:

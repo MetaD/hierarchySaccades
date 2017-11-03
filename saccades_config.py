@@ -11,6 +11,7 @@ STEP_TIMES = [0.5, 0.75, 1]
 INITIAL_STEP_TRIGGERS = 4  # for the first central fixation in a run
 ITIS = [6, 7, 8]
 ITI_PART1 = 3
+AFTER_RUN_TRIGGERS = 8
 # Distances (in pixel)
 STEP_DISTANCE = 74
 LARGE_JITTER_MAX = 25
