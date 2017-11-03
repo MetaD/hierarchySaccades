@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# 14 seconds/block_type * 2 types * 10 blocks + 20 between-block triggers = 300 seconds
+# 14 seconds/block_type * 2 types * 10 blocks + 20 between-block triggers + 8 triggers after run = 308 seconds
 
 from psychopy_util import *
 from localizer_config import *
@@ -79,5 +79,6 @@ if __name__ == '__main__':
         infoLogger.logger.info('Block ' + str(b) + ' saccades')
         for t in range(NUM_TRIALS_PER_BLOCK):
             show_one_trial(color=GREEN, duration=time_seq[b][t], pos=pos_seq[b][t])
+    presenter.show_fixation(duration=AFTER_EXP_TRIGGERS, wait_trigger=True)
     # end of experiment
     infoLogger.logger.info('End of experiment')
