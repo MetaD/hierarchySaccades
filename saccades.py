@@ -52,7 +52,7 @@ if __name__ == '__main__':
     sid = int(sinfo['ID'])
 
     # create log file
-    infoLogger = DataLogger(LOG_FOLDER, str(sid) + '_saccades.log', 'info_logger', logging_info=True)
+    infoLogger = DataLogger(LOG_FOLDER, str(sid) + '_saccades_pre_scan.log', 'info_logger', logging_info=True)
     # create window
     presenter = Presenter(fullscreen=(sinfo['Mode'] == 'Exp'), info_logger='info_logger', trigger=TRIGGER)
     # lengths in normalized units
