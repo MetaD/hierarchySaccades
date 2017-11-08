@@ -30,9 +30,9 @@ def show_one_trial(step_time, iti, direction, positions):
         presenter.show_fixation(duration=step_time, pos=positions[step])
     # ITI part 1
     infoLogger.logger.info('End of saccade, starting a ' + str(iti) + '-second ITI')
-    presenter.show_fixation(duration=ITI_PART1, pos=positions[-1], wait_trigger=True)
+    presenter.show_fixation(duration=ITI_PART1, pos=positions[-1], wait_trigger=False)
     # ITI part 2
-    presenter.show_fixation(duration=iti - ITI_PART1, wait_trigger=True)
+    presenter.show_fixation(duration=iti - ITI_PART1, wait_trigger=False)
     infoLogger.logger.info('End of ITI')
 
 
@@ -78,9 +78,9 @@ if __name__ == '__main__':
         seq = run_seqs[r]
         infoLogger.logger.info('Run #' + str(r))
         presenter.show_instructions(INSTR.format(r + 1), next_page_text=NEXT_RUN_INSTR)  # press space here to continue
-        presenter.show_instructions(INSTR.format(r + 1), next_page_text=None, duration=1, wait_trigger=True)
+        presenter.show_instructions(INSTR.format(r + 1), next_page_text=None, duration=1, wait_trigger=False)
         # center fixation
-        presenter.show_fixation(duration=INITIAL_STEP_TRIGGERS, wait_trigger=True)
+        presenter.show_fixation(duration=INITIAL_STEP_TRIGGERS, wait_trigger=False)
         for t in range(NUM_TRIALS_PER_RUN):
             show_one_trial(step_time=seq[t]['step_time'], iti=seq[t]['iti'],
                            direction=seq[t]['stim'], positions=seq[t]['pos'])
