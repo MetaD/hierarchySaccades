@@ -68,7 +68,8 @@ if __name__ == '__main__':
     # get trial sequences
     time_seq, pos_seq = randomization()
     # show instructions
-    presenter.show_instructions(INSTR, next_page_text=START_INSTR)
+    presenter.show_instructions(INSTR, next_page_text=START_INSTR)  # press space here to continue
+    presenter.show_instructions(INSTR, next_page_text=None, duration=1, wait_trigger=True)
     # show trials
     for b in range(NUM_BLOCKS):
         presenter.show_instructions('', next_page_text=None, duration=1, wait_trigger=True)
