@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# (4 TRs + 397 seconds/run1 + 8 TRs) + (4 TRs + 384 seconds/run2 + 8 TRs)
+# (4 TRs + 398 seconds/run1 + 7 TRs) + (4 TRs + 385 seconds/run2 + 7 TRs)
 
 from psychopy_util import *
 from saccades_config import *
