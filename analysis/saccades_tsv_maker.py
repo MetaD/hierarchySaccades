@@ -22,5 +22,5 @@ for sid in sid_list:
             time += duration + trial['iti']
         events[-1][3] = 10  # last ITI in run
 
-        filename = 'sub-%s_task-sacc_run-0%d_event.tsv' % (sid, i + 1)
+        filename = 'sub-%s_task-sacc_run-0%d_events.tsv' % (sid, i + 1)
         list2csv(events, filename, delimiter='\t')
