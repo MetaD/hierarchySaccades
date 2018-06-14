@@ -1,0 +1,40 @@
+2018-06-02 20:02:49,306     INFO #[ PsychoPy2 RuntimeInfoStart ]
+  #[[ PsychoPy ]] #---------
+    psychopyVersion: 1.85.4
+    psychopyHaveExtRush: True
+  #[[ Experiment ]] #---------
+    experimentRunTime: 2018_06_02 20:02 (Year_Month_Day Hour:Min)
+    experimentRunTime.epoch: 1527994966
+    experimentScript: localizer.py
+    experimentScript.digestSHA1: 73af835c2bb6458b858315d12675d6355738a2b3
+    experimentScript.directory: /Users/mengdu/Repos/hierarchy/saccades
+  #[[ System ]] #---------
+    systemHaveInternetAccess: True
+    systemHostName: mengs-mbp.ad.medctr.ucla.edu
+    systemLocale: C
+    systemMemFreeRAM: 3880.48828125
+    systemMemTotalRAM: 8192.0
+    systemPlatform: darwin 10.13.4 x86_64
+    systemPyo.InputDevices: {0: {'host api index': 0, 'latency': 0.0029478457290679216, 'default sr': 44100, 'name': u'Built-in Microph'}, 3: {'host api index': 0, 'latency': 0.009999999776482582, 'default sr': 44100, 'name': u'NoMachine Audio Adapter'}, 4: {'host api index': 0, 'latency': 0.009999999776482582, 'default sr': 44100, 'name': u'NoMachine Microphone Adapter'}}
+    systemPyo.OutputDevices: {1: {'host api index': 0, 'latency': 0.018798185512423515, 'default sr': 44100, 'name': u'Built-in Output'}, 2: {'host api index': 0, 'latency': 0.0014375000027939677, 'default sr': 48000, 'name': u'HDMI'}, 3: {'host api index': 0, 'latency': 0.001451247138902545, 'default sr': 44100, 'name': u'NoMachine Audio Adapter'}, 4: {'host api index': 0, 'latency': 0.001451247138902545, 'default sr': 44100, 'name': u'NoMachine Microphone Adapter'}}
+    systemPyoVersion: 0.8.6
+    systemRebooted: May 2 02:12
+    systemSec.OpenSSLVersion: LibreSSL 2.2.7
+    systemSec.pythonSSL: True
+    systemTimeNumpySD1000000_sec: 0.0048
+    systemUser: mengdu
+    systemUserID: 501
+    systemUserProcCount: 140
+    systemUserProcFlagged: 'Google Chrome' mdworker iTunes Safari
+    systemUsersCount: 1
+  #[[ Window ]] #---------
+    windowRefreshTimeSD_ms: 0.046
+    windowRefreshTimeMedian_ms: 16.668
+    windowRefreshTimeAvg_ms: 16.667
+  #[[ Python ]] #---------
+    pythonVersion: 2.7.12
+  #[[ OpenGL ]] #---------
+#[ PsychoPy2 RuntimeInfoEnd ]
+
+2018-06-02 20:02:49,451     INFO Showing instructions
+2018-06-02 20:02:49,478     INFO Instruction: When you see a RED cross, plea...
