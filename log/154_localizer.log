@@ -1,0 +1,717 @@
+2018-06-03 20:44:09,174     INFO #[ PsychoPy2 RuntimeInfoStart ]
+  #[[ PsychoPy ]] #---------
+    psychopyVersion: 1.85.4
+    psychopyHaveExtRush: True
+  #[[ Experiment ]] #---------
+    experimentRunTime: 2018_06_03 20:44 (Year_Month_Day Hour:Min)
+    experimentRunTime.epoch: 1528083846
+    experimentScript: localizer.py
+    experimentScript.digestSHA1: 73af835c2bb6458b858315d12675d6355738a2b3
+    experimentScript.directory: /Users/mengdu/Repos/hierarchy/saccades
+  #[[ System ]] #---------
+    systemHaveInternetAccess: True
+    systemHostName: mengs-mbp.ad.medctr.ucla.edu
+    systemLocale: C
+    systemMemFreeRAM: 3893.64453125
+    systemMemTotalRAM: 8192.0
+    systemPlatform: darwin 10.13.4 x86_64
+    systemPyo.InputDevices: {0: {'host api index': 0, 'latency': 0.0029478457290679216, 'default sr': 44100, 'name': u'Built-in Microph'}, 3: {'host api index': 0, 'latency': 0.009999999776482582, 'default sr': 44100, 'name': u'NoMachine Audio Adapter'}, 4: {'host api index': 0, 'latency': 0.009999999776482582, 'default sr': 44100, 'name': u'NoMachine Microphone Adapter'}}
+    systemPyo.OutputDevices: {1: {'host api index': 0, 'latency': 0.018798185512423515, 'default sr': 44100, 'name': u'Built-in Output'}, 2: {'host api index': 0, 'latency': 0.0014375000027939677, 'default sr': 48000, 'name': u'HDMI'}, 3: {'host api index': 0, 'latency': 0.001451247138902545, 'default sr': 44100, 'name': u'NoMachine Audio Adapter'}, 4: {'host api index': 0, 'latency': 0.001451247138902545, 'default sr': 44100, 'name': u'NoMachine Microphone Adapter'}}
+    systemPyoVersion: 0.8.6
+    systemRebooted: May 2 02:12
+    systemSec.OpenSSLVersion: LibreSSL 2.2.7
+    systemSec.pythonSSL: True
+    systemTimeNumpySD1000000_sec: 0.0072
+    systemUser: mengdu
+    systemUserID: 501
+    systemUserProcCount: 143
+    systemUserProcFlagged: iTunes mdworker Safari
+    systemUsersCount: 1
+  #[[ Window ]] #---------
+    windowRefreshTimeSD_ms: 0.037
+    windowRefreshTimeMedian_ms: 16.662
+    windowRefreshTimeAvg_ms: 16.667
+  #[[ Python ]] #---------
+    pythonVersion: 2.7.12
+  #[[ OpenGL ]] #---------
+#[ PsychoPy2 RuntimeInfoEnd ]
+
+2018-06-03 20:44:09,427     INFO Showing instructions
+2018-06-03 20:44:09,471     INFO Instruction: When you see a RED cross, plea...
+2018-06-03 20:44:11,837     INFO Received response [('space', 2.3431928157806396)]
+2018-06-03 20:44:11,838     INFO End of instructions
+2018-06-03 20:44:11,838     INFO Showing instructions
+2018-06-03 20:44:11,877     INFO Instruction: When you see a RED cross, plea...
+2018-06-03 20:44:21,119     INFO Received signal 5 after 9.225867033 seconds
+2018-06-03 20:44:21,119     INFO End of instructions
+2018-06-03 20:44:21,119     INFO Showing instructions
+2018-06-03 20:44:21,120     INFO Instruction: 
+2018-06-03 20:44:22,118     INFO Received signal 5 after 0.991378068924 seconds
+2018-06-03 20:44:22,118     INFO End of instructions
+2018-06-03 20:44:22,118     INFO Block 0 fixations
+2018-06-03 20:44:22,132     INFO Showing fixation at (0, 0)
+2018-06-03 20:44:22,943     INFO End of fixations
+2018-06-03 20:44:22,952     INFO Showing fixation at (-0.035605968787853104, 0.8029147732331958)
+2018-06-03 20:44:24,159     INFO End of fixations
+2018-06-03 20:44:24,170     INFO Showing fixation at (-0.4501143134247167, 0.03212967955706324)
+2018-06-03 20:44:25,377     INFO End of fixations
+2018-06-03 20:44:25,384     INFO Showing fixation at (0.4960324886219819, -0.04276949905160389)
+2018-06-03 20:44:26,593     INFO End of fixations
+2018-06-03 20:44:26,600     INFO Showing fixation at (-0.49062689338907406, 0.043610039369680456)
+2018-06-03 20:44:27,410     INFO End of fixations
+2018-06-03 20:44:27,420     INFO Showing fixation at (-0.456106891324656, -0.0644204638401244)
+2018-06-03 20:44:28,427     INFO End of fixations
+2018-06-03 20:44:28,436     INFO Showing fixation at (0.009967130612319124, -0.8023408863106604)
+2018-06-03 20:44:29,444     INFO End of fixations
+2018-06-03 20:44:29,452     INFO Showing fixation at (0.4339959275761725, 0.0063454044616792354)
+2018-06-03 20:44:30,460     INFO End of fixations
+2018-06-03 20:44:30,470     INFO Showing fixation at (-0.010140585851451146, 0.7980528026011742)
+2018-06-03 20:44:31,477     INFO End of fixations
+2018-06-03 20:44:31,483     INFO Showing fixation at (-0.01654137316981695, 0.7672644796535911)
+2018-06-03 20:44:32,694     INFO End of fixations
+2018-06-03 20:44:32,700     INFO Showing fixation at (0.007461909744007032, -0.8342055625560754)
+2018-06-03 20:44:33,510     INFO End of fixations
+2018-06-03 20:44:33,519     INFO Showing fixation at (0.49058998500734335, 0.06723868872662153)
+2018-06-03 20:44:34,727     INFO End of fixations
+2018-06-03 20:44:34,737     INFO Showing fixation at (0.0013801361835425602, -0.8605575682660559)
+2018-06-03 20:44:35,543     INFO End of fixations
+2018-06-03 20:44:35,553     INFO Showing fixation at (0, 0)
+2018-06-03 20:44:36,360     INFO End of fixations
+2018-06-03 20:44:36,361     INFO Showing instructions
+2018-06-03 20:44:36,362     INFO Instruction: 
+2018-06-03 20:44:37,117     INFO Received signal 5 after 0.73618888855 seconds
+2018-06-03 20:44:37,118     INFO End of instructions
+2018-06-03 20:44:37,118     INFO Block 0 saccades
+2018-06-03 20:44:37,126     INFO Showing fixation at (0, 0)
+2018-06-03 20:44:37,944     INFO End of fixations
+2018-06-03 20:44:37,953     INFO Showing fixation at (-0.035605968787853104, 0.8029147732331958)
+2018-06-03 20:44:39,160     INFO End of fixations
+2018-06-03 20:44:39,167     INFO Showing fixation at (-0.4501143134247167, 0.03212967955706324)
+2018-06-03 20:44:40,377     INFO End of fixations
+2018-06-03 20:44:40,388     INFO Showing fixation at (0.4960324886219819, -0.04276949905160389)
+2018-06-03 20:44:41,594     INFO End of fixations
+2018-06-03 20:44:41,600     INFO Showing fixation at (-0.49062689338907406, 0.043610039369680456)
+2018-06-03 20:44:42,411     INFO End of fixations
+2018-06-03 20:44:42,420     INFO Showing fixation at (-0.456106891324656, -0.0644204638401244)
+2018-06-03 20:44:43,427     INFO End of fixations
+2018-06-03 20:44:43,433     INFO Showing fixation at (0.009967130612319124, -0.8023408863106604)
+2018-06-03 20:44:44,444     INFO End of fixations
+2018-06-03 20:44:44,453     INFO Showing fixation at (0.4339959275761725, 0.0063454044616792354)
+2018-06-03 20:44:45,460     INFO End of fixations
+2018-06-03 20:44:45,470     INFO Showing fixation at (-0.010140585851451146, 0.7980528026011742)
+2018-06-03 20:44:46,477     INFO End of fixations
+2018-06-03 20:44:46,487     INFO Showing fixation at (-0.01654137316981695, 0.7672644796535911)
+2018-06-03 20:44:47,694     INFO End of fixations
+2018-06-03 20:44:47,700     INFO Showing fixation at (0.007461909744007032, -0.8342055625560754)
+2018-06-03 20:44:48,511     INFO End of fixations
+2018-06-03 20:44:48,520     INFO Showing fixation at (0.49058998500734335, 0.06723868872662153)
+2018-06-03 20:44:49,727     INFO End of fixations
+2018-06-03 20:44:49,733     INFO Showing fixation at (0.0013801361835425602, -0.8605575682660559)
+2018-06-03 20:44:50,544     INFO End of fixations
+2018-06-03 20:44:50,553     INFO Showing fixation at (0, 0)
+2018-06-03 20:44:51,361     INFO End of fixations
+2018-06-03 20:44:51,361     INFO Showing instructions
+2018-06-03 20:44:51,362     INFO Instruction: 
+2018-06-03 20:44:52,118     INFO Received signal 5 after 0.740696907043 seconds
+2018-06-03 20:44:52,118     INFO End of instructions
+2018-06-03 20:44:52,119     INFO Block 1 fixations
+2018-06-03 20:44:52,128     INFO Showing fixation at (0, 0)
+2018-06-03 20:44:52,944     INFO End of fixations
+2018-06-03 20:44:52,958     INFO Showing fixation at (0.028986861047154727, -0.8724528246894028)
+2018-06-03 20:44:54,178     INFO End of fixations
+2018-06-03 20:44:54,186     INFO Showing fixation at (0.036161544846019716, -0.794411875794579)
+2018-06-03 20:44:55,394     INFO End of fixations
+2018-06-03 20:44:55,403     INFO Showing fixation at (-0.47464726549520686, 0.013457466054613385)
+2018-06-03 20:44:56,611     INFO End of fixations
+2018-06-03 20:44:56,617     INFO Showing fixation at (0.03585146347735492, 0.8854463764709718)
+2018-06-03 20:44:57,828     INFO End of fixations
+2018-06-03 20:44:57,835     INFO Showing fixation at (-0.02209052546358032, 0.824171985111132)
+2018-06-03 20:44:58,844     INFO End of fixations
+2018-06-03 20:44:58,854     INFO Showing fixation at (-0.4916789548068664, -0.04312855726873862)
+2018-06-03 20:44:59,861     INFO End of fixations
+2018-06-03 20:44:59,867     INFO Showing fixation at (0.49076309116810224, -0.011820110941401597)
+2018-06-03 20:45:00,678     INFO End of fixations
+2018-06-03 20:45:00,687     INFO Showing fixation at (-0.46946280090463083, 0.043004616402180465)
+2018-06-03 20:45:01,694     INFO End of fixations
+2018-06-03 20:45:01,704     INFO Showing fixation at (-0.03285736172376939, -0.8758403123931694)
+2018-06-03 20:45:02,511     INFO End of fixations
+2018-06-03 20:45:02,521     INFO Showing fixation at (0.47833749052444924, 0.03455995237072183)
+2018-06-03 20:45:03,328     INFO End of fixations
+2018-06-03 20:45:03,334     INFO Showing fixation at (0.46640909823191024, -0.017110015122428893)
+2018-06-03 20:45:04,544     INFO End of fixations
+2018-06-03 20:45:04,554     INFO Showing fixation at (-0.020860271909103074, 0.8137145564960585)
+2018-06-03 20:45:05,561     INFO End of fixations
+2018-06-03 20:45:05,570     INFO Showing fixation at (0, 0)
+2018-06-03 20:45:06,378     INFO End of fixations
+2018-06-03 20:45:06,378     INFO Showing instructions
+2018-06-03 20:45:06,379     INFO Instruction: 
+2018-06-03 20:45:07,117     INFO Received signal 5 after 0.720602989197 seconds
+2018-06-03 20:45:07,117     INFO End of instructions
+2018-06-03 20:45:07,117     INFO Block 1 saccades
+2018-06-03 20:45:07,126     INFO Showing fixation at (0, 0)
+2018-06-03 20:45:07,945     INFO End of fixations
+2018-06-03 20:45:07,954     INFO Showing fixation at (0.028986861047154727, -0.8724528246894028)
+2018-06-03 20:45:09,161     INFO End of fixations
+2018-06-03 20:45:09,169     INFO Showing fixation at (0.036161544846019716, -0.794411875794579)
+2018-06-03 20:45:10,378     INFO End of fixations
+2018-06-03 20:45:10,385     INFO Showing fixation at (-0.47464726549520686, 0.013457466054613385)
+2018-06-03 20:45:11,595     INFO End of fixations
+2018-06-03 20:45:11,605     INFO Showing fixation at (0.03585146347735492, 0.8854463764709718)
+2018-06-03 20:45:12,812     INFO End of fixations
+2018-06-03 20:45:12,822     INFO Showing fixation at (-0.02209052546358032, 0.824171985111132)
+2018-06-03 20:45:13,828     INFO End of fixations
+2018-06-03 20:45:13,837     INFO Showing fixation at (-0.4916789548068664, -0.04312855726873862)
+2018-06-03 20:45:14,845     INFO End of fixations
+2018-06-03 20:45:14,854     INFO Showing fixation at (0.49076309116810224, -0.011820110941401597)
+2018-06-03 20:45:15,661     INFO End of fixations
+2018-06-03 20:45:15,671     INFO Showing fixation at (-0.46946280090463083, 0.043004616402180465)
+2018-06-03 20:45:16,678     INFO End of fixations
+2018-06-03 20:45:16,688     INFO Showing fixation at (-0.03285736172376939, -0.8758403123931694)
+2018-06-03 20:45:17,495     INFO End of fixations
+2018-06-03 20:45:17,501     INFO Showing fixation at (0.47833749052444924, 0.03455995237072183)
+2018-06-03 20:45:18,312     INFO End of fixations
+2018-06-03 20:45:18,318     INFO Showing fixation at (0.46640909823191024, -0.017110015122428893)
+2018-06-03 20:45:19,528     INFO End of fixations
+2018-06-03 20:45:19,538     INFO Showing fixation at (-0.020860271909103074, 0.8137145564960585)
+2018-06-03 20:45:20,545     INFO End of fixations
+2018-06-03 20:45:20,555     INFO Showing fixation at (0, 0)
+2018-06-03 20:45:21,362     INFO End of fixations
+2018-06-03 20:45:21,362     INFO Showing instructions
+2018-06-03 20:45:21,363     INFO Instruction: 
+2018-06-03 20:45:22,117     INFO Received signal 5 after 0.738531827927 seconds
+2018-06-03 20:45:22,117     INFO End of instructions
+2018-06-03 20:45:22,117     INFO Block 2 fixations
+2018-06-03 20:45:22,127     INFO Showing fixation at (0, 0)
+2018-06-03 20:45:23,145     INFO End of fixations
+2018-06-03 20:45:23,155     INFO Showing fixation at (0.486512916974151, -0.03999494278937247)
+2018-06-03 20:45:23,962     INFO End of fixations
+2018-06-03 20:45:23,971     INFO Showing fixation at (-0.44233523445785533, 0.03007059977323169)
+2018-06-03 20:45:25,178     INFO End of fixations
+2018-06-03 20:45:25,184     INFO Showing fixation at (-0.03548950104259564, -0.7620501200756677)
+2018-06-03 20:45:25,995     INFO End of fixations
+2018-06-03 20:45:26,006     INFO Showing fixation at (-0.010024334733379589, 0.8532972492395045)
+2018-06-03 20:45:27,012     INFO End of fixations
+2018-06-03 20:45:27,019     INFO Showing fixation at (0.027143834366955333, 0.8555944248866222)
+2018-06-03 20:45:27,828     INFO End of fixations
+2018-06-03 20:45:27,836     INFO Showing fixation at (0.49289325734679784, -0.014031412576581907)
+2018-06-03 20:45:29,045     INFO End of fixations
+2018-06-03 20:45:29,051     INFO Showing fixation at (-0.008499783304051309, -0.8378986255029228)
+2018-06-03 20:45:30,062     INFO End of fixations
+2018-06-03 20:45:30,068     INFO Showing fixation at (-0.46454539881234236, 0.057487139638413454)
+2018-06-03 20:45:31,279     INFO End of fixations
+2018-06-03 20:45:31,285     INFO Showing fixation at (-0.5006986714059101, -0.03908715647105025)
+2018-06-03 20:45:32,096     INFO End of fixations
+2018-06-03 20:45:32,105     INFO Showing fixation at (-0.017730761280487575, 0.7837762401139564)
+2018-06-03 20:45:32,912     INFO End of fixations
+2018-06-03 20:45:32,918     INFO Showing fixation at (0.4986890587762093, -0.05108536005800074)
+2018-06-03 20:45:34,129     INFO End of fixations
+2018-06-03 20:45:34,135     INFO Showing fixation at (0.006387421611519999, -0.8095547899739453)
+2018-06-03 20:45:35,145     INFO End of fixations
+2018-06-03 20:45:35,156     INFO Showing fixation at (0, 0)
+2018-06-03 20:45:36,362     INFO End of fixations
+2018-06-03 20:45:36,362     INFO Showing instructions
+2018-06-03 20:45:36,364     INFO Instruction: 
+2018-06-03 20:45:37,116     INFO Received signal 5 after 0.737868070602 seconds
+2018-06-03 20:45:37,116     INFO End of instructions
+2018-06-03 20:45:37,116     INFO Block 2 saccades
+2018-06-03 20:45:37,122     INFO Showing fixation at (0, 0)
+2018-06-03 20:45:38,129     INFO End of fixations
+2018-06-03 20:45:38,139     INFO Showing fixation at (0.486512916974151, -0.03999494278937247)
+2018-06-03 20:45:38,946     INFO End of fixations
+2018-06-03 20:45:38,955     INFO Showing fixation at (-0.44233523445785533, 0.03007059977323169)
+2018-06-03 20:45:40,162     INFO End of fixations
+2018-06-03 20:45:40,169     INFO Showing fixation at (-0.03548950104259564, -0.7620501200756677)
+2018-06-03 20:45:40,979     INFO End of fixations
+2018-06-03 20:45:40,989     INFO Showing fixation at (-0.010024334733379589, 0.8532972492395045)
+2018-06-03 20:45:41,996     INFO End of fixations
+2018-06-03 20:45:42,002     INFO Showing fixation at (0.027143834366955333, 0.8555944248866222)
+2018-06-03 20:45:42,813     INFO End of fixations
+2018-06-03 20:45:42,819     INFO Showing fixation at (0.49289325734679784, -0.014031412576581907)
+2018-06-03 20:45:44,029     INFO End of fixations
+2018-06-03 20:45:44,039     INFO Showing fixation at (-0.008499783304051309, -0.8378986255029228)
+2018-06-03 20:45:45,046     INFO End of fixations
+2018-06-03 20:45:45,055     INFO Showing fixation at (-0.46454539881234236, 0.057487139638413454)
+2018-06-03 20:45:46,262     INFO End of fixations
+2018-06-03 20:45:46,272     INFO Showing fixation at (-0.5006986714059101, -0.03908715647105025)
+2018-06-03 20:45:47,079     INFO End of fixations
+2018-06-03 20:45:47,087     INFO Showing fixation at (-0.017730761280487575, 0.7837762401139564)
+2018-06-03 20:45:47,896     INFO End of fixations
+2018-06-03 20:45:47,907     INFO Showing fixation at (0.4986890587762093, -0.05108536005800074)
+2018-06-03 20:45:49,113     INFO End of fixations
+2018-06-03 20:45:49,123     INFO Showing fixation at (0.006387421611519999, -0.8095547899739453)
+2018-06-03 20:45:50,129     INFO End of fixations
+2018-06-03 20:45:50,139     INFO Showing fixation at (0, 0)
+2018-06-03 20:45:51,346     INFO End of fixations
+2018-06-03 20:45:51,346     INFO Showing instructions
+2018-06-03 20:45:51,347     INFO Instruction: 
+2018-06-03 20:45:52,117     INFO Received signal 5 after 0.754366874695 seconds
+2018-06-03 20:45:52,117     INFO End of instructions
+2018-06-03 20:45:52,117     INFO Block 3 fixations
+2018-06-03 20:45:52,127     INFO Showing fixation at (0, 0)
+2018-06-03 20:45:53,146     INFO End of fixations
+2018-06-03 20:45:53,247     INFO Showing fixation at (-0.023926368679463954, -0.8051529256541585)
+2018-06-03 20:45:54,063     INFO End of fixations
+2018-06-03 20:45:54,072     INFO Showing fixation at (0.022445956749897286, 0.7561663746891121)
+2018-06-03 20:45:55,279     INFO End of fixations
+2018-06-03 20:45:55,289     INFO Showing fixation at (0.01765655566069274, 0.8349500766945818)
+2018-06-03 20:45:56,296     INFO End of fixations
+2018-06-03 20:45:56,304     INFO Showing fixation at (0.4544251655890186, -0.03369740731778065)
+2018-06-03 20:45:57,313     INFO End of fixations
+2018-06-03 20:45:57,322     INFO Showing fixation at (0.03900091250423175, -0.8540688827787001)
+2018-06-03 20:45:58,529     INFO End of fixations
+2018-06-03 20:45:58,539     INFO Showing fixation at (-0.014190254329100947, 0.8879216778600095)
+2018-06-03 20:45:59,346     INFO End of fixations
+2018-06-03 20:45:59,356     INFO Showing fixation at (-0.4451134920576213, -0.0573632117803142)
+2018-06-03 20:46:00,163     INFO End of fixations
+2018-06-03 20:46:00,172     INFO Showing fixation at (0.014403342937142731, -0.8403060456558137)
+2018-06-03 20:46:00,979     INFO End of fixations
+2018-06-03 20:46:00,990     INFO Showing fixation at (-0.42864788918541985, -9.387996264344223e-05)
+2018-06-03 20:46:02,196     INFO End of fixations
+2018-06-03 20:46:02,206     INFO Showing fixation at (0.4406554413141035, -0.028326356218871113)
+2018-06-03 20:46:03,213     INFO End of fixations
+2018-06-03 20:46:03,223     INFO Showing fixation at (0.4253108361080955, 0.05339375282710847)
+2018-06-03 20:46:04,430     INFO End of fixations
+2018-06-03 20:46:04,437     INFO Showing fixation at (-0.4421150410715079, 0.011338375936212355)
+2018-06-03 20:46:05,246     INFO End of fixations
+2018-06-03 20:46:05,256     INFO Showing fixation at (0, 0)
+2018-06-03 20:46:06,463     INFO End of fixations
+2018-06-03 20:46:06,464     INFO Showing instructions
+2018-06-03 20:46:06,465     INFO Instruction: 
+2018-06-03 20:46:07,117     INFO Received signal 5 after 0.637973070145 seconds
+2018-06-03 20:46:07,117     INFO End of instructions
+2018-06-03 20:46:07,117     INFO Block 3 saccades
+2018-06-03 20:46:07,123     INFO Showing fixation at (0, 0)
+2018-06-03 20:46:08,130     INFO End of fixations
+2018-06-03 20:46:08,140     INFO Showing fixation at (-0.023926368679463954, -0.8051529256541585)
+2018-06-03 20:46:08,946     INFO End of fixations
+2018-06-03 20:46:08,955     INFO Showing fixation at (0.022445956749897286, 0.7561663746891121)
+2018-06-03 20:46:10,163     INFO End of fixations
+2018-06-03 20:46:10,169     INFO Showing fixation at (0.01765655566069274, 0.8349500766945818)
+2018-06-03 20:46:11,180     INFO End of fixations
+2018-06-03 20:46:11,186     INFO Showing fixation at (0.4544251655890186, -0.03369740731778065)
+2018-06-03 20:46:12,197     INFO End of fixations
+2018-06-03 20:46:12,206     INFO Showing fixation at (0.03900091250423175, -0.8540688827787001)
+2018-06-03 20:46:13,414     INFO End of fixations
+2018-06-03 20:46:13,423     INFO Showing fixation at (-0.014190254329100947, 0.8879216778600095)
+2018-06-03 20:46:14,230     INFO End of fixations
+2018-06-03 20:46:14,240     INFO Showing fixation at (-0.4451134920576213, -0.0573632117803142)
+2018-06-03 20:46:15,047     INFO End of fixations
+2018-06-03 20:46:15,052     INFO Showing fixation at (0.014403342937142731, -0.8403060456558137)
+2018-06-03 20:46:15,863     INFO End of fixations
+2018-06-03 20:46:15,870     INFO Showing fixation at (-0.42864788918541985, -9.387996264344223e-05)
+2018-06-03 20:46:17,080     INFO End of fixations
+2018-06-03 20:46:17,088     INFO Showing fixation at (0.4406554413141035, -0.028326356218871113)
+2018-06-03 20:46:18,097     INFO End of fixations
+2018-06-03 20:46:18,105     INFO Showing fixation at (0.4253108361080955, 0.05339375282710847)
+2018-06-03 20:46:19,313     INFO End of fixations
+2018-06-03 20:46:19,319     INFO Showing fixation at (-0.4421150410715079, 0.011338375936212355)
+2018-06-03 20:46:20,130     INFO End of fixations
+2018-06-03 20:46:20,140     INFO Showing fixation at (0, 0)
+2018-06-03 20:46:21,347     INFO End of fixations
+2018-06-03 20:46:21,347     INFO Showing instructions
+2018-06-03 20:46:21,348     INFO Instruction: 
+2018-06-03 20:46:22,116     INFO Received signal 5 after 0.752974033356 seconds
+2018-06-03 20:46:22,116     INFO End of instructions
+2018-06-03 20:46:22,117     INFO Block 4 fixations
+2018-06-03 20:46:22,124     INFO Showing fixation at (0, 0)
+2018-06-03 20:46:22,930     INFO End of fixations
+2018-06-03 20:46:22,937     INFO Showing fixation at (0.46215499018132083, 0.06466232483148779)
+2018-06-03 20:46:23,947     INFO End of fixations
+2018-06-03 20:46:23,954     INFO Showing fixation at (-0.0009680218587816147, -0.8241306477415236)
+2018-06-03 20:46:24,963     INFO End of fixations
+2018-06-03 20:46:24,969     INFO Showing fixation at (0.03720169006898788, -0.7659514229095508)
+2018-06-03 20:46:26,180     INFO End of fixations
+2018-06-03 20:46:26,190     INFO Showing fixation at (-0.4945020469987423, 0.047961084678977445)
+2018-06-03 20:46:27,397     INFO End of fixations
+2018-06-03 20:46:27,407     INFO Showing fixation at (0.03301432019217242, 0.8531036255793218)
+2018-06-03 20:46:28,414     INFO End of fixations
+2018-06-03 20:46:28,423     INFO Showing fixation at (-0.4292712533528774, 0.029071741893946942)
+2018-06-03 20:46:29,430     INFO End of fixations
+2018-06-03 20:46:29,440     INFO Showing fixation at (-0.01721069381644083, -0.7698381942649332)
+2018-06-03 20:46:30,647     INFO End of fixations
+2018-06-03 20:46:30,656     INFO Showing fixation at (-0.017837218320712438, 0.7755382301285956)
+2018-06-03 20:46:31,863     INFO End of fixations
+2018-06-03 20:46:31,873     INFO Showing fixation at (0.0010081401223938913, 0.8295697823309522)
+2018-06-03 20:46:32,680     INFO End of fixations
+2018-06-03 20:46:32,686     INFO Showing fixation at (0.48051372206371645, -0.0657117276680287)
+2018-06-03 20:46:33,898     INFO End of fixations
+2018-06-03 20:46:33,907     INFO Showing fixation at (-0.45221783015788464, 0.033472397733678244)
+2018-06-03 20:46:34,714     INFO End of fixations
+2018-06-03 20:46:34,720     INFO Showing fixation at (0.4677673470370347, -0.04732559792771255)
+2018-06-03 20:46:35,531     INFO End of fixations
+2018-06-03 20:46:35,540     INFO Showing fixation at (0, 0)
+2018-06-03 20:46:36,347     INFO End of fixations
+2018-06-03 20:46:36,358     INFO Showing instructions
+2018-06-03 20:46:36,359     INFO Instruction: 
+2018-06-03 20:46:37,115     INFO Received signal 5 after 0.751794099808 seconds
+2018-06-03 20:46:37,115     INFO End of instructions
+2018-06-03 20:46:37,115     INFO Block 4 saccades
+2018-06-03 20:46:37,121     INFO Showing fixation at (0, 0)
+2018-06-03 20:46:37,931     INFO End of fixations
+2018-06-03 20:46:37,940     INFO Showing fixation at (0.46215499018132083, 0.06466232483148779)
+2018-06-03 20:46:38,947     INFO End of fixations
+2018-06-03 20:46:38,953     INFO Showing fixation at (-0.0009680218587816147, -0.8241306477415236)
+2018-06-03 20:46:39,964     INFO End of fixations
+2018-06-03 20:46:39,974     INFO Showing fixation at (0.03720169006898788, -0.7659514229095508)
+2018-06-03 20:46:41,180     INFO End of fixations
+2018-06-03 20:46:41,190     INFO Showing fixation at (-0.4945020469987423, 0.047961084678977445)
+2018-06-03 20:46:42,397     INFO End of fixations
+2018-06-03 20:46:42,407     INFO Showing fixation at (0.03301432019217242, 0.8531036255793218)
+2018-06-03 20:46:43,414     INFO End of fixations
+2018-06-03 20:46:43,424     INFO Showing fixation at (-0.4292712533528774, 0.029071741893946942)
+2018-06-03 20:46:44,431     INFO End of fixations
+2018-06-03 20:46:44,439     INFO Showing fixation at (-0.01721069381644083, -0.7698381942649332)
+2018-06-03 20:46:45,647     INFO End of fixations
+2018-06-03 20:46:45,657     INFO Showing fixation at (-0.017837218320712438, 0.7755382301285956)
+2018-06-03 20:46:46,864     INFO End of fixations
+2018-06-03 20:46:46,870     INFO Showing fixation at (0.0010081401223938913, 0.8295697823309522)
+2018-06-03 20:46:47,681     INFO End of fixations
+2018-06-03 20:46:47,687     INFO Showing fixation at (0.48051372206371645, -0.0657117276680287)
+2018-06-03 20:46:48,898     INFO End of fixations
+2018-06-03 20:46:48,907     INFO Showing fixation at (-0.45221783015788464, 0.033472397733678244)
+2018-06-03 20:46:49,714     INFO End of fixations
+2018-06-03 20:46:49,724     INFO Showing fixation at (0.4677673470370347, -0.04732559792771255)
+2018-06-03 20:46:50,531     INFO End of fixations
+2018-06-03 20:46:50,537     INFO Showing fixation at (0, 0)
+2018-06-03 20:46:51,348     INFO End of fixations
+2018-06-03 20:46:51,348     INFO Showing instructions
+2018-06-03 20:46:51,349     INFO Instruction: 
+2018-06-03 20:46:52,117     INFO Received signal 5 after 0.752419948578 seconds
+2018-06-03 20:46:52,117     INFO End of instructions
+2018-06-03 20:46:52,117     INFO Block 5 fixations
+2018-06-03 20:46:52,125     INFO Showing fixation at (0, 0)
+2018-06-03 20:46:53,332     INFO End of fixations
+2018-06-03 20:46:53,341     INFO Showing fixation at (0.012339423737960029, -0.7917592945693629)
+2018-06-03 20:46:54,348     INFO End of fixations
+2018-06-03 20:46:54,354     INFO Showing fixation at (0.48796737412072083, -0.02249808084732565)
+2018-06-03 20:46:55,164     INFO End of fixations
+2018-06-03 20:46:55,171     INFO Showing fixation at (-0.0001247515675904462, 0.854199379330064)
+2018-06-03 20:46:56,381     INFO End of fixations
+2018-06-03 20:46:56,390     INFO Showing fixation at (-0.03795421791849555, 0.8914698684849851)
+2018-06-03 20:46:57,198     INFO End of fixations
+2018-06-03 20:46:57,204     INFO Showing fixation at (-0.02943199584430874, -0.8453097841369698)
+2018-06-03 20:46:58,215     INFO End of fixations
+2018-06-03 20:46:58,221     INFO Showing fixation at (-0.49789086208290356, 0.04400448253915554)
+2018-06-03 20:46:59,431     INFO End of fixations
+2018-06-03 20:46:59,441     INFO Showing fixation at (0.434145115892044, 0.061648531420871955)
+2018-06-03 20:47:00,248     INFO End of fixations
+2018-06-03 20:47:00,254     INFO Showing fixation at (-0.44602986149401785, 0.01673984001088219)
+2018-06-03 20:47:01,065     INFO End of fixations
+2018-06-03 20:47:01,074     INFO Showing fixation at (-0.4561583527419245, 0.013124010601834324)
+2018-06-03 20:47:02,281     INFO End of fixations
+2018-06-03 20:47:02,290     INFO Showing fixation at (0.0011055115842158042, -0.8522917731107506)
+2018-06-03 20:47:03,298     INFO End of fixations
+2018-06-03 20:47:03,305     INFO Showing fixation at (-0.02314948859530864, 0.7748312775249874)
+2018-06-03 20:47:04,116     INFO End of fixations
+2018-06-03 20:47:04,125     INFO Showing fixation at (0.47433810436285007, -0.04306444707086874)
+2018-06-03 20:47:05,331     INFO End of fixations
+2018-06-03 20:47:05,340     INFO Showing fixation at (0, 0)
+2018-06-03 20:47:06,348     INFO End of fixations
+2018-06-03 20:47:06,357     INFO Showing instructions
+2018-06-03 20:47:06,359     INFO Instruction: 
+2018-06-03 20:47:07,115     INFO Received signal 5 after 0.750800132751 seconds
+2018-06-03 20:47:07,115     INFO End of instructions
+2018-06-03 20:47:07,115     INFO Block 5 saccades
+2018-06-03 20:47:07,124     INFO Showing fixation at (0, 0)
+2018-06-03 20:47:08,332     INFO End of fixations
+2018-06-03 20:47:08,342     INFO Showing fixation at (0.012339423737960029, -0.7917592945693629)
+2018-06-03 20:47:09,348     INFO End of fixations
+2018-06-03 20:47:09,358     INFO Showing fixation at (0.48796737412072083, -0.02249808084732565)
+2018-06-03 20:47:10,164     INFO End of fixations
+2018-06-03 20:47:10,173     INFO Showing fixation at (-0.0001247515675904462, 0.854199379330064)
+2018-06-03 20:47:11,382     INFO End of fixations
+2018-06-03 20:47:11,391     INFO Showing fixation at (-0.03795421791849555, 0.8914698684849851)
+2018-06-03 20:47:12,198     INFO End of fixations
+2018-06-03 20:47:12,208     INFO Showing fixation at (-0.02943199584430874, -0.8453097841369698)
+2018-06-03 20:47:13,215     INFO End of fixations
+2018-06-03 20:47:13,225     INFO Showing fixation at (-0.49789086208290356, 0.04400448253915554)
+2018-06-03 20:47:14,432     INFO End of fixations
+2018-06-03 20:47:14,440     INFO Showing fixation at (0.434145115892044, 0.061648531420871955)
+2018-06-03 20:47:15,248     INFO End of fixations
+2018-06-03 20:47:15,257     INFO Showing fixation at (-0.44602986149401785, 0.01673984001088219)
+2018-06-03 20:47:16,065     INFO End of fixations
+2018-06-03 20:47:16,073     INFO Showing fixation at (-0.4561583527419245, 0.013124010601834324)
+2018-06-03 20:47:17,282     INFO End of fixations
+2018-06-03 20:47:17,289     INFO Showing fixation at (0.0011055115842158042, -0.8522917731107506)
+2018-06-03 20:47:18,298     INFO End of fixations
+2018-06-03 20:47:18,306     INFO Showing fixation at (-0.02314948859530864, 0.7748312775249874)
+2018-06-03 20:47:19,116     INFO End of fixations
+2018-06-03 20:47:19,124     INFO Showing fixation at (0.47433810436285007, -0.04306444707086874)
+2018-06-03 20:47:20,332     INFO End of fixations
+2018-06-03 20:47:20,341     INFO Showing fixation at (0, 0)
+2018-06-03 20:47:21,349     INFO End of fixations
+2018-06-03 20:47:21,349     INFO Showing instructions
+2018-06-03 20:47:21,350     INFO Instruction: 
+2018-06-03 20:47:22,116     INFO Received signal 5 after 0.750959873199 seconds
+2018-06-03 20:47:22,116     INFO End of instructions
+2018-06-03 20:47:22,116     INFO Block 6 fixations
+2018-06-03 20:47:22,123     INFO Showing fixation at (0, 0)
+2018-06-03 20:47:23,132     INFO End of fixations
+2018-06-03 20:47:23,142     INFO Showing fixation at (-0.4372536707740176, -0.01837536782019413)
+2018-06-03 20:47:23,948     INFO End of fixations
+2018-06-03 20:47:23,957     INFO Showing fixation at (0.4706577534352108, -0.03557398365564839)
+2018-06-03 20:47:25,165     INFO End of fixations
+2018-06-03 20:47:25,174     INFO Showing fixation at (0.020910720395066043, -0.8855222616397515)
+2018-06-03 20:47:26,382     INFO End of fixations
+2018-06-03 20:47:26,388     INFO Showing fixation at (0.4454143511281589, 0.010584275243401137)
+2018-06-03 20:47:27,398     INFO End of fixations
+2018-06-03 20:47:27,405     INFO Showing fixation at (0.038540074774759125, -0.7651748944672985)
+2018-06-03 20:47:28,616     INFO End of fixations
+2018-06-03 20:47:28,621     INFO Showing fixation at (-0.4551087956571271, 0.03874526152962167)
+2018-06-03 20:47:29,432     INFO End of fixations
+2018-06-03 20:47:29,438     INFO Showing fixation at (0.03609105784186868, 0.8085640580185471)
+2018-06-03 20:47:30,249     INFO End of fixations
+2018-06-03 20:47:30,258     INFO Showing fixation at (0.44462234601232276, 0.06926214893637406)
+2018-06-03 20:47:31,066     INFO End of fixations
+2018-06-03 20:47:31,073     INFO Showing fixation at (-0.500877211096558, 0.049888498941634676)
+2018-06-03 20:47:31,882     INFO End of fixations
+2018-06-03 20:47:31,891     INFO Showing fixation at (-0.016484885933785547, 0.871280093413202)
+2018-06-03 20:47:32,899     INFO End of fixations
+2018-06-03 20:47:32,906     INFO Showing fixation at (0.014762666805740052, 0.8520562971665622)
+2018-06-03 20:47:33,916     INFO End of fixations
+2018-06-03 20:47:33,925     INFO Showing fixation at (0.028666530605587742, -0.7536548205640107)
+2018-06-03 20:47:35,132     INFO End of fixations
+2018-06-03 20:47:35,142     INFO Showing fixation at (0, 0)
+2018-06-03 20:47:36,349     INFO End of fixations
+2018-06-03 20:47:36,358     INFO Showing instructions
+2018-06-03 20:47:36,360     INFO Instruction: 
+2018-06-03 20:47:37,115     INFO Received signal 5 after 0.749880075455 seconds
+2018-06-03 20:47:37,116     INFO End of instructions
+2018-06-03 20:47:37,116     INFO Block 6 saccades
+2018-06-03 20:47:37,125     INFO Showing fixation at (0, 0)
+2018-06-03 20:47:38,133     INFO End of fixations
+2018-06-03 20:47:38,139     INFO Showing fixation at (-0.4372536707740176, -0.01837536782019413)
+2018-06-03 20:47:38,949     INFO End of fixations
+2018-06-03 20:47:38,957     INFO Showing fixation at (0.4706577534352108, -0.03557398365564839)
+2018-06-03 20:47:40,166     INFO End of fixations
+2018-06-03 20:47:40,176     INFO Showing fixation at (0.020910720395066043, -0.8855222616397515)
+2018-06-03 20:47:41,383     INFO End of fixations
+2018-06-03 20:47:41,390     INFO Showing fixation at (0.4454143511281589, 0.010584275243401137)
+2018-06-03 20:47:42,399     INFO End of fixations
+2018-06-03 20:47:42,409     INFO Showing fixation at (0.038540074774759125, -0.7651748944672985)
+2018-06-03 20:47:43,616     INFO End of fixations
+2018-06-03 20:47:43,622     INFO Showing fixation at (-0.4551087956571271, 0.03874526152962167)
+2018-06-03 20:47:44,433     INFO End of fixations
+2018-06-03 20:47:44,442     INFO Showing fixation at (0.03609105784186868, 0.8085640580185471)
+2018-06-03 20:47:45,249     INFO End of fixations
+2018-06-03 20:47:45,258     INFO Showing fixation at (0.44462234601232276, 0.06926214893637406)
+2018-06-03 20:47:46,065     INFO End of fixations
+2018-06-03 20:47:46,076     INFO Showing fixation at (-0.500877211096558, 0.049888498941634676)
+2018-06-03 20:47:46,883     INFO End of fixations
+2018-06-03 20:47:46,890     INFO Showing fixation at (-0.016484885933785547, 0.871280093413202)
+2018-06-03 20:47:47,899     INFO End of fixations
+2018-06-03 20:47:47,906     INFO Showing fixation at (0.014762666805740052, 0.8520562971665622)
+2018-06-03 20:47:48,916     INFO End of fixations
+2018-06-03 20:47:48,922     INFO Showing fixation at (0.028666530605587742, -0.7536548205640107)
+2018-06-03 20:47:50,132     INFO End of fixations
+2018-06-03 20:47:50,142     INFO Showing fixation at (0, 0)
+2018-06-03 20:47:51,350     INFO End of fixations
+2018-06-03 20:47:51,350     INFO Showing instructions
+2018-06-03 20:47:51,351     INFO Instruction: 
+2018-06-03 20:47:52,116     INFO Received signal 5 after 0.750371932983 seconds
+2018-06-03 20:47:52,116     INFO End of instructions
+2018-06-03 20:47:52,116     INFO Block 7 fixations
+2018-06-03 20:47:52,124     INFO Showing fixation at (0, 0)
+2018-06-03 20:47:53,332     INFO End of fixations
+2018-06-03 20:47:53,342     INFO Showing fixation at (0.01047953570646118, -0.8521279884256631)
+2018-06-03 20:47:54,350     INFO End of fixations
+2018-06-03 20:47:54,359     INFO Showing fixation at (0.03084724547487626, -0.7781866937811716)
+2018-06-03 20:47:55,366     INFO End of fixations
+2018-06-03 20:47:55,376     INFO Showing fixation at (0.4953640496124365, 0.013850371169054493)
+2018-06-03 20:47:56,183     INFO End of fixations
+2018-06-03 20:47:56,189     INFO Showing fixation at (-0.4396531333491819, -0.011303546385688722)
+2018-06-03 20:47:57,000     INFO End of fixations
+2018-06-03 20:47:57,008     INFO Showing fixation at (0.03032192926043989, 0.7796184599264249)
+2018-06-03 20:47:58,216     INFO End of fixations
+2018-06-03 20:47:58,223     INFO Showing fixation at (0.02479597513332761, -0.7826358286406838)
+2018-06-03 20:47:59,033     INFO End of fixations
+2018-06-03 20:47:59,042     INFO Showing fixation at (-0.4485938570814926, -0.003837040013156434)
+2018-06-03 20:47:59,850     INFO End of fixations
+2018-06-03 20:47:59,860     INFO Showing fixation at (-0.4584750992051635, -0.0630012911509266)
+2018-06-03 20:48:00,866     INFO End of fixations
+2018-06-03 20:48:00,875     INFO Showing fixation at (0.4450744617188785, 0.05800948367522887)
+2018-06-03 20:48:01,683     INFO End of fixations
+2018-06-03 20:48:01,689     INFO Showing fixation at (-0.018265407252283136, 0.8316937586496412)
+2018-06-03 20:48:02,900     INFO End of fixations
+2018-06-03 20:48:02,905     INFO Showing fixation at (0.030371231903571466, 0.8329088228597448)
+2018-06-03 20:48:04,117     INFO End of fixations
+2018-06-03 20:48:04,127     INFO Showing fixation at (0.47231797407889303, -0.04795462468000759)
+2018-06-03 20:48:05,133     INFO End of fixations
+2018-06-03 20:48:05,143     INFO Showing fixation at (0, 0)
+2018-06-03 20:48:06,350     INFO End of fixations
+2018-06-03 20:48:06,357     INFO Showing instructions
+2018-06-03 20:48:06,359     INFO Instruction: 
+2018-06-03 20:48:07,116     INFO Received signal 5 after 0.749616861343 seconds
+2018-06-03 20:48:07,116     INFO End of instructions
+2018-06-03 20:48:07,116     INFO Block 7 saccades
+2018-06-03 20:48:07,123     INFO Showing fixation at (0, 0)
+2018-06-03 20:48:08,332     INFO End of fixations
+2018-06-03 20:48:08,341     INFO Showing fixation at (0.01047953570646118, -0.8521279884256631)
+2018-06-03 20:48:09,350     INFO End of fixations
+2018-06-03 20:48:09,360     INFO Showing fixation at (0.03084724547487626, -0.7781866937811716)
+2018-06-03 20:48:10,367     INFO End of fixations
+2018-06-03 20:48:10,375     INFO Showing fixation at (0.4953640496124365, 0.013850371169054493)
+2018-06-03 20:48:11,183     INFO End of fixations
+2018-06-03 20:48:11,193     INFO Showing fixation at (-0.4396531333491819, -0.011303546385688722)
+2018-06-03 20:48:12,000     INFO End of fixations
+2018-06-03 20:48:12,009     INFO Showing fixation at (0.03032192926043989, 0.7796184599264249)
+2018-06-03 20:48:13,217     INFO End of fixations
+2018-06-03 20:48:13,226     INFO Showing fixation at (0.02479597513332761, -0.7826358286406838)
+2018-06-03 20:48:14,033     INFO End of fixations
+2018-06-03 20:48:14,042     INFO Showing fixation at (-0.4485938570814926, -0.003837040013156434)
+2018-06-03 20:48:14,850     INFO End of fixations
+2018-06-03 20:48:14,860     INFO Showing fixation at (-0.4584750992051635, -0.0630012911509266)
+2018-06-03 20:48:15,867     INFO End of fixations
+2018-06-03 20:48:15,873     INFO Showing fixation at (0.4450744617188785, 0.05800948367522887)
+2018-06-03 20:48:16,684     INFO End of fixations
+2018-06-03 20:48:16,690     INFO Showing fixation at (-0.018265407252283136, 0.8316937586496412)
+2018-06-03 20:48:17,900     INFO End of fixations
+2018-06-03 20:48:17,907     INFO Showing fixation at (0.030371231903571466, 0.8329088228597448)
+2018-06-03 20:48:19,117     INFO End of fixations
+2018-06-03 20:48:19,125     INFO Showing fixation at (0.47231797407889303, -0.04795462468000759)
+2018-06-03 20:48:20,134     INFO End of fixations
+2018-06-03 20:48:20,143     INFO Showing fixation at (0, 0)
+2018-06-03 20:48:21,350     INFO End of fixations
+2018-06-03 20:48:21,351     INFO Showing instructions
+2018-06-03 20:48:21,351     INFO Instruction: 
+2018-06-03 20:48:22,115     INFO Received signal 5 after 0.748127937317 seconds
+2018-06-03 20:48:22,115     INFO End of instructions
+2018-06-03 20:48:22,115     INFO Block 8 fixations
+2018-06-03 20:48:22,123     INFO Showing fixation at (0, 0)
+2018-06-03 20:48:23,334     INFO End of fixations
+2018-06-03 20:48:23,340     INFO Showing fixation at (-0.4550173350329474, -0.06246037246516595)
+2018-06-03 20:48:24,151     INFO End of fixations
+2018-06-03 20:48:24,158     INFO Showing fixation at (-0.032365829478615354, -0.7537117120110637)
+2018-06-03 20:48:25,167     INFO End of fixations
+2018-06-03 20:48:25,176     INFO Showing fixation at (0.03516604429883391, -0.7531179361537876)
+2018-06-03 20:48:26,384     INFO End of fixations
+2018-06-03 20:48:26,391     INFO Showing fixation at (-0.021047951931808147, 0.8145486885470874)
+2018-06-03 20:48:27,400     INFO End of fixations
+2018-06-03 20:48:27,407     INFO Showing fixation at (0.5003596155178066, 0.05126953365683387)
+2018-06-03 20:48:28,417     INFO End of fixations
+2018-06-03 20:48:28,427     INFO Showing fixation at (-0.4416490438753174, 0.03163140725760234)
+2018-06-03 20:48:29,634     INFO End of fixations
+2018-06-03 20:48:29,643     INFO Showing fixation at (0.026226181890665223, 0.8540783963685818)
+2018-06-03 20:48:30,451     INFO End of fixations
+2018-06-03 20:48:30,458     INFO Showing fixation at (-0.4859136008079286, -0.06915276655486793)
+2018-06-03 20:48:31,467     INFO End of fixations
+2018-06-03 20:48:31,477     INFO Showing fixation at (-0.03131424938827571, 0.8650532983542787)
+2018-06-03 20:48:32,684     INFO End of fixations
+2018-06-03 20:48:32,694     INFO Showing fixation at (0.023871957613486525, -0.7568037409391472)
+2018-06-03 20:48:33,901     INFO End of fixations
+2018-06-03 20:48:33,908     INFO Showing fixation at (0.4454285762755183, 0.009261032034721617)
+2018-06-03 20:48:34,717     INFO End of fixations
+2018-06-03 20:48:34,724     INFO Showing fixation at (0.44211551485879097, 0.05822299358500002)
+2018-06-03 20:48:35,534     INFO End of fixations
+2018-06-03 20:48:35,543     INFO Showing fixation at (0, 0)
+2018-06-03 20:48:36,351     INFO End of fixations
+2018-06-03 20:48:36,360     INFO Showing instructions
+2018-06-03 20:48:36,362     INFO Instruction: 
+2018-06-03 20:48:37,115     INFO Received signal 5 after 0.747776985168 seconds
+2018-06-03 20:48:37,115     INFO End of instructions
+2018-06-03 20:48:37,115     INFO Block 8 saccades
+2018-06-03 20:48:37,125     INFO Showing fixation at (0, 0)
+2018-06-03 20:48:38,334     INFO End of fixations
+2018-06-03 20:48:38,343     INFO Showing fixation at (-0.4550173350329474, -0.06246037246516595)
+2018-06-03 20:48:39,151     INFO End of fixations
+2018-06-03 20:48:39,160     INFO Showing fixation at (-0.032365829478615354, -0.7537117120110637)
+2018-06-03 20:48:40,168     INFO End of fixations
+2018-06-03 20:48:40,174     INFO Showing fixation at (0.03516604429883391, -0.7531179361537876)
+2018-06-03 20:48:41,384     INFO End of fixations
+2018-06-03 20:48:41,394     INFO Showing fixation at (-0.021047951931808147, 0.8145486885470874)
+2018-06-03 20:48:42,401     INFO End of fixations
+2018-06-03 20:48:42,411     INFO Showing fixation at (0.5003596155178066, 0.05126953365683387)
+2018-06-03 20:48:43,418     INFO End of fixations
+2018-06-03 20:48:43,424     INFO Showing fixation at (-0.4416490438753174, 0.03163140725760234)
+2018-06-03 20:48:44,634     INFO End of fixations
+2018-06-03 20:48:44,644     INFO Showing fixation at (0.026226181890665223, 0.8540783963685818)
+2018-06-03 20:48:45,451     INFO End of fixations
+2018-06-03 20:48:45,457     INFO Showing fixation at (-0.4859136008079286, -0.06915276655486793)
+2018-06-03 20:48:46,468     INFO End of fixations
+2018-06-03 20:48:46,478     INFO Showing fixation at (-0.03131424938827571, 0.8650532983542787)
+2018-06-03 20:48:47,685     INFO End of fixations
+2018-06-03 20:48:47,694     INFO Showing fixation at (0.023871957613486525, -0.7568037409391472)
+2018-06-03 20:48:48,901     INFO End of fixations
+2018-06-03 20:48:48,911     INFO Showing fixation at (0.4454285762755183, 0.009261032034721617)
+2018-06-03 20:48:49,718     INFO End of fixations
+2018-06-03 20:48:49,724     INFO Showing fixation at (0.44211551485879097, 0.05822299358500002)
+2018-06-03 20:48:50,535     INFO End of fixations
+2018-06-03 20:48:50,544     INFO Showing fixation at (0, 0)
+2018-06-03 20:48:51,351     INFO End of fixations
+2018-06-03 20:48:51,351     INFO Showing instructions
+2018-06-03 20:48:51,352     INFO Instruction: 
+2018-06-03 20:48:52,115     INFO Received signal 5 after 0.747471094131 seconds
+2018-06-03 20:48:52,115     INFO End of instructions
+2018-06-03 20:48:52,115     INFO Block 9 fixations
+2018-06-03 20:48:52,125     INFO Showing fixation at (0, 0)
+2018-06-03 20:48:53,335     INFO End of fixations
+2018-06-03 20:48:53,344     INFO Showing fixation at (-0.004674831201098746, -0.7560041271606024)
+2018-06-03 20:48:54,151     INFO End of fixations
+2018-06-03 20:48:54,161     INFO Showing fixation at (-0.012564375229315763, -0.7772659141434217)
+2018-06-03 20:48:55,168     INFO End of fixations
+2018-06-03 20:48:55,178     INFO Showing fixation at (-0.008426160688669478, 0.7576879222988796)
+2018-06-03 20:48:56,385     INFO End of fixations
+2018-06-03 20:48:56,392     INFO Showing fixation at (0.49350514539622903, -0.043206602634239685)
+2018-06-03 20:48:57,401     INFO End of fixations
+2018-06-03 20:48:57,411     INFO Showing fixation at (0.48502501815498533, 0.058789381972277205)
+2018-06-03 20:48:58,218     INFO End of fixations
+2018-06-03 20:48:58,228     INFO Showing fixation at (0.4453596654405103, 0.005134181069386692)
+2018-06-03 20:48:59,035     INFO End of fixations
+2018-06-03 20:48:59,045     INFO Showing fixation at (-0.45907215026575543, 0.05524187430903156)
+2018-06-03 20:49:00,052     INFO End of fixations
+2018-06-03 20:49:00,061     INFO Showing fixation at (-0.012100361605796913, -0.7580648932937032)
+2018-06-03 20:49:00,868     INFO End of fixations
+2018-06-03 20:49:00,879     INFO Showing fixation at (-0.4520588719385867, 0.0031455969285636293)
+2018-06-03 20:49:01,885     INFO End of fixations
+2018-06-03 20:49:01,894     INFO Showing fixation at (0.0034030321417149456, 0.8618372699203269)
+2018-06-03 20:49:03,102     INFO End of fixations
+2018-06-03 20:49:03,111     INFO Showing fixation at (-0.4540995679027041, -0.05310290211749064)
+2018-06-03 20:49:04,319     INFO End of fixations
+2018-06-03 20:49:04,328     INFO Showing fixation at (0.011696603105552775, 0.8530930451883777)
+2018-06-03 20:49:05,535     INFO End of fixations
+2018-06-03 20:49:05,544     INFO Showing fixation at (0, 0)
+2018-06-03 20:49:06,352     INFO End of fixations
+2018-06-03 20:49:06,358     INFO Showing instructions
+2018-06-03 20:49:06,360     INFO Instruction: 
+2018-06-03 20:49:07,115     INFO Received signal 5 after 0.74679684639 seconds
+2018-06-03 20:49:07,115     INFO End of instructions
+2018-06-03 20:49:07,115     INFO Block 9 saccades
+2018-06-03 20:49:07,122     INFO Showing fixation at (0, 0)
+2018-06-03 20:49:08,335     INFO End of fixations
+2018-06-03 20:49:08,344     INFO Showing fixation at (-0.004674831201098746, -0.7560041271606024)
+2018-06-03 20:49:09,152     INFO End of fixations
+2018-06-03 20:49:09,158     INFO Showing fixation at (-0.012564375229315763, -0.7772659141434217)
+2018-06-03 20:49:10,168     INFO End of fixations
+2018-06-03 20:49:10,178     INFO Showing fixation at (-0.008426160688669478, 0.7576879222988796)
+2018-06-03 20:49:11,385     INFO End of fixations
+2018-06-03 20:49:11,391     INFO Showing fixation at (0.49350514539622903, -0.043206602634239685)
+2018-06-03 20:49:12,402     INFO End of fixations
+2018-06-03 20:49:12,408     INFO Showing fixation at (0.48502501815498533, 0.058789381972277205)
+2018-06-03 20:49:13,219     INFO End of fixations
+2018-06-03 20:49:13,228     INFO Showing fixation at (0.4453596654405103, 0.005134181069386692)
+2018-06-03 20:49:14,036     INFO End of fixations
+2018-06-03 20:49:14,045     INFO Showing fixation at (-0.45907215026575543, 0.05524187430903156)
+2018-06-03 20:49:15,052     INFO End of fixations
+2018-06-03 20:49:15,060     INFO Showing fixation at (-0.012100361605796913, -0.7580648932937032)
+2018-06-03 20:49:15,869     INFO End of fixations
+2018-06-03 20:49:15,878     INFO Showing fixation at (-0.4520588719385867, 0.0031455969285636293)
+2018-06-03 20:49:16,885     INFO End of fixations
+2018-06-03 20:49:16,892     INFO Showing fixation at (0.0034030321417149456, 0.8618372699203269)
+2018-06-03 20:49:18,102     INFO End of fixations
+2018-06-03 20:49:18,111     INFO Showing fixation at (-0.4540995679027041, -0.05310290211749064)
+2018-06-03 20:49:19,319     INFO End of fixations
+2018-06-03 20:49:19,327     INFO Showing fixation at (0.011696603105552775, 0.8530930451883777)
+2018-06-03 20:49:20,536     INFO End of fixations
+2018-06-03 20:49:20,545     INFO Showing fixation at (0, 0)
+2018-06-03 20:49:21,352     INFO End of fixations
+2018-06-03 20:49:21,357     INFO Showing fixation at (0, 0) for 8 second(s)
+2018-06-03 20:49:22,115     INFO Received trigger 5
+2018-06-03 20:49:23,115     INFO Received trigger 5
+2018-06-03 20:49:24,115     INFO Received trigger 5
+2018-06-03 20:49:25,115     INFO Received trigger 5
+2018-06-03 20:49:26,115     INFO Received trigger 5
+2018-06-03 20:49:27,115     INFO Received trigger 5
+2018-06-03 20:49:28,114     INFO Received trigger 5
+2018-06-03 20:49:32,840     INFO Received trigger 5
+2018-06-03 20:49:32,841     INFO End of fixations
+2018-06-03 20:49:32,841     INFO End of experiment

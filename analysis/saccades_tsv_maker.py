@@ -12,6 +12,7 @@ sid_list = [datafile[:3] for datafile in os.listdir('../log/')
 directions = ['up', 'down', 'right', 'left']
 header = ['onset', 'duration', 'direction', 'iti']
 for sid in sid_list:
+    print('Subject ' + sid)
     for i, run in enumerate(run_seqs):
         events = [header]
         time = 4.0  # first saccade

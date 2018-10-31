@@ -19,6 +19,7 @@ for datafile in os.listdir(DATA_DIR):
     if 'localizer.log' not in datafile or datafile[0] != '1':
         continue
     sid = datafile[:3]
+    print('Subject ' + sid)
     with open(DATA_DIR + datafile, 'r') as infile:
         logfile = infile.readlines()[38:]
 
