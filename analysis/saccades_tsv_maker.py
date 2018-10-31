@@ -3,7 +3,7 @@ import os
 import pickle
 
 
-with open('../saccades_design.pkl', 'r') as infile:
+with open('../saccades_design.pkl', 'rb') as infile:
     run_seqs = [pickle.load(infile), pickle.load(infile)]  # {'step_time': 1.0, 'stim': 2, 'iti': 6}
 
 sid_list = [datafile[:3] for datafile in os.listdir('../log/')

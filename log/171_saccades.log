@@ -1,0 +1,1824 @@
+2018-10-24 16:00:11,272     INFO #[ PsychoPy2 RuntimeInfoStart ]
+  #[[ PsychoPy ]] #---------
+    psychopyVersion: 1.85.6
+    psychopyHaveExtRush: True
+  #[[ Experiment ]] #---------
+    experimentRunTime: 2018_10_24 16:00 (Year_Month_Day Hour:Min)
+    experimentRunTime.epoch: 1540422008
+    experimentScript: saccades.py
+    experimentScript.digestSHA1: 98d240fa1272ea9a4b10628a5f032c0b1a8850f8
+    experimentScript.directory: /Users/mengdu/Repos/hierarchySaccades
+  #[[ System ]] #---------
+    systemHaveInternetAccess: True
+    systemHostName: Mengs-MacBook-Pro-Server.local
+    systemLocale: C
+    systemMemFreeRAM: 3823.2265625
+    systemMemTotalRAM: 8192.0
+    systemPlatform: darwin 10.13.6 x86_64
+    systemPyo.InputDevices: {0: {'host api index': 0, 'latency': 0.0029478457290679216, 'default sr': 44100, 'name': u'Built-in Microph'}}
+    systemPyo.OutputDevices: {1: {'host api index': 0, 'latency': 0.018798185512423515, 'default sr': 44100, 'name': u'Built-in Output'}, 2: {'host api index': 0, 'latency': 0.0014375000027939677, 'default sr': 48000, 'name': u'HDMI'}}
+    systemPyoVersion: 0.8.6
+    systemRebooted: Oct 23 22:41
+    systemSec.OpenSSLVersion: LibreSSL 2.2.7
+    systemSec.pythonSSL: True
+    systemTimeNumpySD1000000_sec: 0.0045
+    systemUser: mengdu
+    systemUserID: 501
+    systemUserProcCount: 138
+    systemUserProcFlagged: mdworker Safari
+    systemUsersCount: 1
+  #[[ Window ]] #---------
+    windowRefreshTimeSD_ms: 0.023
+    windowRefreshTimeMedian_ms: 16.668
+    windowRefreshTimeAvg_ms: 16.667
+  #[[ Python ]] #---------
+    pythonVersion: 2.7.12
+  #[[ OpenGL ]] #---------
+#[ PsychoPy2 RuntimeInfoEnd ]
+
+2018-10-24 16:00:11,282     INFO Run #0
+2018-10-24 16:00:11,451     INFO Showing instructions
+2018-10-24 16:00:11,479     INFO Instruction: Run #1 of 2 is starting soon. ...
+2018-10-24 16:00:13,684     INFO Received response [('space', 2.184253215789795)]
+2018-10-24 16:00:13,684     INFO End of instructions
+2018-10-24 16:00:13,684     INFO Showing instructions
+2018-10-24 16:00:13,698     INFO Instruction: Run #1 of 2 is starting soon. ...
+2018-10-24 16:00:21,391     INFO Received signal 5 after 7.6857149601 seconds
+2018-10-24 16:00:21,391     INFO End of instructions
+2018-10-24 16:00:21,395     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:00:22,390     INFO Received trigger 5
+2018-10-24 16:00:23,390     INFO Received trigger 5
+2018-10-24 16:00:24,390     INFO Received trigger 5
+2018-10-24 16:00:25,391     INFO Received trigger 5
+2018-10-24 16:00:25,391     INFO End of fixations
+2018-10-24 16:00:25,391     INFO Starting saccade, direction 2
+2018-10-24 16:00:25,394     INFO Showing fixation at (0.11630472417194168, -0.002014475465868186) for 1.0 second(s)
+2018-10-24 16:00:26,406     INFO End of fixations
+2018-10-24 16:00:26,409     INFO Showing fixation at (0.22189284481669558, -0.03257783725321334) for 1.0 second(s)
+2018-10-24 16:00:27,423     INFO End of fixations
+2018-10-24 16:00:27,430     INFO Showing fixation at (0.3251104521717189, -0.015833238816234375) for 1.0 second(s)
+2018-10-24 16:00:28,439     INFO End of fixations
+2018-10-24 16:00:28,444     INFO Showing fixation at (0.5006941035237965, -0.023427981437789458) for 1.0 second(s)
+2018-10-24 16:00:29,456     INFO End of fixations
+2018-10-24 16:00:29,456     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:00:29,461     INFO Showing fixation at (0.5006941035237965, -0.023427981437789458) for 3 second(s)
+2018-10-24 16:00:30,390     INFO Received trigger 5
+2018-10-24 16:00:31,391     INFO Received trigger 5
+2018-10-24 16:00:32,390     INFO Received trigger 5
+2018-10-24 16:00:32,390     INFO End of fixations
+2018-10-24 16:00:32,392     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:00:33,389     INFO Received trigger 5
+2018-10-24 16:00:34,390     INFO Received trigger 5
+2018-10-24 16:00:35,390     INFO Received trigger 5
+2018-10-24 16:00:35,390     INFO End of fixations
+2018-10-24 16:00:35,390     INFO End of ITI
+2018-10-24 16:00:35,390     INFO Starting saccade, direction 0
+2018-10-24 16:00:35,393     INFO Showing fixation at (0.01351174018942488, 0.1769423143915198) for 0.5 second(s)
+2018-10-24 16:00:35,906     INFO End of fixations
+2018-10-24 16:00:35,909     INFO Showing fixation at (-0.015014343126359209, 0.45845135653823466) for 0.5 second(s)
+2018-10-24 16:00:36,423     INFO End of fixations
+2018-10-24 16:00:36,426     INFO Showing fixation at (0.018815390920016314, 0.6830267081123909) for 0.5 second(s)
+2018-10-24 16:00:36,940     INFO End of fixations
+2018-10-24 16:00:36,942     INFO Showing fixation at (0.021381813432333335, 0.8496246632970005) for 0.5 second(s)
+2018-10-24 16:00:37,456     INFO End of fixations
+2018-10-24 16:00:37,456     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:00:37,459     INFO Showing fixation at (0.021381813432333335, 0.8496246632970005) for 3 second(s)
+2018-10-24 16:00:38,390     INFO Received trigger 5
+2018-10-24 16:00:39,390     INFO Received trigger 5
+2018-10-24 16:00:40,390     INFO Received trigger 5
+2018-10-24 16:00:40,433     INFO End of fixations
+2018-10-24 16:00:40,436     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:00:41,390     INFO Received trigger 5
+2018-10-24 16:00:42,390     INFO Received trigger 5
+2018-10-24 16:00:43,390     INFO Received trigger 5
+2018-10-24 16:00:43,390     INFO End of fixations
+2018-10-24 16:00:43,390     INFO End of ITI
+2018-10-24 16:00:43,390     INFO Starting saccade, direction 3
+2018-10-24 16:00:43,393     INFO Showing fixation at (-0.12646056330559988, -0.001511847769681128) for 1.0 second(s)
+2018-10-24 16:00:44,406     INFO End of fixations
+2018-10-24 16:00:44,410     INFO Showing fixation at (-0.25776004002052005, 0.021072396802417022) for 1.0 second(s)
+2018-10-24 16:00:45,423     INFO End of fixations
+2018-10-24 16:00:45,426     INFO Showing fixation at (-0.3564514011336631, -0.022290452618458634) for 1.0 second(s)
+2018-10-24 16:00:46,440     INFO End of fixations
+2018-10-24 16:00:46,443     INFO Showing fixation at (-0.43530747096068934, 0.037717721152406784) for 1.0 second(s)
+2018-10-24 16:00:47,457     INFO End of fixations
+2018-10-24 16:00:47,457     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:00:47,459     INFO Showing fixation at (-0.43530747096068934, 0.037717721152406784) for 3 second(s)
+2018-10-24 16:00:48,390     INFO Received trigger 5
+2018-10-24 16:00:49,390     INFO Received trigger 5
+2018-10-24 16:00:50,390     INFO Received trigger 5
+2018-10-24 16:00:50,390     INFO End of fixations
+2018-10-24 16:00:50,393     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:00:51,390     INFO Received trigger 5
+2018-10-24 16:00:52,390     INFO Received trigger 5
+2018-10-24 16:00:53,390     INFO Received trigger 5
+2018-10-24 16:00:54,390     INFO Received trigger 5
+2018-10-24 16:00:55,389     INFO Received trigger 5
+2018-10-24 16:00:55,389     INFO End of fixations
+2018-10-24 16:00:55,389     INFO End of ITI
+2018-10-24 16:00:55,389     INFO Starting saccade, direction 2
+2018-10-24 16:00:55,392     INFO Showing fixation at (0.1133911082128021, -0.03370228013592134) for 0.5 second(s)
+2018-10-24 16:00:55,907     INFO End of fixations
+2018-10-24 16:00:55,909     INFO Showing fixation at (0.20723814033555626, -0.005977742754243731) for 0.5 second(s)
+2018-10-24 16:00:56,423     INFO End of fixations
+2018-10-24 16:00:56,426     INFO Showing fixation at (0.3331841953266116, 0.027381732731981405) for 0.5 second(s)
+2018-10-24 16:00:56,940     INFO End of fixations
+2018-10-24 16:00:56,943     INFO Showing fixation at (0.4929983388123087, -0.0059532516321800025) for 0.5 second(s)
+2018-10-24 16:00:57,456     INFO End of fixations
+2018-10-24 16:00:57,463     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:00:57,465     INFO Showing fixation at (0.4929983388123087, -0.0059532516321800025) for 3 second(s)
+2018-10-24 16:00:58,389     INFO Received trigger 5
+2018-10-24 16:00:59,389     INFO Received trigger 5
+2018-10-24 16:01:00,389     INFO Received trigger 5
+2018-10-24 16:01:00,390     INFO End of fixations
+2018-10-24 16:01:00,392     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:01:01,389     INFO Received trigger 5
+2018-10-24 16:01:02,390     INFO Received trigger 5
+2018-10-24 16:01:03,389     INFO Received trigger 5
+2018-10-24 16:01:03,390     INFO End of fixations
+2018-10-24 16:01:03,390     INFO End of ITI
+2018-10-24 16:01:03,390     INFO Starting saccade, direction 0
+2018-10-24 16:01:03,392     INFO Showing fixation at (-0.01431881367844957, 0.1509272773339361) for 1.0 second(s)
+2018-10-24 16:01:04,407     INFO End of fixations
+2018-10-24 16:01:04,410     INFO Showing fixation at (0.021917148788866095, 0.4520942375535313) for 1.0 second(s)
+2018-10-24 16:01:05,424     INFO End of fixations
+2018-10-24 16:01:05,427     INFO Showing fixation at (-0.004779681494936357, 0.5556768474641668) for 1.0 second(s)
+2018-10-24 16:01:06,441     INFO End of fixations
+2018-10-24 16:01:06,443     INFO Showing fixation at (-0.013252595081976785, 0.8486824382132326) for 1.0 second(s)
+2018-10-24 16:01:07,457     INFO End of fixations
+2018-10-24 16:01:07,457     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:01:07,460     INFO Showing fixation at (-0.013252595081976785, 0.8486824382132326) for 3 second(s)
+2018-10-24 16:01:08,390     INFO Received trigger 5
+2018-10-24 16:01:09,390     INFO Received trigger 5
+2018-10-24 16:01:10,390     INFO Received trigger 5
+2018-10-24 16:01:10,390     INFO End of fixations
+2018-10-24 16:01:10,393     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:01:11,390     INFO Received trigger 5
+2018-10-24 16:01:12,390     INFO Received trigger 5
+2018-10-24 16:01:13,390     INFO Received trigger 5
+2018-10-24 16:01:14,390     INFO Received trigger 5
+2018-10-24 16:01:14,390     INFO End of fixations
+2018-10-24 16:01:14,390     INFO End of ITI
+2018-10-24 16:01:14,390     INFO Starting saccade, direction 3
+2018-10-24 16:01:14,393     INFO Showing fixation at (-0.10695582829837649, 0.03195706607071592) for 1.0 second(s)
+2018-10-24 16:01:15,407     INFO End of fixations
+2018-10-24 16:01:15,410     INFO Showing fixation at (-0.19441170439698413, -0.03702987269495401) for 1.0 second(s)
+2018-10-24 16:01:16,424     INFO End of fixations
+2018-10-24 16:01:16,427     INFO Showing fixation at (-0.3585295739387079, -0.030785968262764557) for 1.0 second(s)
+2018-10-24 16:01:17,441     INFO End of fixations
+2018-10-24 16:01:17,443     INFO Showing fixation at (-0.424569204039484, -0.03614921149478133) for 1.0 second(s)
+2018-10-24 16:01:18,457     INFO End of fixations
+2018-10-24 16:01:18,458     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:01:18,460     INFO Showing fixation at (-0.424569204039484, -0.03614921149478133) for 3 second(s)
+2018-10-24 16:01:19,389     INFO Received trigger 5
+2018-10-24 16:01:20,389     INFO Received trigger 5
+2018-10-24 16:01:21,389     INFO Received trigger 5
+2018-10-24 16:01:21,389     INFO End of fixations
+2018-10-24 16:01:21,392     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:01:22,389     INFO Received trigger 5
+2018-10-24 16:01:23,389     INFO Received trigger 5
+2018-10-24 16:01:24,390     INFO Received trigger 5
+2018-10-24 16:01:25,389     INFO Received trigger 5
+2018-10-24 16:01:26,389     INFO Received trigger 5
+2018-10-24 16:01:26,389     INFO End of fixations
+2018-10-24 16:01:26,389     INFO End of ITI
+2018-10-24 16:01:26,389     INFO Starting saccade, direction 1
+2018-10-24 16:01:26,392     INFO Showing fixation at (2.1457878833609084e-05, -0.14073612479212974) for 0.5 second(s)
+2018-10-24 16:01:26,908     INFO End of fixations
+2018-10-24 16:01:26,911     INFO Showing fixation at (-0.014405876152523837, -0.34835957196522027) for 0.5 second(s)
+2018-10-24 16:01:27,424     INFO End of fixations
+2018-10-24 16:01:27,429     INFO Showing fixation at (0.019473344350330213, -0.643056207144998) for 0.5 second(s)
+2018-10-24 16:01:27,941     INFO End of fixations
+2018-10-24 16:01:27,944     INFO Showing fixation at (-0.01997759672061259, -0.8740204211304153) for 0.5 second(s)
+2018-10-24 16:01:28,458     INFO End of fixations
+2018-10-24 16:01:28,458     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:01:28,461     INFO Showing fixation at (-0.01997759672061259, -0.8740204211304153) for 3 second(s)
+2018-10-24 16:01:29,389     INFO Received trigger 5
+2018-10-24 16:01:30,389     INFO Received trigger 5
+2018-10-24 16:01:31,389     INFO Received trigger 5
+2018-10-24 16:01:31,389     INFO End of fixations
+2018-10-24 16:01:31,392     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:01:32,390     INFO Received trigger 5
+2018-10-24 16:01:33,389     INFO Received trigger 5
+2018-10-24 16:01:34,389     INFO Received trigger 5
+2018-10-24 16:01:35,389     INFO Received trigger 5
+2018-10-24 16:01:35,390     INFO End of fixations
+2018-10-24 16:01:35,390     INFO End of ITI
+2018-10-24 16:01:35,390     INFO Starting saccade, direction 3
+2018-10-24 16:01:35,393     INFO Showing fixation at (-0.10385990116307675, -0.014922882131040482) for 0.75 second(s)
+2018-10-24 16:01:36,158     INFO End of fixations
+2018-10-24 16:01:36,161     INFO Showing fixation at (-0.2564306494069156, -0.0004014183812803898) for 0.75 second(s)
+2018-10-24 16:01:36,924     INFO End of fixations
+2018-10-24 16:01:36,927     INFO Showing fixation at (-0.369073648095602, 0.013094003678577902) for 0.75 second(s)
+2018-10-24 16:01:37,691     INFO End of fixations
+2018-10-24 16:01:37,694     INFO Showing fixation at (-0.45750286823480174, -0.029516065441454464) for 0.75 second(s)
+2018-10-24 16:01:38,458     INFO End of fixations
+2018-10-24 16:01:38,458     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:01:38,461     INFO Showing fixation at (-0.45750286823480174, -0.029516065441454464) for 3 second(s)
+2018-10-24 16:01:39,389     INFO Received trigger 5
+2018-10-24 16:01:40,390     INFO Received trigger 5
+2018-10-24 16:01:41,391     INFO Received trigger 5
+2018-10-24 16:01:41,391     INFO End of fixations
+2018-10-24 16:01:41,394     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:01:42,390     INFO Received trigger 5
+2018-10-24 16:01:43,389     INFO Received trigger 5
+2018-10-24 16:01:44,389     INFO Received trigger 5
+2018-10-24 16:01:45,389     INFO Received trigger 5
+2018-10-24 16:01:45,389     INFO End of fixations
+2018-10-24 16:01:45,389     INFO End of ITI
+2018-10-24 16:01:45,389     INFO Starting saccade, direction 1
+2018-10-24 16:01:45,396     INFO Showing fixation at (0.0016161768831904622, -0.2234784443129901) for 1.0 second(s)
+2018-10-24 16:01:46,408     INFO End of fixations
+2018-10-24 16:01:46,411     INFO Showing fixation at (0.007386554887956465, -0.3975878281528051) for 1.0 second(s)
+2018-10-24 16:01:47,425     INFO End of fixations
+2018-10-24 16:01:47,428     INFO Showing fixation at (-0.014494365044857389, -0.6215864630524852) for 1.0 second(s)
+2018-10-24 16:01:48,442     INFO End of fixations
+2018-10-24 16:01:48,444     INFO Showing fixation at (-0.0024931904612971525, -0.7604352559318882) for 1.0 second(s)
+2018-10-24 16:01:49,458     INFO End of fixations
+2018-10-24 16:01:49,458     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:01:49,461     INFO Showing fixation at (-0.0024931904612971525, -0.7604352559318882) for 3 second(s)
+2018-10-24 16:01:50,389     INFO Received trigger 5
+2018-10-24 16:01:51,389     INFO Received trigger 5
+2018-10-24 16:01:52,389     INFO Received trigger 5
+2018-10-24 16:01:52,389     INFO End of fixations
+2018-10-24 16:01:52,392     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:01:53,389     INFO Received trigger 5
+2018-10-24 16:01:54,389     INFO Received trigger 5
+2018-10-24 16:01:55,389     INFO Received trigger 5
+2018-10-24 16:01:56,389     INFO Received trigger 5
+2018-10-24 16:01:56,389     INFO End of fixations
+2018-10-24 16:01:56,390     INFO End of ITI
+2018-10-24 16:01:56,390     INFO Starting saccade, direction 2
+2018-10-24 16:01:56,392     INFO Showing fixation at (0.08526226286930039, -0.013037627418468867) for 0.5 second(s)
+2018-10-24 16:01:56,909     INFO End of fixations
+2018-10-24 16:01:56,912     INFO Showing fixation at (0.2266176693479235, 0.009819953321878495) for 0.5 second(s)
+2018-10-24 16:01:57,425     INFO End of fixations
+2018-10-24 16:01:57,439     INFO Showing fixation at (0.3379991818221733, -0.006549569722709335) for 0.5 second(s)
+2018-10-24 16:01:57,943     INFO End of fixations
+2018-10-24 16:01:58,012     INFO Showing fixation at (0.433386594073895, -0.031164376194704357) for 0.5 second(s)
+2018-10-24 16:01:58,525     INFO End of fixations
+2018-10-24 16:01:58,525     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:01:58,528     INFO Showing fixation at (0.433386594073895, -0.031164376194704357) for 3 second(s)
+2018-10-24 16:01:59,389     INFO Received trigger 5
+2018-10-24 16:02:00,389     INFO Received trigger 5
+2018-10-24 16:02:01,389     INFO Received trigger 5
+2018-10-24 16:02:01,390     INFO End of fixations
+2018-10-24 16:02:01,393     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:02:02,389     INFO Received trigger 5
+2018-10-24 16:02:03,389     INFO Received trigger 5
+2018-10-24 16:02:04,389     INFO Received trigger 5
+2018-10-24 16:02:05,389     INFO Received trigger 5
+2018-10-24 16:02:06,388     INFO Received trigger 5
+2018-10-24 16:02:06,388     INFO End of fixations
+2018-10-24 16:02:06,389     INFO End of ITI
+2018-10-24 16:02:06,389     INFO Starting saccade, direction 2
+2018-10-24 16:02:06,392     INFO Showing fixation at (0.15146896134270293, 0.006230152126990511) for 0.75 second(s)
+2018-10-24 16:02:07,159     INFO End of fixations
+2018-10-24 16:02:07,162     INFO Showing fixation at (0.24762242722622602, 0.038954920379254916) for 0.75 second(s)
+2018-10-24 16:02:07,926     INFO End of fixations
+2018-10-24 16:02:07,928     INFO Showing fixation at (0.3599333116719731, 0.016544600289931627) for 0.75 second(s)
+2018-10-24 16:02:08,692     INFO End of fixations
+2018-10-24 16:02:08,695     INFO Showing fixation at (0.45524052603545906, -0.03713346604384624) for 0.75 second(s)
+2018-10-24 16:02:09,459     INFO End of fixations
+2018-10-24 16:02:09,459     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:02:09,462     INFO Showing fixation at (0.45524052603545906, -0.03713346604384624) for 3 second(s)
+2018-10-24 16:02:10,389     INFO Received trigger 5
+2018-10-24 16:02:11,388     INFO Received trigger 5
+2018-10-24 16:02:12,389     INFO Received trigger 5
+2018-10-24 16:02:12,389     INFO End of fixations
+2018-10-24 16:02:12,391     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:02:13,389     INFO Received trigger 5
+2018-10-24 16:02:14,389     INFO Received trigger 5
+2018-10-24 16:02:15,389     INFO Received trigger 5
+2018-10-24 16:02:16,388     INFO Received trigger 5
+2018-10-24 16:02:17,389     INFO Received trigger 5
+2018-10-24 16:02:17,389     INFO End of fixations
+2018-10-24 16:02:17,389     INFO End of ITI
+2018-10-24 16:02:17,389     INFO Starting saccade, direction 1
+2018-10-24 16:02:17,392     INFO Showing fixation at (-0.009020700965604127, -0.18255015671287392) for 1.0 second(s)
+2018-10-24 16:02:18,409     INFO End of fixations
+2018-10-24 16:02:18,412     INFO Showing fixation at (0.0026434286814514055, -0.35469359323379845) for 1.0 second(s)
+2018-10-24 16:02:19,426     INFO End of fixations
+2018-10-24 16:02:19,429     INFO Showing fixation at (0.010947582647573152, -0.5905060510525637) for 1.0 second(s)
+2018-10-24 16:02:20,443     INFO End of fixations
+2018-10-24 16:02:20,445     INFO Showing fixation at (-0.0033462327056878217, -0.7591193712859807) for 1.0 second(s)
+2018-10-24 16:02:21,459     INFO End of fixations
+2018-10-24 16:02:21,459     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:02:21,462     INFO Showing fixation at (-0.0033462327056878217, -0.7591193712859807) for 3 second(s)
+2018-10-24 16:02:22,389     INFO Received trigger 5
+2018-10-24 16:02:23,389     INFO Received trigger 5
+2018-10-24 16:02:24,389     INFO Received trigger 5
+2018-10-24 16:02:24,389     INFO End of fixations
+2018-10-24 16:02:24,392     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:02:25,389     INFO Received trigger 5
+2018-10-24 16:02:26,389     INFO Received trigger 5
+2018-10-24 16:02:27,389     INFO Received trigger 5
+2018-10-24 16:02:27,391     INFO End of fixations
+2018-10-24 16:02:27,391     INFO End of ITI
+2018-10-24 16:02:27,392     INFO Starting saccade, direction 3
+2018-10-24 16:02:27,395     INFO Showing fixation at (-0.09074096360153273, -0.024403600381189473) for 0.5 second(s)
+2018-10-24 16:02:27,910     INFO End of fixations
+2018-10-24 16:02:27,913     INFO Showing fixation at (-0.23127997430480327, -0.027992596639181844) for 0.5 second(s)
+2018-10-24 16:02:28,426     INFO End of fixations
+2018-10-24 16:02:28,429     INFO Showing fixation at (-0.31389430415458275, -0.018559913567636633) for 0.5 second(s)
+2018-10-24 16:02:28,943     INFO End of fixations
+2018-10-24 16:02:28,946     INFO Showing fixation at (-0.455698868008646, -0.0057604770682232395) for 0.5 second(s)
+2018-10-24 16:02:29,460     INFO End of fixations
+2018-10-24 16:02:29,460     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:02:29,462     INFO Showing fixation at (-0.455698868008646, -0.0057604770682232395) for 3 second(s)
+2018-10-24 16:02:30,388     INFO Received trigger 5
+2018-10-24 16:02:31,388     INFO Received trigger 5
+2018-10-24 16:02:32,388     INFO Received trigger 5
+2018-10-24 16:02:32,388     INFO End of fixations
+2018-10-24 16:02:32,391     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:02:33,388     INFO Received trigger 5
+2018-10-24 16:02:34,388     INFO Received trigger 5
+2018-10-24 16:02:35,388     INFO Received trigger 5
+2018-10-24 16:02:35,388     INFO End of fixations
+2018-10-24 16:02:35,389     INFO End of ITI
+2018-10-24 16:02:35,389     INFO Starting saccade, direction 0
+2018-10-24 16:02:35,391     INFO Showing fixation at (-0.004526211940050366, 0.19322383790318842) for 1.0 second(s)
+2018-10-24 16:02:36,410     INFO End of fixations
+2018-10-24 16:02:36,413     INFO Showing fixation at (0.019894508353701303, 0.3627918547890493) for 1.0 second(s)
+2018-10-24 16:02:37,426     INFO End of fixations
+2018-10-24 16:02:37,428     INFO Showing fixation at (-0.016983281227083837, 0.6200199408170461) for 1.0 second(s)
+2018-10-24 16:02:38,443     INFO End of fixations
+2018-10-24 16:02:38,446     INFO Showing fixation at (0.014409724100364063, 0.8707075318884544) for 1.0 second(s)
+2018-10-24 16:02:39,460     INFO End of fixations
+2018-10-24 16:02:39,460     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:02:39,463     INFO Showing fixation at (0.014409724100364063, 0.8707075318884544) for 3 second(s)
+2018-10-24 16:02:40,388     INFO Received trigger 5
+2018-10-24 16:02:41,389     INFO Received trigger 5
+2018-10-24 16:02:42,389     INFO Received trigger 5
+2018-10-24 16:02:42,389     INFO End of fixations
+2018-10-24 16:02:42,392     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:02:43,389     INFO Received trigger 5
+2018-10-24 16:02:44,388     INFO Received trigger 5
+2018-10-24 16:02:45,389     INFO Received trigger 5
+2018-10-24 16:02:45,389     INFO End of fixations
+2018-10-24 16:02:45,389     INFO End of ITI
+2018-10-24 16:02:45,389     INFO Starting saccade, direction 1
+2018-10-24 16:02:45,392     INFO Showing fixation at (-0.015092220800111692, -0.18945996217948255) for 1.0 second(s)
+2018-10-24 16:02:46,410     INFO End of fixations
+2018-10-24 16:02:46,413     INFO Showing fixation at (-0.023335162827616565, -0.38079732949427125) for 1.0 second(s)
+2018-10-24 16:02:47,427     INFO End of fixations
+2018-10-24 16:02:47,429     INFO Showing fixation at (0.02146508975689638, -0.6110356881483304) for 1.0 second(s)
+2018-10-24 16:02:48,444     INFO End of fixations
+2018-10-24 16:02:48,447     INFO Showing fixation at (0.023226412853152523, -0.8851763344064022) for 1.0 second(s)
+2018-10-24 16:02:49,460     INFO End of fixations
+2018-10-24 16:02:49,460     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:02:49,463     INFO Showing fixation at (0.023226412853152523, -0.8851763344064022) for 3 second(s)
+2018-10-24 16:02:50,389     INFO Received trigger 5
+2018-10-24 16:02:51,389     INFO Received trigger 5
+2018-10-24 16:02:52,389     INFO Received trigger 5
+2018-10-24 16:02:52,389     INFO End of fixations
+2018-10-24 16:02:52,392     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:02:53,389     INFO Received trigger 5
+2018-10-24 16:02:54,389     INFO Received trigger 5
+2018-10-24 16:02:55,388     INFO Received trigger 5
+2018-10-24 16:02:56,388     INFO Received trigger 5
+2018-10-24 16:02:56,388     INFO End of fixations
+2018-10-24 16:02:56,388     INFO End of ITI
+2018-10-24 16:02:56,388     INFO Starting saccade, direction 0
+2018-10-24 16:02:56,391     INFO Showing fixation at (-2.805220865187072e-05, 0.25967219355749266) for 0.5 second(s)
+2018-10-24 16:02:56,894     INFO End of fixations
+2018-10-24 16:02:56,897     INFO Showing fixation at (-0.009169898537786773, 0.42118341714273055) for 0.5 second(s)
+2018-10-24 16:02:57,410     INFO End of fixations
+2018-10-24 16:02:57,417     INFO Showing fixation at (0.010522243679558965, 0.5483996763610715) for 0.5 second(s)
+2018-10-24 16:02:57,927     INFO End of fixations
+2018-10-24 16:02:57,930     INFO Showing fixation at (-0.0001689203655414681, 0.8722437464022432) for 0.5 second(s)
+2018-10-24 16:02:58,444     INFO End of fixations
+2018-10-24 16:02:58,444     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:02:58,447     INFO Showing fixation at (-0.0001689203655414681, 0.8722437464022432) for 3 second(s)
+2018-10-24 16:02:59,388     INFO Received trigger 5
+2018-10-24 16:03:00,388     INFO Received trigger 5
+2018-10-24 16:03:01,388     INFO Received trigger 5
+2018-10-24 16:03:01,388     INFO End of fixations
+2018-10-24 16:03:01,391     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:03:02,388     INFO Received trigger 5
+2018-10-24 16:03:03,388     INFO Received trigger 5
+2018-10-24 16:03:04,388     INFO Received trigger 5
+2018-10-24 16:03:05,388     INFO Received trigger 5
+2018-10-24 16:03:06,388     INFO Received trigger 5
+2018-10-24 16:03:06,388     INFO End of fixations
+2018-10-24 16:03:06,388     INFO End of ITI
+2018-10-24 16:03:06,388     INFO Starting saccade, direction 3
+2018-10-24 16:03:06,391     INFO Showing fixation at (-0.10098579711414768, -0.01987152188216177) for 1.0 second(s)
+2018-10-24 16:03:07,394     INFO End of fixations
+2018-10-24 16:03:07,397     INFO Showing fixation at (-0.2646103302307762, 0.0028570647576513716) for 1.0 second(s)
+2018-10-24 16:03:08,411     INFO End of fixations
+2018-10-24 16:03:08,414     INFO Showing fixation at (-0.3232207319136985, 0.0022096749464876678) for 1.0 second(s)
+2018-10-24 16:03:09,427     INFO End of fixations
+2018-10-24 16:03:09,430     INFO Showing fixation at (-0.42432076264934937, 0.01929337763321027) for 1.0 second(s)
+2018-10-24 16:03:10,444     INFO End of fixations
+2018-10-24 16:03:10,444     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:03:10,447     INFO Showing fixation at (-0.42432076264934937, 0.01929337763321027) for 3 second(s)
+2018-10-24 16:03:11,388     INFO Received trigger 5
+2018-10-24 16:03:12,388     INFO Received trigger 5
+2018-10-24 16:03:13,388     INFO Received trigger 5
+2018-10-24 16:03:13,388     INFO End of fixations
+2018-10-24 16:03:13,391     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:03:14,389     INFO Received trigger 5
+2018-10-24 16:03:15,389     INFO Received trigger 5
+2018-10-24 16:03:16,389     INFO Received trigger 5
+2018-10-24 16:03:16,389     INFO End of fixations
+2018-10-24 16:03:16,389     INFO End of ITI
+2018-10-24 16:03:16,389     INFO Starting saccade, direction 0
+2018-10-24 16:03:16,392     INFO Showing fixation at (-0.007478642664988749, 0.27215668677205596) for 0.5 second(s)
+2018-10-24 16:03:16,895     INFO End of fixations
+2018-10-24 16:03:16,898     INFO Showing fixation at (0.0030889587660078155, 0.4228465478381199) for 0.5 second(s)
+2018-10-24 16:03:17,411     INFO End of fixations
+2018-10-24 16:03:17,414     INFO Showing fixation at (-0.015758990657800363, 0.6418101344876217) for 0.5 second(s)
+2018-10-24 16:03:17,928     INFO End of fixations
+2018-10-24 16:03:17,931     INFO Showing fixation at (0.0036859053550531186, 0.7589265547888955) for 0.5 second(s)
+2018-10-24 16:03:18,444     INFO End of fixations
+2018-10-24 16:03:18,444     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:03:18,447     INFO Showing fixation at (0.0036859053550531186, 0.7589265547888955) for 3 second(s)
+2018-10-24 16:03:19,388     INFO Received trigger 5
+2018-10-24 16:03:20,387     INFO Received trigger 5
+2018-10-24 16:03:21,388     INFO Received trigger 5
+2018-10-24 16:03:21,388     INFO End of fixations
+2018-10-24 16:03:21,391     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:03:22,388     INFO Received trigger 5
+2018-10-24 16:03:23,388     INFO Received trigger 5
+2018-10-24 16:03:24,388     INFO Received trigger 5
+2018-10-24 16:03:25,388     INFO Received trigger 5
+2018-10-24 16:03:25,388     INFO End of fixations
+2018-10-24 16:03:25,388     INFO End of ITI
+2018-10-24 16:03:25,388     INFO Starting saccade, direction 2
+2018-10-24 16:03:25,391     INFO Showing fixation at (0.12071721161454563, -0.03762235287849645) for 0.75 second(s)
+2018-10-24 16:03:26,145     INFO End of fixations
+2018-10-24 16:03:26,148     INFO Showing fixation at (0.25386614018345954, 0.004733713670725392) for 0.75 second(s)
+2018-10-24 16:03:26,911     INFO End of fixations
+2018-10-24 16:03:26,914     INFO Showing fixation at (0.3323891002329001, -0.030543573134302567) for 0.75 second(s)
+2018-10-24 16:03:27,678     INFO End of fixations
+2018-10-24 16:03:27,683     INFO Showing fixation at (0.43946191141267843, 0.036430123848461886) for 0.75 second(s)
+2018-10-24 16:03:28,445     INFO End of fixations
+2018-10-24 16:03:28,445     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:03:28,448     INFO Showing fixation at (0.43946191141267843, 0.036430123848461886) for 3 second(s)
+2018-10-24 16:03:29,388     INFO Received trigger 5
+2018-10-24 16:03:30,388     INFO Received trigger 5
+2018-10-24 16:03:31,388     INFO Received trigger 5
+2018-10-24 16:03:31,388     INFO End of fixations
+2018-10-24 16:03:31,391     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:03:32,388     INFO Received trigger 5
+2018-10-24 16:03:33,388     INFO Received trigger 5
+2018-10-24 16:03:34,388     INFO Received trigger 5
+2018-10-24 16:03:35,388     INFO Received trigger 5
+2018-10-24 16:03:35,388     INFO End of fixations
+2018-10-24 16:03:35,388     INFO End of ITI
+2018-10-24 16:03:35,388     INFO Starting saccade, direction 1
+2018-10-24 16:03:35,391     INFO Showing fixation at (-0.0156431518828654, -0.25819152905514164) for 0.5 second(s)
+2018-10-24 16:03:35,895     INFO End of fixations
+2018-10-24 16:03:35,898     INFO Showing fixation at (0.011086994945471385, -0.478718701867185) for 0.5 second(s)
+2018-10-24 16:03:36,412     INFO End of fixations
+2018-10-24 16:03:36,414     INFO Showing fixation at (-0.011040520770072428, -0.5820068773934918) for 0.5 second(s)
+2018-10-24 16:03:36,928     INFO End of fixations
+2018-10-24 16:03:36,931     INFO Showing fixation at (0.01416431080674356, -0.8026483006196533) for 0.5 second(s)
+2018-10-24 16:03:37,445     INFO End of fixations
+2018-10-24 16:03:37,445     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:03:37,448     INFO Showing fixation at (0.01416431080674356, -0.8026483006196533) for 3 second(s)
+2018-10-24 16:03:38,388     INFO Received trigger 5
+2018-10-24 16:03:39,388     INFO Received trigger 5
+2018-10-24 16:03:40,388     INFO Received trigger 5
+2018-10-24 16:03:40,388     INFO End of fixations
+2018-10-24 16:03:40,391     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:03:41,388     INFO Received trigger 5
+2018-10-24 16:03:42,387     INFO Received trigger 5
+2018-10-24 16:03:43,387     INFO Received trigger 5
+2018-10-24 16:03:44,387     INFO Received trigger 5
+2018-10-24 16:03:45,387     INFO Received trigger 5
+2018-10-24 16:03:45,387     INFO End of fixations
+2018-10-24 16:03:45,387     INFO End of ITI
+2018-10-24 16:03:45,388     INFO Starting saccade, direction 0
+2018-10-24 16:03:45,390     INFO Showing fixation at (-0.014227583764262282, 0.23998479764061093) for 0.5 second(s)
+2018-10-24 16:03:45,895     INFO End of fixations
+2018-10-24 16:03:45,898     INFO Showing fixation at (-0.013784003896983034, 0.37196881051716524) for 0.5 second(s)
+2018-10-24 16:03:46,412     INFO End of fixations
+2018-10-24 16:03:46,415     INFO Showing fixation at (0.002401002733570981, 0.5589148774565367) for 0.5 second(s)
+2018-10-24 16:03:46,928     INFO End of fixations
+2018-10-24 16:03:46,931     INFO Showing fixation at (0.006252395738603051, 0.7877066298938893) for 0.5 second(s)
+2018-10-24 16:03:47,445     INFO End of fixations
+2018-10-24 16:03:47,445     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:03:47,448     INFO Showing fixation at (0.006252395738603051, 0.7877066298938893) for 3 second(s)
+2018-10-24 16:03:48,388     INFO Received trigger 5
+2018-10-24 16:03:49,387     INFO Received trigger 5
+2018-10-24 16:03:50,388     INFO Received trigger 5
+2018-10-24 16:03:50,388     INFO End of fixations
+2018-10-24 16:03:50,390     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:03:51,388     INFO Received trigger 5
+2018-10-24 16:03:52,388     INFO Received trigger 5
+2018-10-24 16:03:53,388     INFO Received trigger 5
+2018-10-24 16:03:54,388     INFO Received trigger 5
+2018-10-24 16:03:55,388     INFO Received trigger 5
+2018-10-24 16:03:55,388     INFO End of fixations
+2018-10-24 16:03:55,388     INFO End of ITI
+2018-10-24 16:03:55,388     INFO Starting saccade, direction 2
+2018-10-24 16:03:55,391     INFO Showing fixation at (0.14377970382849076, 0.0187225965509423) for 1.0 second(s)
+2018-10-24 16:03:56,396     INFO End of fixations
+2018-10-24 16:03:56,399     INFO Showing fixation at (0.23966753813466535, 0.033059297543775935) for 1.0 second(s)
+2018-10-24 16:03:57,412     INFO End of fixations
+2018-10-24 16:03:57,418     INFO Showing fixation at (0.3634367063427188, -0.03573967275509855) for 1.0 second(s)
+2018-10-24 16:03:58,429     INFO End of fixations
+2018-10-24 16:03:58,432     INFO Showing fixation at (0.44880340131964347, -0.03792418722967984) for 1.0 second(s)
+2018-10-24 16:03:59,446     INFO End of fixations
+2018-10-24 16:03:59,446     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:03:59,448     INFO Showing fixation at (0.44880340131964347, -0.03792418722967984) for 3 second(s)
+2018-10-24 16:04:00,388     INFO Received trigger 5
+2018-10-24 16:04:01,388     INFO Received trigger 5
+2018-10-24 16:04:02,388     INFO Received trigger 5
+2018-10-24 16:04:02,388     INFO End of fixations
+2018-10-24 16:04:02,391     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:04:03,388     INFO Received trigger 5
+2018-10-24 16:04:04,388     INFO Received trigger 5
+2018-10-24 16:04:05,387     INFO Received trigger 5
+2018-10-24 16:04:05,387     INFO End of fixations
+2018-10-24 16:04:05,387     INFO End of ITI
+2018-10-24 16:04:05,387     INFO Starting saccade, direction 3
+2018-10-24 16:04:05,390     INFO Showing fixation at (-0.14175257138971425, -0.03819426222760233) for 0.75 second(s)
+2018-10-24 16:04:06,146     INFO End of fixations
+2018-10-24 16:04:06,149     INFO Showing fixation at (-0.21598545529503005, 0.031555136255091466) for 0.75 second(s)
+2018-10-24 16:04:06,912     INFO End of fixations
+2018-10-24 16:04:06,915     INFO Showing fixation at (-0.3769707639744461, -0.015904585120799564) for 0.75 second(s)
+2018-10-24 16:04:07,679     INFO End of fixations
+2018-10-24 16:04:07,682     INFO Showing fixation at (-0.49210680336647733, 0.00431876764391164) for 0.75 second(s)
+2018-10-24 16:04:08,446     INFO End of fixations
+2018-10-24 16:04:08,446     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:04:08,449     INFO Showing fixation at (-0.49210680336647733, 0.00431876764391164) for 3 second(s)
+2018-10-24 16:04:09,387     INFO Received trigger 5
+2018-10-24 16:04:10,387     INFO Received trigger 5
+2018-10-24 16:04:11,387     INFO Received trigger 5
+2018-10-24 16:04:11,387     INFO End of fixations
+2018-10-24 16:04:11,390     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:04:12,387     INFO Received trigger 5
+2018-10-24 16:04:13,387     INFO Received trigger 5
+2018-10-24 16:04:14,387     INFO Received trigger 5
+2018-10-24 16:04:15,387     INFO Received trigger 5
+2018-10-24 16:04:15,387     INFO End of fixations
+2018-10-24 16:04:15,388     INFO End of ITI
+2018-10-24 16:04:15,388     INFO Starting saccade, direction 1
+2018-10-24 16:04:15,390     INFO Showing fixation at (-0.011270203637842693, -0.23255789379029795) for 0.75 second(s)
+2018-10-24 16:04:16,145     INFO End of fixations
+2018-10-24 16:04:16,151     INFO Showing fixation at (0.016619312061632877, -0.43443107727193814) for 0.75 second(s)
+2018-10-24 16:04:16,913     INFO End of fixations
+2018-10-24 16:04:16,916     INFO Showing fixation at (0.0034095615908920802, -0.5510854830359315) for 0.75 second(s)
+2018-10-24 16:04:17,680     INFO End of fixations
+2018-10-24 16:04:17,682     INFO Showing fixation at (-0.022442665764773793, -0.7846630583105597) for 0.75 second(s)
+2018-10-24 16:04:18,446     INFO End of fixations
+2018-10-24 16:04:18,446     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:04:18,449     INFO Showing fixation at (-0.022442665764773793, -0.7846630583105597) for 3 second(s)
+2018-10-24 16:04:19,387     INFO Received trigger 5
+2018-10-24 16:04:20,387     INFO Received trigger 5
+2018-10-24 16:04:21,387     INFO Received trigger 5
+2018-10-24 16:04:21,387     INFO End of fixations
+2018-10-24 16:04:21,390     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:04:22,388     INFO Received trigger 5
+2018-10-24 16:04:23,388     INFO Received trigger 5
+2018-10-24 16:04:24,387     INFO Received trigger 5
+2018-10-24 16:04:24,388     INFO End of fixations
+2018-10-24 16:04:24,388     INFO End of ITI
+2018-10-24 16:04:24,388     INFO Starting saccade, direction 3
+2018-10-24 16:04:24,391     INFO Showing fixation at (-0.12075622533742267, 0.010241363332483384) for 0.75 second(s)
+2018-10-24 16:04:25,146     INFO End of fixations
+2018-10-24 16:04:25,149     INFO Showing fixation at (-0.2586515093143069, -0.01275493952184184) for 0.75 second(s)
+2018-10-24 16:04:25,913     INFO End of fixations
+2018-10-24 16:04:25,916     INFO Showing fixation at (-0.3492523919645602, 0.036512000676848046) for 0.75 second(s)
+2018-10-24 16:04:26,680     INFO End of fixations
+2018-10-24 16:04:26,683     INFO Showing fixation at (-0.44155719134333765, -0.019319602906133205) for 0.75 second(s)
+2018-10-24 16:04:27,445     INFO End of fixations
+2018-10-24 16:04:27,448     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:04:27,451     INFO Showing fixation at (-0.44155719134333765, -0.019319602906133205) for 3 second(s)
+2018-10-24 16:04:28,388     INFO Received trigger 5
+2018-10-24 16:04:29,388     INFO Received trigger 5
+2018-10-24 16:04:30,387     INFO Received trigger 5
+2018-10-24 16:04:30,387     INFO End of fixations
+2018-10-24 16:04:30,390     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:04:31,387     INFO Received trigger 5
+2018-10-24 16:04:32,387     INFO Received trigger 5
+2018-10-24 16:04:33,387     INFO Received trigger 5
+2018-10-24 16:04:33,387     INFO End of fixations
+2018-10-24 16:04:33,387     INFO End of ITI
+2018-10-24 16:04:33,387     INFO Starting saccade, direction 3
+2018-10-24 16:04:33,390     INFO Showing fixation at (-0.10775572310490882, 0.03441304591964705) for 0.5 second(s)
+2018-10-24 16:04:33,897     INFO End of fixations
+2018-10-24 16:04:33,899     INFO Showing fixation at (-0.25345699409737044, 0.024718014626575142) for 0.5 second(s)
+2018-10-24 16:04:34,412     INFO End of fixations
+2018-10-24 16:04:34,415     INFO Showing fixation at (-0.3602606063871196, -0.0202428017215266) for 0.5 second(s)
+2018-10-24 16:04:34,930     INFO End of fixations
+2018-10-24 16:04:34,933     INFO Showing fixation at (-0.48274590895906566, -0.017791833467992103) for 0.5 second(s)
+2018-10-24 16:04:35,447     INFO End of fixations
+2018-10-24 16:04:35,447     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:04:35,450     INFO Showing fixation at (-0.48274590895906566, -0.017791833467992103) for 3 second(s)
+2018-10-24 16:04:36,387     INFO Received trigger 5
+2018-10-24 16:04:37,387     INFO Received trigger 5
+2018-10-24 16:04:38,387     INFO Received trigger 5
+2018-10-24 16:04:38,387     INFO End of fixations
+2018-10-24 16:04:38,390     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:04:39,387     INFO Received trigger 5
+2018-10-24 16:04:40,387     INFO Received trigger 5
+2018-10-24 16:04:41,387     INFO Received trigger 5
+2018-10-24 16:04:42,387     INFO Received trigger 5
+2018-10-24 16:04:42,387     INFO End of fixations
+2018-10-24 16:04:42,387     INFO End of ITI
+2018-10-24 16:04:42,387     INFO Starting saccade, direction 0
+2018-10-24 16:04:42,390     INFO Showing fixation at (-0.009222489811473465, 0.22055673217998664) for 1.0 second(s)
+2018-10-24 16:04:43,397     INFO End of fixations
+2018-10-24 16:04:43,400     INFO Showing fixation at (-0.014953772312068772, 0.4088166025881683) for 1.0 second(s)
+2018-10-24 16:04:44,414     INFO End of fixations
+2018-10-24 16:04:44,416     INFO Showing fixation at (-0.008809447773929547, 0.6678838897046137) for 1.0 second(s)
+2018-10-24 16:04:45,430     INFO End of fixations
+2018-10-24 16:04:45,433     INFO Showing fixation at (0.002840288089786591, 0.8175581021774043) for 1.0 second(s)
+2018-10-24 16:04:46,447     INFO End of fixations
+2018-10-24 16:04:46,447     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:04:46,450     INFO Showing fixation at (0.002840288089786591, 0.8175581021774043) for 3 second(s)
+2018-10-24 16:04:47,387     INFO Received trigger 5
+2018-10-24 16:04:48,387     INFO Received trigger 5
+2018-10-24 16:04:49,387     INFO Received trigger 5
+2018-10-24 16:04:49,387     INFO End of fixations
+2018-10-24 16:04:49,390     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:04:50,387     INFO Received trigger 5
+2018-10-24 16:04:51,387     INFO Received trigger 5
+2018-10-24 16:04:52,388     INFO Received trigger 5
+2018-10-24 16:04:52,388     INFO End of fixations
+2018-10-24 16:04:52,388     INFO End of ITI
+2018-10-24 16:04:52,388     INFO Starting saccade, direction 1
+2018-10-24 16:04:52,391     INFO Showing fixation at (-0.009593826084707165, -0.20756616552995827) for 0.75 second(s)
+2018-10-24 16:04:53,147     INFO End of fixations
+2018-10-24 16:04:53,151     INFO Showing fixation at (-0.020793959725216672, -0.3746666111591467) for 0.75 second(s)
+2018-10-24 16:04:53,914     INFO End of fixations
+2018-10-24 16:04:53,917     INFO Showing fixation at (0.020980319065862695, -0.6318598779265687) for 0.75 second(s)
+2018-10-24 16:04:54,681     INFO End of fixations
+2018-10-24 16:04:54,683     INFO Showing fixation at (0.017627659319676463, -0.8458300158433726) for 0.75 second(s)
+2018-10-24 16:04:55,447     INFO End of fixations
+2018-10-24 16:04:55,447     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:04:55,450     INFO Showing fixation at (0.017627659319676463, -0.8458300158433726) for 3 second(s)
+2018-10-24 16:04:56,386     INFO Received trigger 5
+2018-10-24 16:04:57,386     INFO Received trigger 5
+2018-10-24 16:04:58,386     INFO Received trigger 5
+2018-10-24 16:04:58,387     INFO End of fixations
+2018-10-24 16:04:58,389     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:04:59,387     INFO Received trigger 5
+2018-10-24 16:05:00,386     INFO Received trigger 5
+2018-10-24 16:05:01,386     INFO Received trigger 5
+2018-10-24 16:05:02,387     INFO Received trigger 5
+2018-10-24 16:05:03,387     INFO Received trigger 5
+2018-10-24 16:05:03,387     INFO End of fixations
+2018-10-24 16:05:03,387     INFO End of ITI
+2018-10-24 16:05:03,387     INFO Starting saccade, direction 2
+2018-10-24 16:05:03,390     INFO Showing fixation at (0.09493326283259038, 0.009026535247311694) for 0.75 second(s)
+2018-10-24 16:05:04,147     INFO End of fixations
+2018-10-24 16:05:04,150     INFO Showing fixation at (0.20171370669487967, -0.012947595656018097) for 0.75 second(s)
+2018-10-24 16:05:04,914     INFO End of fixations
+2018-10-24 16:05:04,917     INFO Showing fixation at (0.3842943131042297, 0.009314595459093168) for 0.75 second(s)
+2018-10-24 16:05:05,681     INFO End of fixations
+2018-10-24 16:05:05,684     INFO Showing fixation at (0.469057596839175, 0.015350878984093687) for 0.75 second(s)
+2018-10-24 16:05:06,448     INFO End of fixations
+2018-10-24 16:05:06,448     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:05:06,451     INFO Showing fixation at (0.469057596839175, 0.015350878984093687) for 3 second(s)
+2018-10-24 16:05:07,387     INFO Received trigger 5
+2018-10-24 16:05:08,387     INFO Received trigger 5
+2018-10-24 16:05:09,387     INFO Received trigger 5
+2018-10-24 16:05:09,387     INFO End of fixations
+2018-10-24 16:05:09,390     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:05:10,387     INFO Received trigger 5
+2018-10-24 16:05:11,387     INFO Received trigger 5
+2018-10-24 16:05:12,387     INFO Received trigger 5
+2018-10-24 16:05:13,387     INFO Received trigger 5
+2018-10-24 16:05:13,387     INFO End of fixations
+2018-10-24 16:05:13,387     INFO End of ITI
+2018-10-24 16:05:13,387     INFO Starting saccade, direction 3
+2018-10-24 16:05:13,390     INFO Showing fixation at (-0.1458740030765052, 0.009132259145243099) for 0.5 second(s)
+2018-10-24 16:05:13,898     INFO End of fixations
+2018-10-24 16:05:13,901     INFO Showing fixation at (-0.20499728669140554, -0.0017240564150583296) for 0.5 second(s)
+2018-10-24 16:05:14,415     INFO End of fixations
+2018-10-24 16:05:14,417     INFO Showing fixation at (-0.31282046144129105, -0.01984424560139412) for 0.5 second(s)
+2018-10-24 16:05:14,930     INFO End of fixations
+2018-10-24 16:05:14,933     INFO Showing fixation at (-0.4297133761290807, 0.007446766489638414) for 0.5 second(s)
+2018-10-24 16:05:15,448     INFO End of fixations
+2018-10-24 16:05:15,448     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:05:15,451     INFO Showing fixation at (-0.4297133761290807, 0.007446766489638414) for 3 second(s)
+2018-10-24 16:05:16,387     INFO Received trigger 5
+2018-10-24 16:05:17,387     INFO Received trigger 5
+2018-10-24 16:05:18,386     INFO Received trigger 5
+2018-10-24 16:05:18,386     INFO End of fixations
+2018-10-24 16:05:18,389     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:05:19,386     INFO Received trigger 5
+2018-10-24 16:05:20,386     INFO Received trigger 5
+2018-10-24 16:05:21,386     INFO Received trigger 5
+2018-10-24 16:05:22,386     INFO Received trigger 5
+2018-10-24 16:05:23,386     INFO Received trigger 5
+2018-10-24 16:05:23,387     INFO End of fixations
+2018-10-24 16:05:23,387     INFO End of ITI
+2018-10-24 16:05:23,387     INFO Starting saccade, direction 2
+2018-10-24 16:05:23,389     INFO Showing fixation at (0.0918522522974877, 4.139256635291022e-05) for 0.5 second(s)
+2018-10-24 16:05:23,898     INFO End of fixations
+2018-10-24 16:05:23,902     INFO Showing fixation at (0.19723879833510943, 0.007425676997332924) for 0.5 second(s)
+2018-10-24 16:05:24,415     INFO End of fixations
+2018-10-24 16:05:24,418     INFO Showing fixation at (0.32258697502443573, -0.001454494106269695) for 0.5 second(s)
+2018-10-24 16:05:24,931     INFO End of fixations
+2018-10-24 16:05:24,934     INFO Showing fixation at (0.5002499390953721, 0.027695211846871425) for 0.5 second(s)
+2018-10-24 16:05:25,447     INFO End of fixations
+2018-10-24 16:05:25,447     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:05:25,450     INFO Showing fixation at (0.5002499390953721, 0.027695211846871425) for 3 second(s)
+2018-10-24 16:05:26,386     INFO Received trigger 5
+2018-10-24 16:05:27,387     INFO Received trigger 5
+2018-10-24 16:05:28,387     INFO Received trigger 5
+2018-10-24 16:05:28,387     INFO End of fixations
+2018-10-24 16:05:28,390     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:05:29,386     INFO Received trigger 5
+2018-10-24 16:05:30,386     INFO Received trigger 5
+2018-10-24 16:05:31,387     INFO Received trigger 5
+2018-10-24 16:05:32,387     INFO Received trigger 5
+2018-10-24 16:05:32,387     INFO End of fixations
+2018-10-24 16:05:32,387     INFO End of ITI
+2018-10-24 16:05:32,387     INFO Starting saccade, direction 0
+2018-10-24 16:05:32,390     INFO Showing fixation at (0.020693659377590996, 0.19816926658974504) for 1.0 second(s)
+2018-10-24 16:05:33,398     INFO End of fixations
+2018-10-24 16:05:33,401     INFO Showing fixation at (-0.012683828426980268, 0.43797847950692925) for 1.0 second(s)
+2018-10-24 16:05:34,415     INFO End of fixations
+2018-10-24 16:05:34,418     INFO Showing fixation at (0.003139702832015423, 0.5511086741654753) for 1.0 second(s)
+2018-10-24 16:05:35,432     INFO End of fixations
+2018-10-24 16:05:35,435     INFO Showing fixation at (-0.01567614950022352, 0.8300660108406446) for 1.0 second(s)
+2018-10-24 16:05:36,448     INFO End of fixations
+2018-10-24 16:05:36,449     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:05:36,452     INFO Showing fixation at (-0.01567614950022352, 0.8300660108406446) for 3 second(s)
+2018-10-24 16:05:37,387     INFO Received trigger 5
+2018-10-24 16:05:38,387     INFO Received trigger 5
+2018-10-24 16:05:39,387     INFO Received trigger 5
+2018-10-24 16:05:39,387     INFO End of fixations
+2018-10-24 16:05:39,390     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:05:40,387     INFO Received trigger 5
+2018-10-24 16:05:41,386     INFO Received trigger 5
+2018-10-24 16:05:42,386     INFO Received trigger 5
+2018-10-24 16:05:43,386     INFO Received trigger 5
+2018-10-24 16:05:43,386     INFO End of fixations
+2018-10-24 16:05:43,386     INFO End of ITI
+2018-10-24 16:05:43,386     INFO Starting saccade, direction 0
+2018-10-24 16:05:43,389     INFO Showing fixation at (0.0075266841791467864, 0.1829572033965831) for 0.75 second(s)
+2018-10-24 16:05:44,149     INFO End of fixations
+2018-10-24 16:05:44,152     INFO Showing fixation at (0.020548209713628765, 0.41918525121480577) for 0.75 second(s)
+2018-10-24 16:05:44,915     INFO End of fixations
+2018-10-24 16:05:44,918     INFO Showing fixation at (-0.007552544663947912, 0.5556737890598971) for 0.75 second(s)
+2018-10-24 16:05:45,682     INFO End of fixations
+2018-10-24 16:05:45,685     INFO Showing fixation at (-6.638453173158504e-05, 0.8887232303750247) for 0.75 second(s)
+2018-10-24 16:05:46,449     INFO End of fixations
+2018-10-24 16:05:46,449     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:05:46,452     INFO Showing fixation at (-6.638453173158504e-05, 0.8887232303750247) for 3 second(s)
+2018-10-24 16:05:47,386     INFO Received trigger 5
+2018-10-24 16:05:48,386     INFO Received trigger 5
+2018-10-24 16:05:49,386     INFO Received trigger 5
+2018-10-24 16:05:49,386     INFO End of fixations
+2018-10-24 16:05:49,389     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:05:50,386     INFO Received trigger 5
+2018-10-24 16:05:51,386     INFO Received trigger 5
+2018-10-24 16:05:52,386     INFO Received trigger 5
+2018-10-24 16:05:52,386     INFO End of fixations
+2018-10-24 16:05:52,386     INFO End of ITI
+2018-10-24 16:05:52,386     INFO Starting saccade, direction 1
+2018-10-24 16:05:52,389     INFO Showing fixation at (0.005977539161383293, -0.13818840298331017) for 0.75 second(s)
+2018-10-24 16:05:53,149     INFO End of fixations
+2018-10-24 16:05:53,152     INFO Showing fixation at (0.007508625736469994, -0.44834949539883984) for 0.75 second(s)
+2018-10-24 16:05:53,916     INFO End of fixations
+2018-10-24 16:05:53,919     INFO Showing fixation at (-0.012026608708904601, -0.5561856106985303) for 0.75 second(s)
+2018-10-24 16:05:54,682     INFO End of fixations
+2018-10-24 16:05:54,685     INFO Showing fixation at (0.01917740892158027, -0.8693744907401505) for 0.75 second(s)
+2018-10-24 16:05:55,449     INFO End of fixations
+2018-10-24 16:05:55,449     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:05:55,452     INFO Showing fixation at (0.01917740892158027, -0.8693744907401505) for 3 second(s)
+2018-10-24 16:05:56,386     INFO Received trigger 5
+2018-10-24 16:05:57,386     INFO Received trigger 5
+2018-10-24 16:05:58,386     INFO Received trigger 5
+2018-10-24 16:05:58,386     INFO End of fixations
+2018-10-24 16:05:58,389     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:05:59,386     INFO Received trigger 5
+2018-10-24 16:06:00,387     INFO Received trigger 5
+2018-10-24 16:06:01,386     INFO Received trigger 5
+2018-10-24 16:06:02,387     INFO Received trigger 5
+2018-10-24 16:06:02,387     INFO End of fixations
+2018-10-24 16:06:02,387     INFO End of ITI
+2018-10-24 16:06:02,387     INFO Starting saccade, direction 2
+2018-10-24 16:06:02,390     INFO Showing fixation at (0.1094662754890177, -0.015256749216419702) for 1.0 second(s)
+2018-10-24 16:06:03,399     INFO End of fixations
+2018-10-24 16:06:03,402     INFO Showing fixation at (0.2449488764205316, -0.011629859973249612) for 1.0 second(s)
+2018-10-24 16:06:04,416     INFO End of fixations
+2018-10-24 16:06:04,419     INFO Showing fixation at (0.36781140983010924, -0.025731303978986514) for 1.0 second(s)
+2018-10-24 16:06:05,433     INFO End of fixations
+2018-10-24 16:06:05,435     INFO Showing fixation at (0.44873199348272974, 0.024442567372326134) for 1.0 second(s)
+2018-10-24 16:06:06,449     INFO End of fixations
+2018-10-24 16:06:06,450     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:06:06,453     INFO Showing fixation at (0.44873199348272974, 0.024442567372326134) for 3 second(s)
+2018-10-24 16:06:07,386     INFO Received trigger 5
+2018-10-24 16:06:08,386     INFO Received trigger 5
+2018-10-24 16:06:09,386     INFO Received trigger 5
+2018-10-24 16:06:09,386     INFO End of fixations
+2018-10-24 16:06:09,388     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:06:10,386     INFO Received trigger 5
+2018-10-24 16:06:11,386     INFO Received trigger 5
+2018-10-24 16:06:12,386     INFO Received trigger 5
+2018-10-24 16:06:13,386     INFO Received trigger 5
+2018-10-24 16:06:13,386     INFO End of fixations
+2018-10-24 16:06:13,386     INFO End of ITI
+2018-10-24 16:06:13,386     INFO Starting saccade, direction 1
+2018-10-24 16:06:13,389     INFO Showing fixation at (0.02216378315689095, -0.22070580779029844) for 0.75 second(s)
+2018-10-24 16:06:14,150     INFO End of fixations
+2018-10-24 16:06:14,153     INFO Showing fixation at (0.010959303933967483, -0.44174812167821836) for 0.75 second(s)
+2018-10-24 16:06:14,916     INFO End of fixations
+2018-10-24 16:06:14,919     INFO Showing fixation at (0.022692554926947536, -0.6559352632536208) for 0.75 second(s)
+2018-10-24 16:06:15,683     INFO End of fixations
+2018-10-24 16:06:15,686     INFO Showing fixation at (0.015542500319320716, -0.763167372730648) for 0.75 second(s)
+2018-10-24 16:06:16,450     INFO End of fixations
+2018-10-24 16:06:16,450     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:06:16,452     INFO Showing fixation at (0.015542500319320716, -0.763167372730648) for 3 second(s)
+2018-10-24 16:06:17,386     INFO Received trigger 5
+2018-10-24 16:06:18,386     INFO Received trigger 5
+2018-10-24 16:06:19,386     INFO Received trigger 5
+2018-10-24 16:06:19,386     INFO End of fixations
+2018-10-24 16:06:19,389     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:06:20,386     INFO Received trigger 5
+2018-10-24 16:06:21,386     INFO Received trigger 5
+2018-10-24 16:06:22,386     INFO Received trigger 5
+2018-10-24 16:06:23,386     INFO Received trigger 5
+2018-10-24 16:06:24,386     INFO Received trigger 5
+2018-10-24 16:06:24,386     INFO End of fixations
+2018-10-24 16:06:24,386     INFO End of ITI
+2018-10-24 16:06:24,386     INFO Starting saccade, direction 1
+2018-10-24 16:06:24,389     INFO Showing fixation at (0.005680427283349849, -0.22209287555791307) for 0.75 second(s)
+2018-10-24 16:06:25,150     INFO End of fixations
+2018-10-24 16:06:25,153     INFO Showing fixation at (0.007196671917416617, -0.38732629013427267) for 0.75 second(s)
+2018-10-24 16:06:25,917     INFO End of fixations
+2018-10-24 16:06:25,920     INFO Showing fixation at (-0.012108063805639401, -0.6318111248908743) for 0.75 second(s)
+2018-10-24 16:06:26,683     INFO End of fixations
+2018-10-24 16:06:26,686     INFO Showing fixation at (-0.02271942050206727, -0.818024681518288) for 0.75 second(s)
+2018-10-24 16:06:27,450     INFO End of fixations
+2018-10-24 16:06:27,452     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:06:27,455     INFO Showing fixation at (-0.02271942050206727, -0.818024681518288) for 3 second(s)
+2018-10-24 16:06:28,386     INFO Received trigger 5
+2018-10-24 16:06:29,385     INFO Received trigger 5
+2018-10-24 16:06:30,385     INFO Received trigger 5
+2018-10-24 16:06:30,385     INFO End of fixations
+2018-10-24 16:06:30,388     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:06:31,385     INFO Received trigger 5
+2018-10-24 16:06:32,385     INFO Received trigger 5
+2018-10-24 16:06:33,385     INFO Received trigger 5
+2018-10-24 16:06:34,385     INFO Received trigger 5
+2018-10-24 16:06:35,386     INFO Received trigger 5
+2018-10-24 16:06:35,386     INFO End of fixations
+2018-10-24 16:06:35,386     INFO End of ITI
+2018-10-24 16:06:35,386     INFO Starting saccade, direction 0
+2018-10-24 16:06:35,389     INFO Showing fixation at (-0.021145741051318896, 0.21421100193800283) for 1.0 second(s)
+2018-10-24 16:06:36,401     INFO End of fixations
+2018-10-24 16:06:36,404     INFO Showing fixation at (-0.02343464326472886, 0.35028344266835554) for 1.0 second(s)
+2018-10-24 16:06:37,417     INFO End of fixations
+2018-10-24 16:06:37,420     INFO Showing fixation at (-0.02338564772319926, 0.6097492429277933) for 1.0 second(s)
+2018-10-24 16:06:38,434     INFO End of fixations
+2018-10-24 16:06:38,436     INFO Showing fixation at (0.019586126563479377, 0.8058093406790331) for 1.0 second(s)
+2018-10-24 16:06:39,450     INFO End of fixations
+2018-10-24 16:06:39,451     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:06:39,454     INFO Showing fixation at (0.019586126563479377, 0.8058093406790331) for 3 second(s)
+2018-10-24 16:06:40,386     INFO Received trigger 5
+2018-10-24 16:06:41,386     INFO Received trigger 5
+2018-10-24 16:06:42,386     INFO Received trigger 5
+2018-10-24 16:06:42,386     INFO End of fixations
+2018-10-24 16:06:42,389     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:06:43,386     INFO Received trigger 5
+2018-10-24 16:06:44,386     INFO Received trigger 5
+2018-10-24 16:06:45,386     INFO Received trigger 5
+2018-10-24 16:06:46,386     INFO Received trigger 5
+2018-10-24 16:06:47,386     INFO Received trigger 5
+2018-10-24 16:06:47,386     INFO End of fixations
+2018-10-24 16:06:47,386     INFO End of ITI
+2018-10-24 16:06:47,386     INFO Starting saccade, direction 2
+2018-10-24 16:06:47,389     INFO Showing fixation at (0.1359146466131776, -0.016540163522465446) for 1.0 second(s)
+2018-10-24 16:06:48,401     INFO End of fixations
+2018-10-24 16:06:48,404     INFO Showing fixation at (0.2445604318400286, -0.03279762847378705) for 1.0 second(s)
+2018-10-24 16:06:49,417     INFO End of fixations
+2018-10-24 16:06:49,420     INFO Showing fixation at (0.34343661148959903, 0.032309533037652126) for 1.0 second(s)
+2018-10-24 16:06:50,434     INFO End of fixations
+2018-10-24 16:06:50,437     INFO Showing fixation at (0.48725372023498115, -0.0032500161222015767) for 1.0 second(s)
+2018-10-24 16:06:51,451     INFO End of fixations
+2018-10-24 16:06:51,451     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:06:51,454     INFO Showing fixation at (0.48725372023498115, -0.0032500161222015767) for 3 second(s)
+2018-10-24 16:06:52,386     INFO Received trigger 5
+2018-10-24 16:06:53,386     INFO Received trigger 5
+2018-10-24 16:06:54,385     INFO Received trigger 5
+2018-10-24 16:06:54,385     INFO End of fixations
+2018-10-24 16:06:54,388     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:06:55,385     INFO Received trigger 5
+2018-10-24 16:06:56,385     INFO Received trigger 5
+2018-10-24 16:06:57,385     INFO Received trigger 5
+2018-10-24 16:06:57,388     INFO End of fixations
+2018-10-24 16:06:57,388     INFO End of ITI
+2018-10-24 16:06:57,388     INFO Starting saccade, direction 3
+2018-10-24 16:06:57,391     INFO Showing fixation at (-0.13135397155513145, 0.005401359399393707) for 0.5 second(s)
+2018-10-24 16:06:57,901     INFO End of fixations
+2018-10-24 16:06:57,905     INFO Showing fixation at (-0.21584828376882859, -0.027463682596278117) for 0.5 second(s)
+2018-10-24 16:06:58,418     INFO End of fixations
+2018-10-24 16:06:58,420     INFO Showing fixation at (-0.3352950164835663, 0.02848905286099051) for 0.5 second(s)
+2018-10-24 16:06:58,934     INFO End of fixations
+2018-10-24 16:06:58,937     INFO Showing fixation at (-0.4372451288890318, 0.019903687069559618) for 0.5 second(s)
+2018-10-24 16:06:59,451     INFO End of fixations
+2018-10-24 16:06:59,451     INFO End of saccade, starting a 10-second ITI
+2018-10-24 16:06:59,454     INFO Showing fixation at (-0.4372451288890318, 0.019903687069559618) for 3 second(s)
+2018-10-24 16:07:00,385     INFO Received trigger 5
+2018-10-24 16:07:01,385     INFO Received trigger 5
+2018-10-24 16:07:02,385     INFO Received trigger 5
+2018-10-24 16:07:02,385     INFO End of fixations
+2018-10-24 16:07:02,388     INFO Showing fixation at (0, 0) for 7 second(s)
+2018-10-24 16:07:03,385     INFO Received trigger 5
+2018-10-24 16:07:04,385     INFO Received trigger 5
+2018-10-24 16:07:05,385     INFO Received trigger 5
+2018-10-24 16:07:06,386     INFO Received trigger 5
+2018-10-24 16:07:07,385     INFO Received trigger 5
+2018-10-24 16:07:08,385     INFO Received trigger 5
+2018-10-24 16:07:09,385     INFO Received trigger 5
+2018-10-24 16:07:09,386     INFO End of fixations
+2018-10-24 16:07:09,386     INFO End of ITI
+2018-10-24 16:07:09,386     INFO Run #1
+2018-10-24 16:07:09,392     INFO Showing instructions
+2018-10-24 16:07:09,406     INFO Instruction: Run #2 of 2 is starting soon. ...
+2018-10-24 16:07:25,496     INFO Received response [('space', 16.078421115875244)]
+2018-10-24 16:07:25,496     INFO End of instructions
+2018-10-24 16:07:25,496     INFO Showing instructions
+2018-10-24 16:07:25,510     INFO Instruction: Run #2 of 2 is starting soon. ...
+2018-10-24 16:07:36,902     INFO Received signal 5 after 11.3843801022 seconds
+2018-10-24 16:07:36,905     INFO End of instructions
+2018-10-24 16:07:36,908     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:07:37,902     INFO Received trigger 5
+2018-10-24 16:07:38,902     INFO Received trigger 5
+2018-10-24 16:07:39,902     INFO Received trigger 5
+2018-10-24 16:07:40,902     INFO Received trigger 5
+2018-10-24 16:07:40,902     INFO End of fixations
+2018-10-24 16:07:40,903     INFO Starting saccade, direction 0
+2018-10-24 16:07:40,905     INFO Showing fixation at (-0.012043252184613561, 0.27277631926358825) for 0.75 second(s)
+2018-10-24 16:07:41,669     INFO End of fixations
+2018-10-24 16:07:41,672     INFO Showing fixation at (-0.016438157638493777, 0.3924765166945781) for 0.75 second(s)
+2018-10-24 16:07:42,436     INFO End of fixations
+2018-10-24 16:07:42,438     INFO Showing fixation at (0.022723757508772792, 0.6338906824965616) for 0.75 second(s)
+2018-10-24 16:07:43,202     INFO End of fixations
+2018-10-24 16:07:43,204     INFO Showing fixation at (0.014395100550291674, 0.8538065025295791) for 0.75 second(s)
+2018-10-24 16:07:43,969     INFO End of fixations
+2018-10-24 16:07:43,969     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:07:43,972     INFO Showing fixation at (0.014395100550291674, 0.8538065025295791) for 3 second(s)
+2018-10-24 16:07:44,903     INFO Received trigger 5
+2018-10-24 16:07:45,903     INFO Received trigger 5
+2018-10-24 16:07:46,902     INFO Received trigger 5
+2018-10-24 16:07:46,903     INFO End of fixations
+2018-10-24 16:07:46,905     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:07:47,902     INFO Received trigger 5
+2018-10-24 16:07:48,903     INFO Received trigger 5
+2018-10-24 16:07:49,903     INFO Received trigger 5
+2018-10-24 16:07:50,903     INFO Received trigger 5
+2018-10-24 16:07:50,903     INFO End of fixations
+2018-10-24 16:07:50,903     INFO End of ITI
+2018-10-24 16:07:50,903     INFO Starting saccade, direction 3
+2018-10-24 16:07:50,906     INFO Showing fixation at (-0.11657996645011759, -0.013273310034110954) for 1.0 second(s)
+2018-10-24 16:07:51,919     INFO End of fixations
+2018-10-24 16:07:51,922     INFO Showing fixation at (-0.25015780340829746, 0.007591255791736667) for 1.0 second(s)
+2018-10-24 16:07:52,936     INFO End of fixations
+2018-10-24 16:07:52,939     INFO Showing fixation at (-0.35385701570998856, 0.021701306545828462) for 1.0 second(s)
+2018-10-24 16:07:53,953     INFO End of fixations
+2018-10-24 16:07:53,955     INFO Showing fixation at (-0.4537973065778931, -0.01736021162639655) for 1.0 second(s)
+2018-10-24 16:07:54,969     INFO End of fixations
+2018-10-24 16:07:54,970     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:07:54,972     INFO Showing fixation at (-0.4537973065778931, -0.01736021162639655) for 3 second(s)
+2018-10-24 16:07:55,903     INFO Received trigger 5
+2018-10-24 16:07:56,903     INFO Received trigger 5
+2018-10-24 16:07:57,903     INFO Received trigger 5
+2018-10-24 16:07:57,905     INFO End of fixations
+2018-10-24 16:07:57,908     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:07:58,903     INFO Received trigger 5
+2018-10-24 16:07:59,902     INFO Received trigger 5
+2018-10-24 16:08:00,902     INFO Received trigger 5
+2018-10-24 16:08:01,902     INFO Received trigger 5
+2018-10-24 16:08:02,902     INFO Received trigger 5
+2018-10-24 16:08:02,902     INFO End of fixations
+2018-10-24 16:08:02,902     INFO End of ITI
+2018-10-24 16:08:02,902     INFO Starting saccade, direction 1
+2018-10-24 16:08:02,905     INFO Showing fixation at (0.020004518603856103, -0.16896443815653395) for 0.5 second(s)
+2018-10-24 16:08:03,420     INFO End of fixations
+2018-10-24 16:08:03,423     INFO Showing fixation at (-0.0025557988983832512, -0.47892452694893) for 0.5 second(s)
+2018-10-24 16:08:03,936     INFO End of fixations
+2018-10-24 16:08:03,939     INFO Showing fixation at (0.005972644835133847, -0.5839941926417814) for 0.5 second(s)
+2018-10-24 16:08:04,453     INFO End of fixations
+2018-10-24 16:08:04,456     INFO Showing fixation at (-0.017173873069116018, -0.8481888456277559) for 0.5 second(s)
+2018-10-24 16:08:04,970     INFO End of fixations
+2018-10-24 16:08:04,970     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:08:04,973     INFO Showing fixation at (-0.017173873069116018, -0.8481888456277559) for 3 second(s)
+2018-10-24 16:08:05,902     INFO Received trigger 5
+2018-10-24 16:08:06,902     INFO Received trigger 5
+2018-10-24 16:08:07,902     INFO Received trigger 5
+2018-10-24 16:08:07,902     INFO End of fixations
+2018-10-24 16:08:07,905     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:08:08,902     INFO Received trigger 5
+2018-10-24 16:08:09,903     INFO Received trigger 5
+2018-10-24 16:08:10,903     INFO Received trigger 5
+2018-10-24 16:08:11,902     INFO Received trigger 5
+2018-10-24 16:08:11,903     INFO End of fixations
+2018-10-24 16:08:11,903     INFO End of ITI
+2018-10-24 16:08:11,903     INFO Starting saccade, direction 3
+2018-10-24 16:08:11,906     INFO Showing fixation at (-0.14408912607236066, 0.02228667777930269) for 1.0 second(s)
+2018-10-24 16:08:12,920     INFO End of fixations
+2018-10-24 16:08:12,923     INFO Showing fixation at (-0.26995058937172156, 0.008695024038072957) for 1.0 second(s)
+2018-10-24 16:08:13,937     INFO End of fixations
+2018-10-24 16:08:13,939     INFO Showing fixation at (-0.37654208049101034, -0.03843838017188523) for 1.0 second(s)
+2018-10-24 16:08:14,952     INFO End of fixations
+2018-10-24 16:08:14,955     INFO Showing fixation at (-0.48277333742282835, -0.01907132030631319) for 1.0 second(s)
+2018-10-24 16:08:15,970     INFO End of fixations
+2018-10-24 16:08:15,970     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:08:15,973     INFO Showing fixation at (-0.48277333742282835, -0.01907132030631319) for 3 second(s)
+2018-10-24 16:08:16,902     INFO Received trigger 5
+2018-10-24 16:08:17,903     INFO Received trigger 5
+2018-10-24 16:08:18,903     INFO Received trigger 5
+2018-10-24 16:08:18,903     INFO End of fixations
+2018-10-24 16:08:18,905     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:08:19,902     INFO Received trigger 5
+2018-10-24 16:08:20,903     INFO Received trigger 5
+2018-10-24 16:08:21,903     INFO Received trigger 5
+2018-10-24 16:08:22,903     INFO Received trigger 5
+2018-10-24 16:08:22,903     INFO End of fixations
+2018-10-24 16:08:22,903     INFO End of ITI
+2018-10-24 16:08:22,903     INFO Starting saccade, direction 2
+2018-10-24 16:08:22,907     INFO Showing fixation at (0.10094727627291047, -0.026519324009752848) for 0.75 second(s)
+2018-10-24 16:08:23,669     INFO End of fixations
+2018-10-24 16:08:23,672     INFO Showing fixation at (0.2596267993320433, -0.03595218755620909) for 0.75 second(s)
+2018-10-24 16:08:24,437     INFO End of fixations
+2018-10-24 16:08:24,440     INFO Showing fixation at (0.3711872456509754, 0.00034106649209269396) for 0.75 second(s)
+2018-10-24 16:08:25,204     INFO End of fixations
+2018-10-24 16:08:25,206     INFO Showing fixation at (0.4795010365632555, 0.0008950062406425166) for 0.75 second(s)
+2018-10-24 16:08:25,970     INFO End of fixations
+2018-10-24 16:08:25,970     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:08:25,973     INFO Showing fixation at (0.4795010365632555, 0.0008950062406425166) for 3 second(s)
+2018-10-24 16:08:26,902     INFO Received trigger 5
+2018-10-24 16:08:27,902     INFO Received trigger 5
+2018-10-24 16:08:28,902     INFO Received trigger 5
+2018-10-24 16:08:28,902     INFO End of fixations
+2018-10-24 16:08:28,905     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:08:29,902     INFO Received trigger 5
+2018-10-24 16:08:30,902     INFO Received trigger 5
+2018-10-24 16:08:31,902     INFO Received trigger 5
+2018-10-24 16:08:32,902     INFO Received trigger 5
+2018-10-24 16:08:32,902     INFO End of fixations
+2018-10-24 16:08:32,902     INFO End of ITI
+2018-10-24 16:08:32,902     INFO Starting saccade, direction 3
+2018-10-24 16:08:32,905     INFO Showing fixation at (-0.10487902431286665, 0.006520274714730635) for 1.0 second(s)
+2018-10-24 16:08:33,921     INFO End of fixations
+2018-10-24 16:08:33,923     INFO Showing fixation at (-0.20663615759881399, 0.02584138876670674) for 1.0 second(s)
+2018-10-24 16:08:34,937     INFO End of fixations
+2018-10-24 16:08:34,940     INFO Showing fixation at (-0.3380246474607894, 0.012877524510878736) for 1.0 second(s)
+2018-10-24 16:08:35,954     INFO End of fixations
+2018-10-24 16:08:35,957     INFO Showing fixation at (-0.48145811232315194, -0.038688712039339906) for 1.0 second(s)
+2018-10-24 16:08:36,971     INFO End of fixations
+2018-10-24 16:08:36,973     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:08:36,975     INFO Showing fixation at (-0.48145811232315194, -0.038688712039339906) for 3 second(s)
+2018-10-24 16:08:37,902     INFO Received trigger 5
+2018-10-24 16:08:38,902     INFO Received trigger 5
+2018-10-24 16:08:39,902     INFO Received trigger 5
+2018-10-24 16:08:39,902     INFO End of fixations
+2018-10-24 16:08:39,905     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:08:40,902     INFO Received trigger 5
+2018-10-24 16:08:41,902     INFO Received trigger 5
+2018-10-24 16:08:42,902     INFO Received trigger 5
+2018-10-24 16:08:43,902     INFO Received trigger 5
+2018-10-24 16:08:44,902     INFO Received trigger 5
+2018-10-24 16:08:44,902     INFO End of fixations
+2018-10-24 16:08:44,902     INFO End of ITI
+2018-10-24 16:08:44,903     INFO Starting saccade, direction 2
+2018-10-24 16:08:44,906     INFO Showing fixation at (0.12633505309534507, 0.004006474871222548) for 1.0 second(s)
+2018-10-24 16:08:45,921     INFO End of fixations
+2018-10-24 16:08:45,924     INFO Showing fixation at (0.23870138640398164, 0.035665389906654126) for 1.0 second(s)
+2018-10-24 16:08:46,938     INFO End of fixations
+2018-10-24 16:08:46,940     INFO Showing fixation at (0.311377703916989, -0.00973440995372566) for 1.0 second(s)
+2018-10-24 16:08:47,954     INFO End of fixations
+2018-10-24 16:08:47,957     INFO Showing fixation at (0.43446510651585535, 0.02683030013804586) for 1.0 second(s)
+2018-10-24 16:08:48,971     INFO End of fixations
+2018-10-24 16:08:48,971     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:08:48,974     INFO Showing fixation at (0.43446510651585535, 0.02683030013804586) for 3 second(s)
+2018-10-24 16:08:49,901     INFO Received trigger 5
+2018-10-24 16:08:50,902     INFO Received trigger 5
+2018-10-24 16:08:51,902     INFO Received trigger 5
+2018-10-24 16:08:51,902     INFO End of fixations
+2018-10-24 16:08:51,905     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:08:52,902     INFO Received trigger 5
+2018-10-24 16:08:53,902     INFO Received trigger 5
+2018-10-24 16:08:54,902     INFO Received trigger 5
+2018-10-24 16:08:55,902     INFO Received trigger 5
+2018-10-24 16:08:55,902     INFO End of fixations
+2018-10-24 16:08:55,902     INFO End of ITI
+2018-10-24 16:08:55,902     INFO Starting saccade, direction 1
+2018-10-24 16:08:55,905     INFO Showing fixation at (0.022903186464853377, -0.13727056323563644) for 1.0 second(s)
+2018-10-24 16:08:56,921     INFO End of fixations
+2018-10-24 16:08:56,924     INFO Showing fixation at (-0.008848950643717641, -0.3995780412040034) for 1.0 second(s)
+2018-10-24 16:08:57,938     INFO End of fixations
+2018-10-24 16:08:57,943     INFO Showing fixation at (-0.008946460609375335, -0.6351675728923744) for 1.0 second(s)
+2018-10-24 16:08:58,955     INFO End of fixations
+2018-10-24 16:08:58,957     INFO Showing fixation at (0.009796296596371004, -0.8175825939448315) for 1.0 second(s)
+2018-10-24 16:08:59,971     INFO End of fixations
+2018-10-24 16:08:59,971     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:08:59,974     INFO Showing fixation at (0.009796296596371004, -0.8175825939448315) for 3 second(s)
+2018-10-24 16:09:00,902     INFO Received trigger 5
+2018-10-24 16:09:01,902     INFO Received trigger 5
+2018-10-24 16:09:02,902     INFO Received trigger 5
+2018-10-24 16:09:02,902     INFO End of fixations
+2018-10-24 16:09:02,905     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:09:03,902     INFO Received trigger 5
+2018-10-24 16:09:04,902     INFO Received trigger 5
+2018-10-24 16:09:05,902     INFO Received trigger 5
+2018-10-24 16:09:05,902     INFO End of fixations
+2018-10-24 16:09:05,902     INFO End of ITI
+2018-10-24 16:09:05,902     INFO Starting saccade, direction 3
+2018-10-24 16:09:05,905     INFO Showing fixation at (-0.1358812723226325, 0.037157503939033575) for 1.0 second(s)
+2018-10-24 16:09:06,922     INFO End of fixations
+2018-10-24 16:09:06,924     INFO Showing fixation at (-0.22919770956487684, -0.00571646841470691) for 1.0 second(s)
+2018-10-24 16:09:07,938     INFO End of fixations
+2018-10-24 16:09:07,941     INFO Showing fixation at (-0.31855002120743225, 0.0022110713806304874) for 1.0 second(s)
+2018-10-24 16:09:08,955     INFO End of fixations
+2018-10-24 16:09:08,958     INFO Showing fixation at (-0.4435346393074983, -0.00012058291142947458) for 1.0 second(s)
+2018-10-24 16:09:09,971     INFO End of fixations
+2018-10-24 16:09:09,971     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:09:09,974     INFO Showing fixation at (-0.4435346393074983, -0.00012058291142947458) for 3 second(s)
+2018-10-24 16:09:10,902     INFO Received trigger 5
+2018-10-24 16:09:11,901     INFO Received trigger 5
+2018-10-24 16:09:12,901     INFO Received trigger 5
+2018-10-24 16:09:12,901     INFO End of fixations
+2018-10-24 16:09:12,904     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:09:13,901     INFO Received trigger 5
+2018-10-24 16:09:14,902     INFO Received trigger 5
+2018-10-24 16:09:15,901     INFO Received trigger 5
+2018-10-24 16:09:15,902     INFO End of fixations
+2018-10-24 16:09:15,902     INFO End of ITI
+2018-10-24 16:09:15,902     INFO Starting saccade, direction 2
+2018-10-24 16:09:15,905     INFO Showing fixation at (0.11116226374023619, 0.03154233147495034) for 1.0 second(s)
+2018-10-24 16:09:16,922     INFO End of fixations
+2018-10-24 16:09:16,925     INFO Showing fixation at (0.21356522919273463, 0.019530238746203903) for 1.0 second(s)
+2018-10-24 16:09:17,938     INFO End of fixations
+2018-10-24 16:09:17,941     INFO Showing fixation at (0.36213409646410305, 0.03933847129770642) for 1.0 second(s)
+2018-10-24 16:09:18,955     INFO End of fixations
+2018-10-24 16:09:18,958     INFO Showing fixation at (0.44673672298213957, -0.005667511776208244) for 1.0 second(s)
+2018-10-24 16:09:19,972     INFO End of fixations
+2018-10-24 16:09:19,972     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:09:19,975     INFO Showing fixation at (0.44673672298213957, -0.005667511776208244) for 3 second(s)
+2018-10-24 16:09:20,901     INFO Received trigger 5
+2018-10-24 16:09:21,901     INFO Received trigger 5
+2018-10-24 16:09:22,901     INFO Received trigger 5
+2018-10-24 16:09:22,901     INFO End of fixations
+2018-10-24 16:09:22,904     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:09:23,901     INFO Received trigger 5
+2018-10-24 16:09:24,902     INFO Received trigger 5
+2018-10-24 16:09:25,902     INFO Received trigger 5
+2018-10-24 16:09:25,902     INFO End of fixations
+2018-10-24 16:09:25,902     INFO End of ITI
+2018-10-24 16:09:25,902     INFO Starting saccade, direction 0
+2018-10-24 16:09:25,905     INFO Showing fixation at (0.02140873193724132, 0.26345974356026847) for 0.5 second(s)
+2018-10-24 16:09:26,422     INFO End of fixations
+2018-10-24 16:09:26,425     INFO Showing fixation at (-0.023398101455636824, 0.4656050118853932) for 0.5 second(s)
+2018-10-24 16:09:26,939     INFO End of fixations
+2018-10-24 16:09:26,942     INFO Showing fixation at (0.005803446964564068, 0.5692171611513425) for 0.5 second(s)
+2018-10-24 16:09:27,455     INFO End of fixations
+2018-10-24 16:09:27,460     INFO Showing fixation at (-0.011971379183632442, 0.8492610222120843) for 0.5 second(s)
+2018-10-24 16:09:27,972     INFO End of fixations
+2018-10-24 16:09:27,972     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:09:27,975     INFO Showing fixation at (-0.011971379183632442, 0.8492610222120843) for 3 second(s)
+2018-10-24 16:09:28,902     INFO Received trigger 5
+2018-10-24 16:09:29,902     INFO Received trigger 5
+2018-10-24 16:09:30,902     INFO Received trigger 5
+2018-10-24 16:09:30,902     INFO End of fixations
+2018-10-24 16:09:30,905     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:09:31,902     INFO Received trigger 5
+2018-10-24 16:09:32,902     INFO Received trigger 5
+2018-10-24 16:09:33,902     INFO Received trigger 5
+2018-10-24 16:09:34,902     INFO Received trigger 5
+2018-10-24 16:09:34,902     INFO End of fixations
+2018-10-24 16:09:34,902     INFO End of ITI
+2018-10-24 16:09:34,902     INFO Starting saccade, direction 1
+2018-10-24 16:09:34,905     INFO Showing fixation at (0.001209629887544958, -0.17137509799349213) for 0.75 second(s)
+2018-10-24 16:09:35,672     INFO End of fixations
+2018-10-24 16:09:35,675     INFO Showing fixation at (0.02219321067205607, -0.42945504563083853) for 0.75 second(s)
+2018-10-24 16:09:36,439     INFO End of fixations
+2018-10-24 16:09:36,442     INFO Showing fixation at (0.015956390771732713, -0.585839591517667) for 0.75 second(s)
+2018-10-24 16:09:37,206     INFO End of fixations
+2018-10-24 16:09:37,209     INFO Showing fixation at (0.013860136999910969, -0.8155512557880329) for 0.75 second(s)
+2018-10-24 16:09:37,972     INFO End of fixations
+2018-10-24 16:09:37,972     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:09:37,975     INFO Showing fixation at (0.013860136999910969, -0.8155512557880329) for 3 second(s)
+2018-10-24 16:09:38,901     INFO Received trigger 5
+2018-10-24 16:09:39,901     INFO Received trigger 5
+2018-10-24 16:09:40,901     INFO Received trigger 5
+2018-10-24 16:09:40,901     INFO End of fixations
+2018-10-24 16:09:40,904     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:09:41,901     INFO Received trigger 5
+2018-10-24 16:09:42,901     INFO Received trigger 5
+2018-10-24 16:09:43,901     INFO Received trigger 5
+2018-10-24 16:09:43,901     INFO End of fixations
+2018-10-24 16:09:43,901     INFO End of ITI
+2018-10-24 16:09:43,902     INFO Starting saccade, direction 3
+2018-10-24 16:09:43,905     INFO Showing fixation at (-0.08009567041672373, -0.0006931275713816035) for 0.75 second(s)
+2018-10-24 16:09:44,673     INFO End of fixations
+2018-10-24 16:09:44,676     INFO Showing fixation at (-0.22376081335391246, 0.013628614002287674) for 0.75 second(s)
+2018-10-24 16:09:45,440     INFO End of fixations
+2018-10-24 16:09:45,442     INFO Showing fixation at (-0.3701649128236662, -0.0055589617608841554) for 0.75 second(s)
+2018-10-24 16:09:46,206     INFO End of fixations
+2018-10-24 16:09:46,209     INFO Showing fixation at (-0.4329879026036966, 0.015000889962645016) for 0.75 second(s)
+2018-10-24 16:09:46,973     INFO End of fixations
+2018-10-24 16:09:46,973     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:09:46,976     INFO Showing fixation at (-0.4329879026036966, 0.015000889962645016) for 3 second(s)
+2018-10-24 16:09:47,901     INFO Received trigger 5
+2018-10-24 16:09:48,901     INFO Received trigger 5
+2018-10-24 16:09:49,901     INFO Received trigger 5
+2018-10-24 16:09:49,901     INFO End of fixations
+2018-10-24 16:09:49,904     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:09:50,901     INFO Received trigger 5
+2018-10-24 16:09:51,901     INFO Received trigger 5
+2018-10-24 16:09:52,902     INFO Received trigger 5
+2018-10-24 16:09:53,901     INFO Received trigger 5
+2018-10-24 16:09:54,901     INFO Received trigger 5
+2018-10-24 16:09:54,901     INFO End of fixations
+2018-10-24 16:09:54,902     INFO End of ITI
+2018-10-24 16:09:54,902     INFO Starting saccade, direction 0
+2018-10-24 16:09:54,905     INFO Showing fixation at (0.0017677476156909289, 0.2205015247069314) for 0.5 second(s)
+2018-10-24 16:09:55,423     INFO End of fixations
+2018-10-24 16:09:55,426     INFO Showing fixation at (-0.01823097806930299, 0.46154202999936317) for 0.5 second(s)
+2018-10-24 16:09:55,940     INFO End of fixations
+2018-10-24 16:09:55,942     INFO Showing fixation at (0.002885556942741653, 0.5666994130451103) for 0.5 second(s)
+2018-10-24 16:09:56,456     INFO End of fixations
+2018-10-24 16:09:56,459     INFO Showing fixation at (-0.022058949565206747, 0.7715459539007977) for 0.5 second(s)
+2018-10-24 16:09:56,973     INFO End of fixations
+2018-10-24 16:09:56,973     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:09:56,976     INFO Showing fixation at (-0.022058949565206747, 0.7715459539007977) for 3 second(s)
+2018-10-24 16:09:57,901     INFO Received trigger 5
+2018-10-24 16:09:58,902     INFO Received trigger 5
+2018-10-24 16:09:59,901     INFO Received trigger 5
+2018-10-24 16:09:59,901     INFO End of fixations
+2018-10-24 16:09:59,904     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:10:00,901     INFO Received trigger 5
+2018-10-24 16:10:01,901     INFO Received trigger 5
+2018-10-24 16:10:02,901     INFO Received trigger 5
+2018-10-24 16:10:03,901     INFO Received trigger 5
+2018-10-24 16:10:03,901     INFO End of fixations
+2018-10-24 16:10:03,901     INFO End of ITI
+2018-10-24 16:10:03,901     INFO Starting saccade, direction 1
+2018-10-24 16:10:03,904     INFO Showing fixation at (0.006571957471100336, -0.14165864868018288) for 0.5 second(s)
+2018-10-24 16:10:04,407     INFO End of fixations
+2018-10-24 16:10:04,410     INFO Showing fixation at (-0.008859424245632663, -0.3835702325021172) for 0.5 second(s)
+2018-10-24 16:10:04,923     INFO End of fixations
+2018-10-24 16:10:04,926     INFO Showing fixation at (0.011889293432872872, -0.6524995707970567) for 0.5 second(s)
+2018-10-24 16:10:05,439     INFO End of fixations
+2018-10-24 16:10:05,443     INFO Showing fixation at (0.0027962987204804488, -0.8160320162888601) for 0.5 second(s)
+2018-10-24 16:10:05,957     INFO End of fixations
+2018-10-24 16:10:05,957     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:10:05,959     INFO Showing fixation at (0.0027962987204804488, -0.8160320162888601) for 3 second(s)
+2018-10-24 16:10:06,901     INFO Received trigger 5
+2018-10-24 16:10:07,901     INFO Received trigger 5
+2018-10-24 16:10:08,901     INFO Received trigger 5
+2018-10-24 16:10:08,903     INFO End of fixations
+2018-10-24 16:10:08,906     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:10:09,901     INFO Received trigger 5
+2018-10-24 16:10:10,901     INFO Received trigger 5
+2018-10-24 16:10:11,901     INFO Received trigger 5
+2018-10-24 16:10:12,901     INFO Received trigger 5
+2018-10-24 16:10:13,901     INFO Received trigger 5
+2018-10-24 16:10:13,901     INFO End of fixations
+2018-10-24 16:10:13,901     INFO End of ITI
+2018-10-24 16:10:13,901     INFO Starting saccade, direction 0
+2018-10-24 16:10:13,904     INFO Showing fixation at (-0.022685546030154168, 0.1716565516106225) for 0.75 second(s)
+2018-10-24 16:10:14,657     INFO End of fixations
+2018-10-24 16:10:14,660     INFO Showing fixation at (0.004133293014352259, 0.47531179207584956) for 0.75 second(s)
+2018-10-24 16:10:15,424     INFO End of fixations
+2018-10-24 16:10:15,427     INFO Showing fixation at (-0.021954696398391396, 0.5806421443395737) for 0.75 second(s)
+2018-10-24 16:10:16,190     INFO End of fixations
+2018-10-24 16:10:16,193     INFO Showing fixation at (0.004490123892406897, 0.7565797769654116) for 0.75 second(s)
+2018-10-24 16:10:16,957     INFO End of fixations
+2018-10-24 16:10:16,957     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:10:16,960     INFO Showing fixation at (0.004490123892406897, 0.7565797769654116) for 3 second(s)
+2018-10-24 16:10:17,901     INFO Received trigger 5
+2018-10-24 16:10:18,901     INFO Received trigger 5
+2018-10-24 16:10:19,901     INFO Received trigger 5
+2018-10-24 16:10:19,901     INFO End of fixations
+2018-10-24 16:10:19,904     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:10:20,901     INFO Received trigger 5
+2018-10-24 16:10:21,901     INFO Received trigger 5
+2018-10-24 16:10:22,900     INFO Received trigger 5
+2018-10-24 16:10:22,901     INFO End of fixations
+2018-10-24 16:10:22,901     INFO End of ITI
+2018-10-24 16:10:22,901     INFO Starting saccade, direction 3
+2018-10-24 16:10:22,904     INFO Showing fixation at (-0.1303537108003078, -0.004116052233558154) for 0.75 second(s)
+2018-10-24 16:10:23,657     INFO End of fixations
+2018-10-24 16:10:23,660     INFO Showing fixation at (-0.2265297199519994, -0.03127588045505583) for 0.75 second(s)
+2018-10-24 16:10:24,424     INFO End of fixations
+2018-10-24 16:10:24,427     INFO Showing fixation at (-0.3675375964618062, 0.008235966825429854) for 0.75 second(s)
+2018-10-24 16:10:25,191     INFO End of fixations
+2018-10-24 16:10:25,193     INFO Showing fixation at (-0.4630293979128489, -0.0011222239449746318) for 0.75 second(s)
+2018-10-24 16:10:25,957     INFO End of fixations
+2018-10-24 16:10:25,957     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:10:25,960     INFO Showing fixation at (-0.4630293979128489, -0.0011222239449746318) for 3 second(s)
+2018-10-24 16:10:26,900     INFO Received trigger 5
+2018-10-24 16:10:27,901     INFO Received trigger 5
+2018-10-24 16:10:28,901     INFO Received trigger 5
+2018-10-24 16:10:28,901     INFO End of fixations
+2018-10-24 16:10:28,905     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:10:29,901     INFO Received trigger 5
+2018-10-24 16:10:30,901     INFO Received trigger 5
+2018-10-24 16:10:31,901     INFO Received trigger 5
+2018-10-24 16:10:32,901     INFO Received trigger 5
+2018-10-24 16:10:32,901     INFO End of fixations
+2018-10-24 16:10:32,901     INFO End of ITI
+2018-10-24 16:10:32,901     INFO Starting saccade, direction 0
+2018-10-24 16:10:32,904     INFO Showing fixation at (0.01839566183540684, 0.1612939977980402) for 0.5 second(s)
+2018-10-24 16:10:33,407     INFO End of fixations
+2018-10-24 16:10:33,410     INFO Showing fixation at (2.449594339736308e-05, 0.40953288663447285) for 0.5 second(s)
+2018-10-24 16:10:33,924     INFO End of fixations
+2018-10-24 16:10:33,927     INFO Showing fixation at (0.01370397554922538, 0.6699808465598813) for 0.5 second(s)
+2018-10-24 16:10:34,441     INFO End of fixations
+2018-10-24 16:10:34,444     INFO Showing fixation at (0.02114919742970186, 0.7905332121707576) for 0.5 second(s)
+2018-10-24 16:10:34,958     INFO End of fixations
+2018-10-24 16:10:34,958     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:10:34,961     INFO Showing fixation at (0.02114919742970186, 0.7905332121707576) for 3 second(s)
+2018-10-24 16:10:35,901     INFO Received trigger 5
+2018-10-24 16:10:36,901     INFO Received trigger 5
+2018-10-24 16:10:37,901     INFO Received trigger 5
+2018-10-24 16:10:37,901     INFO End of fixations
+2018-10-24 16:10:37,904     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:10:38,901     INFO Received trigger 5
+2018-10-24 16:10:39,901     INFO Received trigger 5
+2018-10-24 16:10:40,901     INFO Received trigger 5
+2018-10-24 16:10:41,901     INFO Received trigger 5
+2018-10-24 16:10:41,901     INFO End of fixations
+2018-10-24 16:10:41,901     INFO End of ITI
+2018-10-24 16:10:41,901     INFO Starting saccade, direction 2
+2018-10-24 16:10:41,904     INFO Showing fixation at (0.07687130689385058, 0.04028956093073791) for 0.5 second(s)
+2018-10-24 16:10:42,408     INFO End of fixations
+2018-10-24 16:10:42,411     INFO Showing fixation at (0.20820647360498723, 0.0228688632208068) for 0.5 second(s)
+2018-10-24 16:10:42,924     INFO End of fixations
+2018-10-24 16:10:42,927     INFO Showing fixation at (0.34263044375122026, 0.011338186232182051) for 0.5 second(s)
+2018-10-24 16:10:43,441     INFO End of fixations
+2018-10-24 16:10:43,444     INFO Showing fixation at (0.4722688682728527, -0.0369820233726233) for 0.5 second(s)
+2018-10-24 16:10:43,958     INFO End of fixations
+2018-10-24 16:10:43,958     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:10:43,961     INFO Showing fixation at (0.4722688682728527, -0.0369820233726233) for 3 second(s)
+2018-10-24 16:10:44,901     INFO Received trigger 5
+2018-10-24 16:10:45,901     INFO Received trigger 5
+2018-10-24 16:10:46,901     INFO Received trigger 5
+2018-10-24 16:10:46,901     INFO End of fixations
+2018-10-24 16:10:46,904     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:10:47,900     INFO Received trigger 5
+2018-10-24 16:10:48,900     INFO Received trigger 5
+2018-10-24 16:10:49,900     INFO Received trigger 5
+2018-10-24 16:10:50,900     INFO Received trigger 5
+2018-10-24 16:10:51,900     INFO Received trigger 5
+2018-10-24 16:10:51,900     INFO End of fixations
+2018-10-24 16:10:51,900     INFO End of ITI
+2018-10-24 16:10:51,900     INFO Starting saccade, direction 1
+2018-10-24 16:10:51,904     INFO Showing fixation at (-0.006237526034820758, -0.24909505042329652) for 0.75 second(s)
+2018-10-24 16:10:52,658     INFO End of fixations
+2018-10-24 16:10:52,661     INFO Showing fixation at (-0.004799870824483958, -0.4585137404106717) for 0.75 second(s)
+2018-10-24 16:10:53,425     INFO End of fixations
+2018-10-24 16:10:53,428     INFO Showing fixation at (0.014958532937711759, -0.5793881432807868) for 0.75 second(s)
+2018-10-24 16:10:54,191     INFO End of fixations
+2018-10-24 16:10:54,194     INFO Showing fixation at (0.022688630708244922, -0.8621267347392204) for 0.75 second(s)
+2018-10-24 16:10:54,958     INFO End of fixations
+2018-10-24 16:10:54,958     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:10:54,961     INFO Showing fixation at (0.022688630708244922, -0.8621267347392204) for 3 second(s)
+2018-10-24 16:10:55,900     INFO Received trigger 5
+2018-10-24 16:10:56,900     INFO Received trigger 5
+2018-10-24 16:10:57,900     INFO Received trigger 5
+2018-10-24 16:10:57,902     INFO End of fixations
+2018-10-24 16:10:57,905     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:10:58,900     INFO Received trigger 5
+2018-10-24 16:10:59,901     INFO Received trigger 5
+2018-10-24 16:11:00,901     INFO Received trigger 5
+2018-10-24 16:11:01,900     INFO Received trigger 5
+2018-10-24 16:11:01,901     INFO End of fixations
+2018-10-24 16:11:01,901     INFO End of ITI
+2018-10-24 16:11:01,901     INFO Starting saccade, direction 0
+2018-10-24 16:11:01,904     INFO Showing fixation at (-0.006042715951550502, 0.1732230691624565) for 0.5 second(s)
+2018-10-24 16:11:02,408     INFO End of fixations
+2018-10-24 16:11:02,411     INFO Showing fixation at (-0.020424453529913345, 0.37249520423402516) for 0.5 second(s)
+2018-10-24 16:11:02,925     INFO End of fixations
+2018-10-24 16:11:02,928     INFO Showing fixation at (0.006371644553435873, 0.5910925887368108) for 0.5 second(s)
+2018-10-24 16:11:03,442     INFO End of fixations
+2018-10-24 16:11:03,445     INFO Showing fixation at (-0.005598877515498396, 0.819200691962046) for 0.5 second(s)
+2018-10-24 16:11:03,958     INFO End of fixations
+2018-10-24 16:11:03,958     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:11:03,961     INFO Showing fixation at (-0.005598877515498396, 0.819200691962046) for 3 second(s)
+2018-10-24 16:11:04,900     INFO Received trigger 5
+2018-10-24 16:11:05,900     INFO Received trigger 5
+2018-10-24 16:11:06,901     INFO Received trigger 5
+2018-10-24 16:11:06,901     INFO End of fixations
+2018-10-24 16:11:06,903     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:11:07,901     INFO Received trigger 5
+2018-10-24 16:11:08,901     INFO Received trigger 5
+2018-10-24 16:11:09,901     INFO Received trigger 5
+2018-10-24 16:11:09,901     INFO End of fixations
+2018-10-24 16:11:09,901     INFO End of ITI
+2018-10-24 16:11:09,901     INFO Starting saccade, direction 3
+2018-10-24 16:11:09,904     INFO Showing fixation at (-0.13137562415282436, -0.028784076886717153) for 1.0 second(s)
+2018-10-24 16:11:10,909     INFO End of fixations
+2018-10-24 16:11:10,912     INFO Showing fixation at (-0.24223101233415262, -0.028171223703902532) for 1.0 second(s)
+2018-10-24 16:11:11,925     INFO End of fixations
+2018-10-24 16:11:11,928     INFO Showing fixation at (-0.3472066947681827, 0.039122502595111526) for 1.0 second(s)
+2018-10-24 16:11:12,942     INFO End of fixations
+2018-10-24 16:11:12,945     INFO Showing fixation at (-0.444105008117158, 0.00023771996399749723) for 1.0 second(s)
+2018-10-24 16:11:13,959     INFO End of fixations
+2018-10-24 16:11:13,959     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:11:13,961     INFO Showing fixation at (-0.444105008117158, 0.00023771996399749723) for 3 second(s)
+2018-10-24 16:11:14,900     INFO Received trigger 5
+2018-10-24 16:11:15,900     INFO Received trigger 5
+2018-10-24 16:11:16,900     INFO Received trigger 5
+2018-10-24 16:11:16,900     INFO End of fixations
+2018-10-24 16:11:16,903     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:11:17,900     INFO Received trigger 5
+2018-10-24 16:11:18,900     INFO Received trigger 5
+2018-10-24 16:11:19,900     INFO Received trigger 5
+2018-10-24 16:11:20,900     INFO Received trigger 5
+2018-10-24 16:11:21,900     INFO Received trigger 5
+2018-10-24 16:11:21,900     INFO End of fixations
+2018-10-24 16:11:21,900     INFO End of ITI
+2018-10-24 16:11:21,900     INFO Starting saccade, direction 2
+2018-10-24 16:11:21,904     INFO Showing fixation at (0.1004440305408248, 0.017957525690527942) for 0.75 second(s)
+2018-10-24 16:11:22,659     INFO End of fixations
+2018-10-24 16:11:22,662     INFO Showing fixation at (0.19685427108525702, -0.04125042336436069) for 0.75 second(s)
+2018-10-24 16:11:23,426     INFO End of fixations
+2018-10-24 16:11:23,428     INFO Showing fixation at (0.3577046629438724, -0.002019016605674828) for 0.75 second(s)
+2018-10-24 16:11:24,192     INFO End of fixations
+2018-10-24 16:11:24,195     INFO Showing fixation at (0.43563821183863494, 0.034669262661674936) for 0.75 second(s)
+2018-10-24 16:11:24,959     INFO End of fixations
+2018-10-24 16:11:24,959     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:11:24,962     INFO Showing fixation at (0.43563821183863494, 0.034669262661674936) for 3 second(s)
+2018-10-24 16:11:25,900     INFO Received trigger 5
+2018-10-24 16:11:26,900     INFO Received trigger 5
+2018-10-24 16:11:27,900     INFO Received trigger 5
+2018-10-24 16:11:27,902     INFO End of fixations
+2018-10-24 16:11:27,905     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:11:28,900     INFO Received trigger 5
+2018-10-24 16:11:29,900     INFO Received trigger 5
+2018-10-24 16:11:30,900     INFO Received trigger 5
+2018-10-24 16:11:30,900     INFO End of fixations
+2018-10-24 16:11:30,900     INFO End of ITI
+2018-10-24 16:11:30,900     INFO Starting saccade, direction 1
+2018-10-24 16:11:30,903     INFO Showing fixation at (-0.01266354860643689, -0.1778924362257617) for 0.75 second(s)
+2018-10-24 16:11:31,659     INFO End of fixations
+2018-10-24 16:11:31,662     INFO Showing fixation at (0.011774430473953532, -0.4304636593658798) for 0.75 second(s)
+2018-10-24 16:11:32,426     INFO End of fixations
+2018-10-24 16:11:32,429     INFO Showing fixation at (-0.01784367457626418, -0.6840228282312167) for 0.75 second(s)
+2018-10-24 16:11:33,192     INFO End of fixations
+2018-10-24 16:11:33,196     INFO Showing fixation at (0.015410362493505941, -0.8591770793871619) for 0.75 second(s)
+2018-10-24 16:11:33,958     INFO End of fixations
+2018-10-24 16:11:33,959     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:11:33,961     INFO Showing fixation at (0.015410362493505941, -0.8591770793871619) for 3 second(s)
+2018-10-24 16:11:34,900     INFO Received trigger 5
+2018-10-24 16:11:35,899     INFO Received trigger 5
+2018-10-24 16:11:36,900     INFO Received trigger 5
+2018-10-24 16:11:36,900     INFO End of fixations
+2018-10-24 16:11:36,903     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:11:37,900     INFO Received trigger 5
+2018-10-24 16:11:38,899     INFO Received trigger 5
+2018-10-24 16:11:39,900     INFO Received trigger 5
+2018-10-24 16:11:39,900     INFO End of fixations
+2018-10-24 16:11:39,900     INFO End of ITI
+2018-10-24 16:11:39,900     INFO Starting saccade, direction 3
+2018-10-24 16:11:39,903     INFO Showing fixation at (-0.13698901557672238, 0.03333674837815654) for 0.75 second(s)
+2018-10-24 16:11:40,659     INFO End of fixations
+2018-10-24 16:11:40,662     INFO Showing fixation at (-0.2573058330164493, 0.015784652452187554) for 0.75 second(s)
+2018-10-24 16:11:41,426     INFO End of fixations
+2018-10-24 16:11:41,429     INFO Showing fixation at (-0.3478272160436791, -0.03504608551250281) for 0.75 second(s)
+2018-10-24 16:11:42,193     INFO End of fixations
+2018-10-24 16:11:42,196     INFO Showing fixation at (-0.4977942321240525, -0.0018753927652110577) for 0.75 second(s)
+2018-10-24 16:11:42,960     INFO End of fixations
+2018-10-24 16:11:42,960     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:11:42,962     INFO Showing fixation at (-0.4977942321240525, -0.0018753927652110577) for 3 second(s)
+2018-10-24 16:11:43,900     INFO Received trigger 5
+2018-10-24 16:11:44,900     INFO Received trigger 5
+2018-10-24 16:11:45,900     INFO Received trigger 5
+2018-10-24 16:11:45,900     INFO End of fixations
+2018-10-24 16:11:45,903     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:11:46,900     INFO Received trigger 5
+2018-10-24 16:11:47,900     INFO Received trigger 5
+2018-10-24 16:11:48,900     INFO Received trigger 5
+2018-10-24 16:11:48,900     INFO End of fixations
+2018-10-24 16:11:48,900     INFO End of ITI
+2018-10-24 16:11:48,900     INFO Starting saccade, direction 2
+2018-10-24 16:11:48,904     INFO Showing fixation at (0.09607744305833689, 0.03378622961897148) for 0.5 second(s)
+2018-10-24 16:11:49,410     INFO End of fixations
+2018-10-24 16:11:49,413     INFO Showing fixation at (0.23628982259194856, 0.014524386306514182) for 0.5 second(s)
+2018-10-24 16:11:49,926     INFO End of fixations
+2018-10-24 16:11:49,929     INFO Showing fixation at (0.30973777956958626, -0.020265193314273205) for 0.5 second(s)
+2018-10-24 16:11:50,443     INFO End of fixations
+2018-10-24 16:11:50,446     INFO Showing fixation at (0.4989507905044651, 0.014603113678239958) for 0.5 second(s)
+2018-10-24 16:11:50,959     INFO End of fixations
+2018-10-24 16:11:50,959     INFO End of saccade, starting a 7-second ITI
+2018-10-24 16:11:50,962     INFO Showing fixation at (0.4989507905044651, 0.014603113678239958) for 3 second(s)
+2018-10-24 16:11:51,900     INFO Received trigger 5
+2018-10-24 16:11:52,900     INFO Received trigger 5
+2018-10-24 16:11:53,900     INFO Received trigger 5
+2018-10-24 16:11:53,900     INFO End of fixations
+2018-10-24 16:11:53,903     INFO Showing fixation at (0, 0) for 4 second(s)
+2018-10-24 16:11:54,900     INFO Received trigger 5
+2018-10-24 16:11:55,900     INFO Received trigger 5
+2018-10-24 16:11:56,900     INFO Received trigger 5
+2018-10-24 16:11:57,900     INFO Received trigger 5
+2018-10-24 16:11:57,904     INFO End of fixations
+2018-10-24 16:11:57,904     INFO End of ITI
+2018-10-24 16:11:57,904     INFO Starting saccade, direction 0
+2018-10-24 16:11:57,907     INFO Showing fixation at (0.01698224201831687, 0.14541068024730863) for 1.0 second(s)
+2018-10-24 16:11:58,910     INFO End of fixations
+2018-10-24 16:11:58,913     INFO Showing fixation at (-0.008214752395112242, 0.44689139605786354) for 1.0 second(s)
+2018-10-24 16:11:59,927     INFO End of fixations
+2018-10-24 16:11:59,929     INFO Showing fixation at (-0.0029134621523961082, 0.5727207026687047) for 1.0 second(s)
+2018-10-24 16:12:00,943     INFO End of fixations
+2018-10-24 16:12:00,947     INFO Showing fixation at (-0.007763038651108535, 0.8906508774721096) for 1.0 second(s)
+2018-10-24 16:12:01,960     INFO End of fixations
+2018-10-24 16:12:01,960     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:12:01,963     INFO Showing fixation at (-0.007763038651108535, 0.8906508774721096) for 3 second(s)
+2018-10-24 16:12:02,899     INFO Received trigger 5
+2018-10-24 16:12:03,900     INFO Received trigger 5
+2018-10-24 16:12:04,899     INFO Received trigger 5
+2018-10-24 16:12:04,899     INFO End of fixations
+2018-10-24 16:12:04,902     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:12:05,899     INFO Received trigger 5
+2018-10-24 16:12:06,900     INFO Received trigger 5
+2018-10-24 16:12:07,899     INFO Received trigger 5
+2018-10-24 16:12:07,900     INFO End of fixations
+2018-10-24 16:12:07,900     INFO End of ITI
+2018-10-24 16:12:07,900     INFO Starting saccade, direction 1
+2018-10-24 16:12:07,903     INFO Showing fixation at (-0.0066504828001121286, -0.26756947453421026) for 0.5 second(s)
+2018-10-24 16:12:08,410     INFO End of fixations
+2018-10-24 16:12:08,413     INFO Showing fixation at (-0.012753035163859531, -0.38224854101665184) for 0.5 second(s)
+2018-10-24 16:12:08,927     INFO End of fixations
+2018-10-24 16:12:08,930     INFO Showing fixation at (-0.010648594851066805, -0.6204121161777602) for 0.5 second(s)
+2018-10-24 16:12:09,444     INFO End of fixations
+2018-10-24 16:12:09,446     INFO Showing fixation at (0.010677246720805764, -0.8845019093038907) for 0.5 second(s)
+2018-10-24 16:12:09,960     INFO End of fixations
+2018-10-24 16:12:09,960     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:12:09,963     INFO Showing fixation at (0.010677246720805764, -0.8845019093038907) for 3 second(s)
+2018-10-24 16:12:10,900     INFO Received trigger 5
+2018-10-24 16:12:11,900     INFO Received trigger 5
+2018-10-24 16:12:12,900     INFO Received trigger 5
+2018-10-24 16:12:12,900     INFO End of fixations
+2018-10-24 16:12:12,902     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:12:13,900     INFO Received trigger 5
+2018-10-24 16:12:14,900     INFO Received trigger 5
+2018-10-24 16:12:15,900     INFO Received trigger 5
+2018-10-24 16:12:15,900     INFO End of fixations
+2018-10-24 16:12:15,900     INFO End of ITI
+2018-10-24 16:12:15,900     INFO Starting saccade, direction 2
+2018-10-24 16:12:15,903     INFO Showing fixation at (0.13513297491022097, -0.026120943929106244) for 0.75 second(s)
+2018-10-24 16:12:16,660     INFO End of fixations
+2018-10-24 16:12:16,663     INFO Showing fixation at (0.22338651687343208, -0.00736726182699627) for 0.75 second(s)
+2018-10-24 16:12:17,427     INFO End of fixations
+2018-10-24 16:12:17,430     INFO Showing fixation at (0.37474381431892995, 0.007164456050554942) for 0.75 second(s)
+2018-10-24 16:12:18,194     INFO End of fixations
+2018-10-24 16:12:18,197     INFO Showing fixation at (0.4972725216190729, 0.03321316510195659) for 0.75 second(s)
+2018-10-24 16:12:18,961     INFO End of fixations
+2018-10-24 16:12:18,961     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:12:18,963     INFO Showing fixation at (0.4972725216190729, 0.03321316510195659) for 3 second(s)
+2018-10-24 16:12:19,900     INFO Received trigger 5
+2018-10-24 16:12:20,900     INFO Received trigger 5
+2018-10-24 16:12:21,900     INFO Received trigger 5
+2018-10-24 16:12:21,900     INFO End of fixations
+2018-10-24 16:12:21,903     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:12:22,899     INFO Received trigger 5
+2018-10-24 16:12:23,899     INFO Received trigger 5
+2018-10-24 16:12:24,899     INFO Received trigger 5
+2018-10-24 16:12:24,899     INFO End of fixations
+2018-10-24 16:12:24,899     INFO End of ITI
+2018-10-24 16:12:24,899     INFO Starting saccade, direction 3
+2018-10-24 16:12:24,902     INFO Showing fixation at (-0.08769359446233511, -0.034645355075508213) for 1.0 second(s)
+2018-10-24 16:12:25,911     INFO End of fixations
+2018-10-24 16:12:25,914     INFO Showing fixation at (-0.23395077083610916, -0.006337753717607676) for 1.0 second(s)
+2018-10-24 16:12:26,928     INFO End of fixations
+2018-10-24 16:12:26,930     INFO Showing fixation at (-0.3844576759163998, 0.0133561422363968) for 1.0 second(s)
+2018-10-24 16:12:27,944     INFO End of fixations
+2018-10-24 16:12:27,949     INFO Showing fixation at (-0.49560095373444113, -0.04038055453403725) for 1.0 second(s)
+2018-10-24 16:12:28,960     INFO End of fixations
+2018-10-24 16:12:28,960     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:12:28,963     INFO Showing fixation at (-0.49560095373444113, -0.04038055453403725) for 3 second(s)
+2018-10-24 16:12:29,899     INFO Received trigger 5
+2018-10-24 16:12:30,899     INFO Received trigger 5
+2018-10-24 16:12:31,899     INFO Received trigger 5
+2018-10-24 16:12:31,899     INFO End of fixations
+2018-10-24 16:12:31,902     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:12:32,899     INFO Received trigger 5
+2018-10-24 16:12:33,900     INFO Received trigger 5
+2018-10-24 16:12:34,900     INFO Received trigger 5
+2018-10-24 16:12:34,900     INFO End of fixations
+2018-10-24 16:12:34,900     INFO End of ITI
+2018-10-24 16:12:34,900     INFO Starting saccade, direction 2
+2018-10-24 16:12:34,903     INFO Showing fixation at (0.11001270301535351, -0.005743434856989242) for 0.75 second(s)
+2018-10-24 16:12:35,661     INFO End of fixations
+2018-10-24 16:12:35,664     INFO Showing fixation at (0.20121149072850741, 0.013235046319344135) for 0.75 second(s)
+2018-10-24 16:12:36,428     INFO End of fixations
+2018-10-24 16:12:36,431     INFO Showing fixation at (0.31227965247418216, 0.032741949695783694) for 0.75 second(s)
+2018-10-24 16:12:37,195     INFO End of fixations
+2018-10-24 16:12:37,197     INFO Showing fixation at (0.44503109501590554, 0.008900436080076318) for 0.75 second(s)
+2018-10-24 16:12:37,961     INFO End of fixations
+2018-10-24 16:12:37,961     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:12:37,964     INFO Showing fixation at (0.44503109501590554, 0.008900436080076318) for 3 second(s)
+2018-10-24 16:12:38,899     INFO Received trigger 5
+2018-10-24 16:12:39,899     INFO Received trigger 5
+2018-10-24 16:12:40,899     INFO Received trigger 5
+2018-10-24 16:12:40,899     INFO End of fixations
+2018-10-24 16:12:40,902     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:12:41,900     INFO Received trigger 5
+2018-10-24 16:12:42,899     INFO Received trigger 5
+2018-10-24 16:12:43,899     INFO Received trigger 5
+2018-10-24 16:12:44,900     INFO Received trigger 5
+2018-10-24 16:12:45,900     INFO Received trigger 5
+2018-10-24 16:12:45,900     INFO End of fixations
+2018-10-24 16:12:45,900     INFO End of ITI
+2018-10-24 16:12:45,900     INFO Starting saccade, direction 0
+2018-10-24 16:12:45,903     INFO Showing fixation at (-0.021120889234447993, 0.1882266838673418) for 0.75 second(s)
+2018-10-24 16:12:46,662     INFO End of fixations
+2018-10-24 16:12:46,665     INFO Showing fixation at (-0.017984082316210737, 0.34910803467397133) for 0.75 second(s)
+2018-10-24 16:12:47,428     INFO End of fixations
+2018-10-24 16:12:47,431     INFO Showing fixation at (-0.00036671445943707234, 0.580898317980525) for 0.75 second(s)
+2018-10-24 16:12:48,195     INFO End of fixations
+2018-10-24 16:12:48,198     INFO Showing fixation at (0.02055090896308817, 0.8596963280797059) for 0.75 second(s)
+2018-10-24 16:12:48,961     INFO End of fixations
+2018-10-24 16:12:48,962     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:12:48,964     INFO Showing fixation at (0.02055090896308817, 0.8596963280797059) for 3 second(s)
+2018-10-24 16:12:49,899     INFO Received trigger 5
+2018-10-24 16:12:50,899     INFO Received trigger 5
+2018-10-24 16:12:51,899     INFO Received trigger 5
+2018-10-24 16:12:51,899     INFO End of fixations
+2018-10-24 16:12:51,902     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:12:52,899     INFO Received trigger 5
+2018-10-24 16:12:53,899     INFO Received trigger 5
+2018-10-24 16:12:54,899     INFO Received trigger 5
+2018-10-24 16:12:54,899     INFO End of fixations
+2018-10-24 16:12:54,899     INFO End of ITI
+2018-10-24 16:12:54,899     INFO Starting saccade, direction 0
+2018-10-24 16:12:54,902     INFO Showing fixation at (-0.00026204027842989877, 0.2095760707405907) for 1.0 second(s)
+2018-10-24 16:12:55,912     INFO End of fixations
+2018-10-24 16:12:55,915     INFO Showing fixation at (-0.01768045986475781, 0.4432009478320946) for 1.0 second(s)
+2018-10-24 16:12:56,929     INFO End of fixations
+2018-10-24 16:12:56,931     INFO Showing fixation at (0.010248539048963237, 0.6109453100434536) for 1.0 second(s)
+2018-10-24 16:12:57,945     INFO End of fixations
+2018-10-24 16:12:57,950     INFO Showing fixation at (0.011903064478298489, 0.8172780925527647) for 1.0 second(s)
+2018-10-24 16:12:58,962     INFO End of fixations
+2018-10-24 16:12:58,962     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:12:58,965     INFO Showing fixation at (0.011903064478298489, 0.8172780925527647) for 3 second(s)
+2018-10-24 16:12:59,899     INFO Received trigger 5
+2018-10-24 16:13:00,899     INFO Received trigger 5
+2018-10-24 16:13:01,899     INFO Received trigger 5
+2018-10-24 16:13:01,899     INFO End of fixations
+2018-10-24 16:13:01,902     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:13:02,899     INFO Received trigger 5
+2018-10-24 16:13:03,899     INFO Received trigger 5
+2018-10-24 16:13:04,899     INFO Received trigger 5
+2018-10-24 16:13:05,899     INFO Received trigger 5
+2018-10-24 16:13:06,899     INFO Received trigger 5
+2018-10-24 16:13:06,899     INFO End of fixations
+2018-10-24 16:13:06,900     INFO End of ITI
+2018-10-24 16:13:06,900     INFO Starting saccade, direction 1
+2018-10-24 16:13:06,902     INFO Showing fixation at (-0.02187131248798769, -0.1648152241527404) for 0.75 second(s)
+2018-10-24 16:13:07,662     INFO End of fixations
+2018-10-24 16:13:07,665     INFO Showing fixation at (0.022566559173564024, -0.463877355235122) for 0.75 second(s)
+2018-10-24 16:13:08,429     INFO End of fixations
+2018-10-24 16:13:08,431     INFO Showing fixation at (-0.006808772335395515, -0.6032818475176116) for 0.75 second(s)
+2018-10-24 16:13:09,195     INFO End of fixations
+2018-10-24 16:13:09,198     INFO Showing fixation at (-0.017312317312128858, -0.830554171253349) for 0.75 second(s)
+2018-10-24 16:13:09,962     INFO End of fixations
+2018-10-24 16:13:09,962     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:13:09,965     INFO Showing fixation at (-0.017312317312128858, -0.830554171253349) for 3 second(s)
+2018-10-24 16:13:10,898     INFO Received trigger 5
+2018-10-24 16:13:11,898     INFO Received trigger 5
+2018-10-24 16:13:12,899     INFO Received trigger 5
+2018-10-24 16:13:12,899     INFO End of fixations
+2018-10-24 16:13:12,902     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:13:13,899     INFO Received trigger 5
+2018-10-24 16:13:14,898     INFO Received trigger 5
+2018-10-24 16:13:15,899     INFO Received trigger 5
+2018-10-24 16:13:15,899     INFO End of fixations
+2018-10-24 16:13:15,899     INFO End of ITI
+2018-10-24 16:13:15,899     INFO Starting saccade, direction 2
+2018-10-24 16:13:15,902     INFO Showing fixation at (0.08058784005628883, 0.03334367835746422) for 0.5 second(s)
+2018-10-24 16:13:16,412     INFO End of fixations
+2018-10-24 16:13:16,415     INFO Showing fixation at (0.21930600163432434, 0.039730484632086664) for 0.5 second(s)
+2018-10-24 16:13:16,929     INFO End of fixations
+2018-10-24 16:13:16,932     INFO Showing fixation at (0.3768453345867601, 0.020737286121526068) for 0.5 second(s)
+2018-10-24 16:13:17,446     INFO End of fixations
+2018-10-24 16:13:17,449     INFO Showing fixation at (0.4751756821009463, 0.01868792557605827) for 0.5 second(s)
+2018-10-24 16:13:17,962     INFO End of fixations
+2018-10-24 16:13:17,962     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:13:17,965     INFO Showing fixation at (0.4751756821009463, 0.01868792557605827) for 3 second(s)
+2018-10-24 16:13:18,898     INFO Received trigger 5
+2018-10-24 16:13:19,899     INFO Received trigger 5
+2018-10-24 16:13:20,899     INFO Received trigger 5
+2018-10-24 16:13:20,899     INFO End of fixations
+2018-10-24 16:13:20,902     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:13:21,899     INFO Received trigger 5
+2018-10-24 16:13:22,899     INFO Received trigger 5
+2018-10-24 16:13:23,899     INFO Received trigger 5
+2018-10-24 16:13:23,899     INFO End of fixations
+2018-10-24 16:13:23,899     INFO End of ITI
+2018-10-24 16:13:23,899     INFO Starting saccade, direction 1
+2018-10-24 16:13:23,902     INFO Showing fixation at (-0.01983267696221433, -0.19535151760070685) for 0.5 second(s)
+2018-10-24 16:13:24,412     INFO End of fixations
+2018-10-24 16:13:24,415     INFO Showing fixation at (-0.016868936035406252, -0.3908876909644408) for 0.5 second(s)
+2018-10-24 16:13:24,929     INFO End of fixations
+2018-10-24 16:13:24,932     INFO Showing fixation at (-0.004610843537130465, -0.6831628110718463) for 0.5 second(s)
+2018-10-24 16:13:25,446     INFO End of fixations
+2018-10-24 16:13:25,449     INFO Showing fixation at (-0.008405059315648677, -0.8547290155030339) for 0.5 second(s)
+2018-10-24 16:13:25,963     INFO End of fixations
+2018-10-24 16:13:25,963     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:13:25,965     INFO Showing fixation at (-0.008405059315648677, -0.8547290155030339) for 3 second(s)
+2018-10-24 16:13:26,899     INFO Received trigger 5
+2018-10-24 16:13:27,899     INFO Received trigger 5
+2018-10-24 16:13:28,899     INFO Received trigger 5
+2018-10-24 16:13:28,899     INFO End of fixations
+2018-10-24 16:13:28,902     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:13:29,899     INFO Received trigger 5
+2018-10-24 16:13:30,899     INFO Received trigger 5
+2018-10-24 16:13:31,899     INFO Received trigger 5
+2018-10-24 16:13:31,899     INFO End of fixations
+2018-10-24 16:13:31,899     INFO End of ITI
+2018-10-24 16:13:31,899     INFO Starting saccade, direction 1
+2018-10-24 16:13:31,902     INFO Showing fixation at (-0.0027921645009435954, -0.17868531950509753) for 1.0 second(s)
+2018-10-24 16:13:32,913     INFO End of fixations
+2018-10-24 16:13:32,916     INFO Showing fixation at (0.019472213445816025, -0.4538979657554815) for 1.0 second(s)
+2018-10-24 16:13:33,930     INFO End of fixations
+2018-10-24 16:13:33,932     INFO Showing fixation at (-0.02250541180911969, -0.6459144591516023) for 1.0 second(s)
+2018-10-24 16:13:34,945     INFO End of fixations
+2018-10-24 16:13:34,948     INFO Showing fixation at (-0.02028261043107974, -0.8887716644648601) for 1.0 second(s)
+2018-10-24 16:13:35,963     INFO End of fixations
+2018-10-24 16:13:35,963     INFO End of saccade, starting a 8-second ITI
+2018-10-24 16:13:35,966     INFO Showing fixation at (-0.02028261043107974, -0.8887716644648601) for 3 second(s)
+2018-10-24 16:13:36,898     INFO Received trigger 5
+2018-10-24 16:13:37,898     INFO Received trigger 5
+2018-10-24 16:13:38,898     INFO Received trigger 5
+2018-10-24 16:13:38,898     INFO End of fixations
+2018-10-24 16:13:38,901     INFO Showing fixation at (0, 0) for 5 second(s)
+2018-10-24 16:13:39,898     INFO Received trigger 5
+2018-10-24 16:13:40,898     INFO Received trigger 5
+2018-10-24 16:13:41,898     INFO Received trigger 5
+2018-10-24 16:13:42,898     INFO Received trigger 5
+2018-10-24 16:13:43,898     INFO Received trigger 5
+2018-10-24 16:13:43,898     INFO End of fixations
+2018-10-24 16:13:43,899     INFO End of ITI
+2018-10-24 16:13:43,899     INFO Starting saccade, direction 0
+2018-10-24 16:13:43,902     INFO Showing fixation at (-0.0030300797690368773, 0.16694066273058406) for 0.5 second(s)
+2018-10-24 16:13:44,413     INFO End of fixations
+2018-10-24 16:13:44,416     INFO Showing fixation at (-0.022797175022463916, 0.3841033624307433) for 0.5 second(s)
+2018-10-24 16:13:44,930     INFO End of fixations
+2018-10-24 16:13:44,933     INFO Showing fixation at (-0.003831593631686968, 0.5610307638550319) for 0.5 second(s)
+2018-10-24 16:13:45,446     INFO End of fixations
+2018-10-24 16:13:45,449     INFO Showing fixation at (0.017447388229307637, 0.787487709788467) for 0.5 second(s)
+2018-10-24 16:13:45,963     INFO End of fixations
+2018-10-24 16:13:45,963     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:13:45,966     INFO Showing fixation at (0.017447388229307637, 0.787487709788467) for 3 second(s)
+2018-10-24 16:13:46,898     INFO Received trigger 5
+2018-10-24 16:13:47,898     INFO Received trigger 5
+2018-10-24 16:13:48,898     INFO Received trigger 5
+2018-10-24 16:13:48,899     INFO End of fixations
+2018-10-24 16:13:48,901     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:13:49,899     INFO Received trigger 5
+2018-10-24 16:13:50,898     INFO Received trigger 5
+2018-10-24 16:13:51,899     INFO Received trigger 5
+2018-10-24 16:13:51,899     INFO End of fixations
+2018-10-24 16:13:51,899     INFO End of ITI
+2018-10-24 16:13:51,899     INFO Starting saccade, direction 2
+2018-10-24 16:13:51,902     INFO Showing fixation at (0.09397492084968946, -0.024542277133596385) for 0.5 second(s)
+2018-10-24 16:13:52,413     INFO End of fixations
+2018-10-24 16:13:52,416     INFO Showing fixation at (0.2141220857236963, 0.025109233810386676) for 0.5 second(s)
+2018-10-24 16:13:52,930     INFO End of fixations
+2018-10-24 16:13:52,933     INFO Showing fixation at (0.32031927953597217, 0.0065664566885800454) for 0.5 second(s)
+2018-10-24 16:13:53,446     INFO End of fixations
+2018-10-24 16:13:53,450     INFO Showing fixation at (0.4660052668650674, 0.02103994307531957) for 0.5 second(s)
+2018-10-24 16:13:53,963     INFO End of fixations
+2018-10-24 16:13:53,963     INFO End of saccade, starting a 6-second ITI
+2018-10-24 16:13:53,966     INFO Showing fixation at (0.4660052668650674, 0.02103994307531957) for 3 second(s)
+2018-10-24 16:13:54,899     INFO Received trigger 5
+2018-10-24 16:13:55,899     INFO Received trigger 5
+2018-10-24 16:13:56,899     INFO Received trigger 5
+2018-10-24 16:13:56,899     INFO End of fixations
+2018-10-24 16:13:56,902     INFO Showing fixation at (0, 0) for 3 second(s)
+2018-10-24 16:13:57,899     INFO Received trigger 5
+2018-10-24 16:13:58,898     INFO Received trigger 5
+2018-10-24 16:13:59,898     INFO Received trigger 5
+2018-10-24 16:13:59,898     INFO End of fixations
+2018-10-24 16:13:59,898     INFO End of ITI
+2018-10-24 16:13:59,898     INFO Starting saccade, direction 3
+2018-10-24 16:13:59,901     INFO Showing fixation at (-0.13065284637726285, 0.002114556083410192) for 0.5 second(s)
+2018-10-24 16:14:00,414     INFO End of fixations
+2018-10-24 16:14:00,417     INFO Showing fixation at (-0.20228109844200926, 0.023319269102797323) for 0.5 second(s)
+2018-10-24 16:14:00,930     INFO End of fixations
+2018-10-24 16:14:00,933     INFO Showing fixation at (-0.3288712024488627, -0.016924083025427805) for 0.5 second(s)
+2018-10-24 16:14:01,447     INFO End of fixations
+2018-10-24 16:14:01,450     INFO Showing fixation at (-0.4967142750831961, 0.041088019477902214) for 0.5 second(s)
+2018-10-24 16:14:01,964     INFO End of fixations
+2018-10-24 16:14:01,964     INFO End of saccade, starting a 10-second ITI
+2018-10-24 16:14:01,966     INFO Showing fixation at (-0.4967142750831961, 0.041088019477902214) for 3 second(s)
+2018-10-24 16:14:02,898     INFO Received trigger 5
+2018-10-24 16:14:03,898     INFO Received trigger 5
+2018-10-24 16:14:04,898     INFO Received trigger 5
+2018-10-24 16:14:04,898     INFO End of fixations
+2018-10-24 16:14:04,901     INFO Showing fixation at (0, 0) for 7 second(s)
+2018-10-24 16:14:05,898     INFO Received trigger 5
+2018-10-24 16:14:06,898     INFO Received trigger 5
+2018-10-24 16:14:07,898     INFO Received trigger 5
+2018-10-24 16:14:08,898     INFO Received trigger 5
+2018-10-24 16:14:09,898     INFO Received trigger 5
+2018-10-24 16:14:10,898     INFO Received trigger 5
+2018-10-24 16:14:11,898     INFO Received trigger 5
+2018-10-24 16:14:11,898     INFO End of fixations
+2018-10-24 16:14:11,898     INFO End of ITI
+2018-10-24 16:14:11,898     INFO End of experiment
