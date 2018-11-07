@@ -19,6 +19,8 @@ for datafile in os.listdir(DATA_DIR):
     if 'localizer.log' not in datafile or datafile[0] != '1':
         continue
     sid = datafile[:3]
+    # if sid == '153' or sid == '144':
+    #     continue
     print('Subject ' + sid)
     with open(DATA_DIR + datafile, 'r') as infile:
         logfile = infile.readlines()[38:]
@@ -36,7 +38,7 @@ for datafile in os.listdir(DATA_DIR):
             task_time = block_time
         block_onset = (block_time - task_time).total_seconds()
         int_block_onset = round(block_onset)
-        assert block_onset - int_block_onset < 0.01
+        assert block_onset - int_block_onset < 0.02
         events.append([int_block_onset, block_type])
     insert_duration(logfile, -12, events, task_time, last_block=True)
 
