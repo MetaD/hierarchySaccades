@@ -61,7 +61,7 @@ if __name__ == '__main__':
     large_jitters = presenter.pixel2norm(LARGE_JITTER_MAX)
 
     # get trial sequences
-    with open('saccades_design.pkl', 'r') as infile:
+    with open('saccades_design.pkl', 'rb') as infile:
         run_seqs = [pickle.load(infile), pickle.load(infile)]
     run_seqs[0][-1]['iti'] = ITI_PART1 + AFTER_RUN_TRIGGERS
     run_seqs[1][-1]['iti'] = ITI_PART1 + AFTER_RUN_TRIGGERS
